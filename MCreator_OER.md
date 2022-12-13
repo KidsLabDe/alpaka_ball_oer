@@ -19,11 +19,11 @@ Installation & ersten Block erstellen: https://youtu.be/QeViHXM0aFQ
 ## Was brauche ich dafür?
 |||
 -|-
-**Software:**   | [MCreator](https://mcreator.net/download)
-**Geräte:**     | Computer pro Teilnehmer\*in & Mentor\*in, Beamer
-**Internet:**   | für installation & praktisch für texturen & weitere tips / tricks  
-**Account**     | MCreator Mods können in minetest auch ***ohne*** Minecraft Account getestet / gespielt werden 
-**Personenzahl**| 10 Teilnehmer\*innen + 2 Mentor\*innen
+**Software:**       | [MCreator](https://mcreator.net/download)
+**Geräte:**         | Computer pro Teilnehmer\*in & Mentor\*in, Beamer
+**Internet:**       | für installation & praktisch für texturen & weitere tips / tricks  
+**Account:**        | MCreator Mods können in minetest auch ***ohne*** Minecraft Account getestet / gespielt werden 
+**Personenzahl:**   | 10 Teilnehmer\*innen + 2 Mentor\*innen
 
 ## Vorbereitung 
 - MCreator auf allen Computern installieren (https://mcreator.net/install)
