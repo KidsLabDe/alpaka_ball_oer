@@ -21,3 +21,26 @@ als nächstes schlag ich vor wir geben dem Block glasähnliche eigenschaften:
 ![glassähnliche eigenschaften](block-eigenschaften-glas.png)
 
 zu dem Zeitpunkt kannst du dir gerne mal anschauen wies aktuell in Minecraft aussieht
+
+jetzt wollen wir natürlich noch eine anzeige für die tore hinzufügen:  
+Die Minecraft Vanilla (also ohne Mods) Befehle, die eine Bossbar hinzufügen
+```mcfunction
+# bossbar erstellen
+/bossbar add blue  {"text":"Team Blau"}
+# farbe festlegen
+/bossbar set blue color blue
+# Maximalwert festlegen
+/bossbar set blue max 12
+# Stiel auswählen (schön, passend zum Max-wert)
+/bossbar set blue style notched_12
+# dann für alle sichtbar machen
+/bossbar set blue players @a
+```
+
+![auslöser hinzufügen](block-auslöser.png)
+wieder namen vergeben, automatisch generierter Name passt.
+
+![wie können Minecraft-Befehle ausgeführt werden](prozedur-minecraft-befehl.png)
+- Links in den Kategorien bei *Welt Management* 
+- ganz oben *Führe Befehl ... aus ..."
+- hier setzen wir jetzt die ganzen Befehle von oben ein
