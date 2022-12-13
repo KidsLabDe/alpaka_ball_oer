@@ -3,6 +3,7 @@
 wichtig bei bild und ton:
 1. name wird übernommen aus vorigem dialog
 2. textur muss hinzugefügt werden mit dem plus  
+als textur kann z.B. diese hier verwendet werden
 ![ball textur](flugball-texture.png)
 3. erst danach kann man die textur im dropdown auswählen
 4. wir lassen uns auch ein spawn-ei generieren
