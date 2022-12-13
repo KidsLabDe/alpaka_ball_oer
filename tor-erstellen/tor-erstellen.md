@@ -14,4 +14,10 @@ die Beispieltextur (schritt 4) ist halb transparent, desshalb:
 als Beispieltextur für das Tor könnt ihr das verwenden:  
 ![tor orage textur](tor_block_orange.png)  
 
-4. Hier kann die textur importiert und 
+4. Hier kann die textur importiert und für den Block ausgewählt werden
+
+
+als nächstes schlag ich vor wir geben dem Block glasähnliche eigenschaften:
+![glassähnliche eigenschaften](block-eigenschaften-glas.png)
+
+zu dem Zeitpunkt kannst du dir gerne mal anschauen wies aktuell in Minecraft aussieht
