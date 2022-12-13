@@ -59,3 +59,4 @@ so siehts bis jetzt aus:
 - der ball fällt nicht mehr, sondern fliegt
 - der ball läuft nicht mehr herum
 - ball stirbt nicht mehr ;)
+- macht jetzt schon spaß den Ball mit Schlag oder Rückstoß verzauberten Schwert und Bogen zu schlagen ;D
