@@ -53,3 +53,25 @@ und gerne mal testen. Falls es schon mal getestet wurde kann man die Bossbar mit
 
 jetzt sollte es so aussehen nachdem man einen orangenen Torblock gesetzt hat:
 ![ingame bossbar orange](ingame-bossbar-orange.png)
+
+## 2tes team
+Jetzt natürlich noch für n zweites Team. Team Blau.
+dafür können wir in MCreator Elemente kopieren:
+![element duplizieren](element-duplizieren.png)
+Name vergeben, z.B. *TorBlockBlue*   
+
+das selbe mit dem *TorBlockOrangeWennBlockHinzugefügt*
+- duplizieren
+- neuer name *TorBlockBlueWennBlockHinzugefügt*
+
+und in beiden Elementen die ids und Farbrelevanten eigenschaften anpassen:
+![block textur austauschen](block-textur-austauschen.png)
+- block textur austauschen
+- in der Kategorie *Eigenschaften* von dem Block sollte noch der name von "Tor Block Orange* auf *Tor Block Blau* ändern.
+- und natürlich den auslöser auch anpassen, dass die funktion für die blaue Bossbar aufgerufen wirdS
+![code farbe austauschen](code-farbe-austauschen.png)
+- code farbe austauschen  
+  *orange* hier war die id der Bossbar und *yellow* war die Farbe
+
+und so siehts bis jetzt aus:
+![so siehts bis jetzt aus](ingame-so-siehts-bis-jetzt-aus-2.png)
