@@ -26,15 +26,15 @@ jetzt wollen wir natürlich noch eine anzeige für die tore hinzufügen:
 Die Minecraft Vanilla (also ohne Mods) Befehle, die eine Bossbar hinzufügen
 ```mcfunction
 # bossbar erstellen
-/bossbar add blue  {"text":"Team Blau"}
+/bossbar add orange  {"text":"Team Orange"}
 # farbe festlegen
-/bossbar set blue color blue
+/bossbar set orange color yellow
 # Maximalwert festlegen
-/bossbar set blue max 12
+/bossbar set orange max 12
 # Stiel auswählen (schön, passend zum Max-wert)
-/bossbar set blue style notched_12
+/bossbar set orange style notched_12
 # dann für alle sichtbar machen
-/bossbar set blue players @a
+/bossbar set orange players @a
 ```
 
 ![auslöser hinzufügen](block-auslöser.png)
@@ -44,3 +44,12 @@ wieder namen vergeben, automatisch generierter Name passt.
 - Links in den Kategorien bei *Welt Management* 
 - ganz oben *Führe Befehl ... aus ..."
 - hier setzen wir jetzt die ganzen Befehle von oben ein
+
+So sieht das dann aus wenn die Befehle von oben alle ausgeführt werden sollen:
+![Minecrft Befehle in Mcreator für bossbar](code-torblock-setzen.png)
+speichern nicht vergessen ;)
+
+und gerne mal testen. Falls es schon mal getestet wurde kann man die Bossbar mit `/bossbar remove orange` wieder entfernen vor dem neuen test.
+
+jetzt sollte es so aussehen nachdem man einen orangenen Torblock gesetzt hat:
+![ingame bossbar orange](ingame-bossbar-orange.png)
