@@ -29,3 +29,6 @@ Der code, dass der Schläger automatisch verzaubert wird:
 kleiner Test im Spiel:
 ![ingame Schläger](ingame-schlaeger.png)
 Schläger in der Hand wird sofort verzaubert :D 
+
+## Kleiner Tipp
+man kann auch mit einem Bogen (vtl mit Schlag verzaubert) sehr gut Spielen wenn der Ball weiter weg ist ;)
