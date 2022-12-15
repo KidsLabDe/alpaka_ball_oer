@@ -19,26 +19,21 @@ Die Prozedur für den Zusammenstoß mit einem Entity ist länger und sieht so au
 ![code zusammenstoß entität](code-zusammenstoss-entitaet.png)
 1. Weil wir nur wollen, dass ein Punkt nur dann verteilt wird, wenn der Ball das Tor berührt checken wir bei ob es sich bei der Entität um einen Ball handelt
 2. dazu erhalten wir den Anzeige-Namen und prüfen ob der gleich *Flugball* (muss übereinstimmen, wie der Objektname bei [Bild und Ton von *Ball erstellen*](../02-ball-erstellen/ball-erstellen.md))
-3. die vom Hauptblock abgelösten Anweisungen werden nicht ausgeführt und dienen nur als Hinweis was ich probiert hab: bei der 3 wollt ich auf diese 2 weisen testen ob es sich um einen Ball handelt, was leider nicht geklappt hat.
-4. verknüpfen wir den Ball-check mit einem *AND*, dass noch eine weitere Bedinung zutreffen muss (machen wir dies nicht wird der ball nach dem löschen noch weitere male erkannt)
-5. verneinen wir den check
-6. ob die Entität den NBT-Tag *im_tor* schon hat.  
-Verneint, weil wir nur ein Punkt vergeben wollen wenn der Ball nicht schonmal in dem Tor erkannt wurde. (Alle möglichkeiten die ich probiert hab waren zu langsam um den Ball zu entfernen bevor er nochmal im Tor erkannt wird, kill: Entität existiert noch weiter bis rote Umfallanimation beendet, tp ins nichts: vergibt immernoch 2 Punkte)
-7. dass der Ball nicht doppelt erkannt wird müssen wir natürlich jetzt noch den NBT-Tag *im_tor* auf *wahr* setzen, sonst bringt unsere Abfrage (6) ja garnichts.
-8. Erhöht die Punktzahl von Blau:
-9.  - dazu holt es sich die aktuelle *punktzahl_blau* 
+3. die vom Hauptcodeblock abgelösten Anweisungen werden nicht ausgeführt und dienen nur als Hinweis was ich probiert hab: bei der (3) wollt ich auf diese 2 Wege testen ob es sich um einen Ball handelt, was leider nicht geklappt hat.
+4. Erhöht die Punktzahl von Blau:
+5.  - dazu holt es sich die aktuelle *punktzahl_blau* 
     - und fügt mit *+* 
     - die Zahl *1* hinzu 
     - und Speichert das ergebnis mit *Setze Global: punktzahl zu* wieder in der Punktezahl für blau ab.
-10. Wir führen den Minecraft Befehl für die Bossbar aus
-11. dazu kombinieren wir den text `/bossbar set blue value ` mit der *punktzahl_blau* und runden diese, weil es sich sonst um eine Kommazahl handelt. (zwar immer ,0 aber Minecraft kennt hier keine Kommazahl, desshalb machen wir die so weg)
-12. wir geben dem nächsten Spieler (`@p`) ein neues Spawn-Ei  
+6. Wir führen den Minecraft Befehl für die Bossbar aus
+7. dazu kombinieren wir den text `/bossbar set blue value ` mit der *punktzahl_blau* und runden diese, weil es sich sonst um eine Kommazahl handelt. (zwar immer ,0 aber Minecraft kennt hier keine Kommazahl, desshalb machen wir die so weg)
+8. wir geben dem nächsten Spieler (`@p`) ein neues Spawn-Ei  
   `/give @p haecksen_ball:flugball_spawn_egg`
-13. mit diesem Befehl können wir einen Ton abspielen lassen, wenn ein Tor geschossen wurde. Hier z.B. der gleiche Ton, wenn man XP aufsammelt: *entity.experience_orb.pickup*
-14. am Schluss wollen wir den Ball natürlich los werden:  
-    dazu führen wir den Minecraft Befehl `/kill @e[type=haecksen_ball:flugball,limit=1,sort=nearest]` aus.
-15. die anderen 2 Varianten werden hier nicht ausgeführt und sind wie bei (3) nur da um zu veranschaulichen welche andere Möglichkeiten ich probiert hab.
-16. Speichern nicht vergessen ;)
+9. mit diesem Befehl können wir einen Ton abspielen lassen, wenn ein Tor geschossen wurde. Hier z.B. der gleiche Ton, wenn man XP aufsammelt: *entity.experience_orb.pickup*
+10. am Schluss wollen wir den Ball natürlich los werden:  
+    - dazu am besten den Befehl *Zerstöre* verwenden
+    - Achtung: die Minecraft befehle `kill @e[...]`, `tp @e[...] ~ -500 ~` und MCreator `Lösche` gehen nicht aus verschiedenen Gründen.
+11. Speichern nicht vergessen ;)
 
 Jetzt kanns im Spiel getestet werden, und wenn ein Ball in einen blauen Torblock fliegt, dann sollte ein Ton kommen, die Punktzahl in der Bossbar erhöht werden, der Ball verschwinden und man bekommt ein neues Spawn-Ei.
 
