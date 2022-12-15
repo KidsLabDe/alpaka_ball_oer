@@ -2,7 +2,7 @@
 ![](ide-start.png)
 ![](lebewesen-erstellen-0.png)
 ![](lebewesen-erstellen-1.png)
-wichtig bei bild und ton:
+wichtig bei Bild und Ton:
 ![](lebewesen-erstellen-2-bild-ton.png)
 1. name wird übernommen aus vorigem dialog
 2. textur muss hinzugefügt werden mit dem plus  
