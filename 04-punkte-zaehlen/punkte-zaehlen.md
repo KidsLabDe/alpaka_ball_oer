@@ -35,6 +35,8 @@ Die Prozedur für den Zusammenstoß mit einem Entity ist länger und sieht so au
     - Achtung: die Minecraft befehle `kill @e[...]`, `tp @e[...] ~ -500 ~` und MCreator `Lösche` gehen nicht aus verschiedenen Gründen.
 11. Speichern nicht vergessen ;)
 
+Ich hab absichtlich dem Blauen Team ein Punkt gegeben, vtl ein Negativ-Punkt, damit man sehr einfach um ein weiteres Team ergänzen kann.
+
 Jetzt kanns im Spiel getestet werden, und wenn ein Ball in einen blauen Torblock fliegt, dann sollte ein Ton kommen, die Punktzahl in der Bossbar erhöht werden, der Ball verschwinden und man bekommt ein neues Spawn-Ei.
 
 ## jetzt nochmal für Orange
