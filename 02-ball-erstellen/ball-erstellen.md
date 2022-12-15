@@ -1,5 +1,7 @@
 # Ball erstellen
 ![](ide-start.png)
+![](lebewesen-erstellen-0.png)
+![](lebewesen-erstellen-1.png)
 wichtig bei bild und ton:
 ![](lebewesen-erstellen-2-bild-ton.png)
 1. name wird übernommen aus vorigem dialog
