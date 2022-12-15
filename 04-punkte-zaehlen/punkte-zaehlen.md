@@ -16,7 +16,7 @@ Die Prozedur für den Rechtsklick sieht so aus:
 2. führt `/bossbar set blue value 0` in Minecraft aus um die Bossbar wieder auf 0 zu setzen.
 
 Die Prozedur für den Zusammenstoß mit einem Entity ist länger und sieht so aus:
-![code zusammenstoß entität](code-zusammenstoss-entitaet.png)
+![code zusammenstoß entität](code-zusammenstoss-entitaet-0.png)
 1. Weil wir nur wollen, dass ein Punkt nur dann verteilt wird, wenn der Ball das Tor berührt checken wir bei ob es sich bei der Entität um einen Ball handelt
 2. dazu erhalten wir den Anzeige-Namen und prüfen ob der gleich *Flugball* (muss übereinstimmen, wie der Objektname bei [Bild und Ton von *Ball erstellen*](../02-ball-erstellen/ball-erstellen.md))
 3. die vom Hauptblock abgelösten Anweisungen werden nicht ausgeführt und dienen nur als Hinweis was ich probiert hab: bei der 3 wollt ich auf diese 2 weisen testen ob es sich um einen Ball handelt, was leider nicht geklappt hat.
@@ -37,6 +37,7 @@ Verneint, weil wir nur ein Punkt vergeben wollen wenn der Ball nicht schonmal in
 13. mit diesem Befehl können wir einen Ton abspielen lassen, wenn ein Tor geschossen wurde. Hier z.B. der gleiche Ton, wenn man XP aufsammelt: *entity.experience_orb.pickup*
 14. am Schluss wollen wir den Ball natürlich los werden:  
     dazu führen wir den Minecraft Befehl `/kill @e[type=haecksen_ball:flugball,limit=1,sort=nearest]` aus.
+    !! Update !! wir haben eine 4te variante gefunden, die die Probleme löst und den Code dann einfacher macht!
 15. die anderen 2 Varianten werden hier nicht ausgeführt und sind wie bei (3) nur da um zu veranschaulichen welche andere Möglichkeiten ich probiert hab.
 16. Speichern nicht vergessen ;)
 
