@@ -20,6 +20,7 @@ Der Download und erste Build dauert je nach Internet und Computer ein bisschen. 
     - das grüne Dreieck: startet Minecraft mit der neu erstellten Mod
     - das rote Viereck: stoppt was gerade läuft, also z.B. wenn man Minecraft noch gestartet hat
     - die Orangene datei mit dem Pfeil: exportiert die Mod zur verwendung mit anderen Mod launchern.  
+5. hier kann man Variablen erstellen, das brauchen wir später auch noch :)
 
 ## nützliche ingame einstellungen
 vanilla Einstellungen, also Dinge die ohne Mod funktiionieren:
