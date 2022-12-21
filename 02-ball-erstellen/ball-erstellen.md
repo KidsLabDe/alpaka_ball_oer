@@ -33,11 +33,15 @@ Das erstellte Spawn-Ei versteckt sich im Kreativ Inventar:
 2. ganz nach unten scrollen
 3. tadaaa! :)
 
+{{< notice success Tadaaa! :)>}}  
 So siehts bis jetzt aus:
 ![was wir bis jetzt haben](ingame-so-siehts-bis-jetzt-aus-0.png)
 - der Ball fällt und fliegt noch nicht
 - der Ball läuft selbst noch herum
 - Ball kann noch sterben werden wenn man ihn schlägt :(
+
+{{< /notice >}}
+
 
 ## Verhalten bearbeiten:
 Mit Doppelcklick auf ein Element kann dieses wieder bearbeitet werden:
@@ -51,9 +55,12 @@ dann gibts die Werte zu ändern.
     - *Gesundheitswert* = 1024 (höchst möglicher wert, (2er potenz ;)) 
     - *Rüstungsschutz* = 100 (auch höchst möglicher wert)
 
+{{< notice success Fortschritt!>}}  
 So siehts bis jetzt aus:
 ![was wir bis jetzt haben](ingame-so-siehts-bis-jetzt-aus-1.png)
 - der Ball fällt nicht mehr, sondern fliegt
 - der Ball läuft nicht mehr herum
 - Ball stirbt nicht mehr ;)
 - macht jetzt schon Spaß den Ball mit Schlag oder Rückstoß verzauberten Schwert und Bogen zu schubsen ;D
+
+{{< /notice >}}

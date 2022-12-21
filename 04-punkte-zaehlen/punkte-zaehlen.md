@@ -51,7 +51,10 @@ Wenn ihr wollt könnt ihr am Anfang auch 12 Punkte vergeben und mit jedem Tor in
 Spielt gerne mit den Zahlen rum ;)  
 {{< /notice >}}  
 
-Jetzt kanns im Spiel getestet werden, und wenn ein Ball in einen blauen Torblock fliegt, dann sollte ein Ton kommen, die Punktzahl in der Bossbar erhöht werden, der Ball verschwinden und man bekommt ein neues Spawn-Ei.
+{{< notice success >}}  
+Jetzt kanns im Spiel getestet werden, und wenn ein Ball in einen blauen Torblock fliegt, dann sollte ein Ton kommen, die Punktzahl in der Bossbar erhöht werden, der Ball verschwinden und man bekommt ein neues Spawn-Ei.  
+{{< /notice >}}
+
 
 ### jetzt nochmal für Orange
 Die Variable `punktezahl_orange` für Orange haben wir ja schon erstellt.
@@ -64,4 +67,6 @@ Jetzt natürlich noch alle dinge von Blau zu Orange ändern in den beiden Codeda
 Und nicht vergessen!!: Auslöser auch anpassen
 ![Auslöser auswählen](torblock-ausloeser-orange.png)
 
-und nochmal testen ;)
+{{< notice task Funktionierts?>}}  
+Und nochmal testen ;)
+{{< /notice >}}

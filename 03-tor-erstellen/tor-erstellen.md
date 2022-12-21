@@ -56,8 +56,11 @@ Gerne mal testen. Falls du es nochmal testen willst kannst du die Bossbar mit
 `/bossbar remove orange`  
 wieder entfernen vor dem neuen test.
 
+{{< notice success Mal Nachschauen:>}}  
 Jetzt sollte es so aussehen nachdem man einen orangenen Torblock gesetzt hat:
-![ingame bossbar orange](ingame-bossbar-orange.png)
+![ingame bossbar orange](ingame-bossbar-orange.png)  
+{{< /notice >}}
+
 
 ## 2tes team
 Jetzt natürlich noch für n zweites Team. Team Blau.
@@ -80,5 +83,8 @@ Und in beiden Elementen müssen wir die IDs und Farbrelevanten eigenschaften anp
   *orange* hier war die ID der Bossbar und *yellow* war die Farbe  
   kann beides zu *blue* geänder werden
 
+
+{{< notice success Fortschritt!>}}  
 Und so siehts bis jetzt aus:
-![so siehts bis jetzt aus](ingame-so-siehts-bis-jetzt-aus-2.png)
+![so siehts bis jetzt aus](ingame-so-siehts-bis-jetzt-aus-2.png)  
+{{< /notice >}}
