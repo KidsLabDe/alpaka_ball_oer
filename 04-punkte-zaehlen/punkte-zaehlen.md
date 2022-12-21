@@ -1,10 +1,19 @@
 # Punkte Zählen
+## Punkte merken
 Als erstes müssen wir uns die Punktzahl für jedes Team merken:
 ![variable erstellen](variable-erstellen.png)
-das machen wir für beide team farben.
+dazu erstellen wir eine variable für jedes team:
+1. In der seitlichen Leiste *Variablen* auswählne
+2. Eine *Neue Variable hinzufügen*
+3. *Variablenname* vergeben und typ *Variablentyp* auf *number* setzen
+4. mit *Ok* speichern
+5. das gleiche nochmal für die andere Farbe
 
-jetzt müssen wir beim Torblock neue Auslöser hinzufügen:
+## Tore erkennen
+Dazu brauchen wir einen Auslöser der erkennt wann ein Tor geschossen wurde.
 ![neue auslöser](torblock-ausloeser.png)
+Wir bearbeiten den Torblock und gehen zu den Auslösern.
+Wir fügen 2 Auslöser hinzu:
 - einen *Wenn Entität im Block zusammenstößt*  
   um Punkte hoch zu zählen und Ball zu entfernen
 - einen *Wenn Block rechts geklickt wird*  
@@ -35,11 +44,16 @@ Die Prozedur für den Zusammenstoß mit einem Entity ist länger und sieht so au
     - Achtung: die Minecraft befehle `kill @e[...]`, `tp @e[...] ~ -500 ~` und MCreator `Lösche` gehen nicht aus verschiedenen Gründen.
 11. Speichern nicht vergessen ;)
 
-Ich hab absichtlich dem Blauen Team ein Punkt gegeben, vtl ein Negativ-Punkt, damit man sehr einfach um ein weiteres Team ergänzen kann.
+Ich hab absichtlich dem Blauen Team ein Punkt gegeben, vtl ein Negativ-Punkt, damit man sehr einfach um ein weiteres Team ergänzen kann.  
+
+{{< notice task Punkte abziehen>}}  
+Wenn ihr wollt könnt ihr am Anfang auch 12 Punkte vergeben und mit jedem Tor in den blauen Torblock 1 Punkt von Blau abziehen.
+Spielt gerne mit den Zahlen rum ;)  
+{{< /notice >}}  
 
 Jetzt kanns im Spiel getestet werden, und wenn ein Ball in einen blauen Torblock fliegt, dann sollte ein Ton kommen, die Punktzahl in der Bossbar erhöht werden, der Ball verschwinden und man bekommt ein neues Spawn-Ei.
 
-## jetzt nochmal für Orange
+### jetzt nochmal für Orange
 Die Variable `punktezahl_orange` für Orange haben wir ja schon erstellt.
 jetzt noch die Prozeduren kopieren:
 ![element duplizieren](ide-code-kopieren.png)
@@ -47,7 +61,7 @@ Jetzt natürlich noch alle dinge von Blau zu Orange ändern in den beiden Codeda
 ![code zusammenstoß orange](code-zusammenstoss-entitaet-orange.png)
 ![code rechtsklick orange](code-rechtsklick-orange.png)
 
-Und nicht vergessen!!:
+Und nicht vergessen!!: Auslöser auch anpassen
 ![Auslöser auswählen](torblock-ausloeser-orange.png)
 
 und nochmal testen ;)
