@@ -24,7 +24,7 @@ TODO?: genauer erklären?
 Nach dem speichern dauerts eine kleine Weile, bis MCreator die Mod daraus erstellt hat, wenn dann das Play-Dreieck oben rechts grün ist kann man mit dem Play-Dreieck dann Minecraft direkt mit der neuen Mod starten.
 ![play-dreieck](ide-start-play-dreieck.png)
 
-Wie gewohnt in minecraft eine Welt iim Kreativmodus erstellen
+Wie gewohnt in minecraft eine Welt im Kreativmodus erstellen
 TODO?: anleitung dafür nötig?
 
 Das erstellte Spawn-Ei versteckt sich im Kreativ Inventar:

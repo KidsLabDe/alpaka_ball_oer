@@ -2,7 +2,7 @@
 # MCreator OER
 ## Eigene Minecraft Mod
 Mit MCreator (https://mcreator.net/) eine eigene Minecraft erstellen.
-Workshop über [TODO: X] Workshopstunden
+Workshop über 8 Teile, oder als Tagesworkshop
 
 **Lizenz** CC BY 4.0 KidsLab  
 **Zielgruppe** ab 10  
@@ -21,7 +21,7 @@ Installation & ersten Block erstellen: https://youtu.be/QeViHXM0aFQ
 -|-
 **Software:**       | [MCreator](https://mcreator.net/download)
 **Geräte:**         | Computer pro Teilnehmer\*in & Mentor\*in, Beamer
-**Internet:**       | für installation & praktisch für texturen & weitere tips / tricks  
+**Internet:**       | MCreator braucht Internet  
 **Account:**        | MCreator Mods können in minetest auch ***ohne*** Minecraft Account getestet / gespielt werden 
 **Personenzahl:**   | 10 Teilnehmer\*innen + 2 Mentor\*innen
 

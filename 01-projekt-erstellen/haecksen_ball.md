@@ -22,7 +22,7 @@ Der Download und erste Build dauert je nach Internet und Computer ein bisschen. 
     - die Orangene datei mit dem Pfeil: exportiert die Mod zur verwendung mit anderen Mod launchern.  
 5. hier kann man Variablen erstellen, das brauchen wir später auch noch :)
 
-## nützliche ingame einstellungen
+## Nützliche Einstellungen im Spiel
 vanilla Einstellungen, also Dinge die ohne Mod funktiionieren:
 - Zeit auf Tag setzen und auf Tag lassen  
 `/time set day` & `/gamerule doDaylightCycle false`
