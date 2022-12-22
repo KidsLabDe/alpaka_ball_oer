@@ -14,6 +14,7 @@ die Beispieltextur (schritt 4) ist halb transparent, desshalb:
 
 4. Hier kann die textur importiert und für den Block ausgewählt werden
    als Beispieltextur für das Tor könnt ihr das verwenden:  
+   [gimp projekt](tor_block_rahmen.xcf)
    ![tor orage textur](tor_block_orange.png)  
 
 Als nächstes schlag ich vor wir geben dem Block glasähnliche eigenschaften:
