@@ -51,7 +51,7 @@ Wenn ihr wollt könnt ihr am Anfang auch 12 Punkte vergeben und mit jedem Tor in
 Spielt gerne mit den Zahlen rum ;)  
 {{< /notice >}}  
 
-{{< notice success >}}  
+{{< notice success Erfolg >}}  
 Jetzt kanns im Spiel getestet werden, und wenn ein Ball in einen blauen Torblock fliegt, dann sollte ein Ton kommen, die Punktzahl in der Bossbar erhöht werden, der Ball verschwinden und man bekommt ein neues Spawn-Ei.  
 {{< /notice >}}
 

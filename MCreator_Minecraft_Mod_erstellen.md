@@ -1,4 +1,4 @@
-![Jugend hackt schriftzug](jugenhackt-schrift.png)
+![Jugend hackt schriftzug](jugendhackt-schrift.png)
 # MCreator OER
 ## Eigene Minecraft Mod
 Mit MCreator (https://mcreator.net/) eine eigene Minecraft erstellen.
