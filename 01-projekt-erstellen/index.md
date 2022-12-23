@@ -1,3 +1,11 @@
+---
+Title: Neues Projekt anlegen
+Draft: false
+Description: Wenn wir MCreator öffnen, müssen wir als aller erstes ein Projekt erstellen.
+Weight: 10
+
+---
+
 # Projekt anlegen
 Wenn wir MCreator öffnen, müssen wir als aller erstes ein Projekt erstellen:
 

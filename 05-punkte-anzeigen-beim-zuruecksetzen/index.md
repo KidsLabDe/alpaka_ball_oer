@@ -1,3 +1,10 @@
+---
+Title: Erweiterte Punkteanzeige
+Draft: false
+Weight: 50
+---
+
+
 # Punkte zurücksetzen erweitern:
 Weil ja noch jede\*r dem gegnerischen Team einfach Punkte klauen könnte ohne dass mans merkt können wir der logik noch was hinzufügen:
 ![erweiterung](code-erweitern.png)
@@ -10,12 +17,12 @@ Weil ja noch jede\*r dem gegnerischen Team einfach Punkte klauen könnte ohne da
 
 Das gleiche natürlich auch noch in dem Code für Orange, damit es für beide Farben passt.
 
-{{< notice note Aufgepasst! Platz lassen>}}
+{{< notice note "Aufgepasst! Platz lassen">}}
 Wenn wir mehrere Textbausteine aneinander hängen, müssen wir drauf achten wo die Leerzeichen stehen, sonst wird der Text schwer lesbar ;)  
 z.B. vor und nach *hat* ist jeweils ein Leerzeichen.
 {{< /notice >}}
 
-{{< notice task Testen schadet nie ;)>}}
+{{< notice task "Testen schadet nie ;)">}}
 Klappt alles wie erwartet?
 Für beide Farben?
 {{< /notice >}}

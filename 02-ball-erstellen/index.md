@@ -1,3 +1,11 @@
+---
+Title: Ball erstellen
+Draft: false
+Weight: 20
+
+---
+
+
 # Ball erstellen
 Wenn wir das Projekt erstellt haben können wir mit dem + neue Objekte hinzufügen, und auswählen, welche Art von Objekt wir erstellen möchten:
 

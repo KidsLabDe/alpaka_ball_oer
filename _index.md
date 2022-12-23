@@ -22,6 +22,8 @@ pandoc-latex-environment:
   cautionblock: [caution]
   importantblock: [important]
 ...
+---
+
 ![Jugend hackt schriftzug](jugendhackt-schrift.png)
 # MCreator OER
 ## Eigene Minecraft Mod

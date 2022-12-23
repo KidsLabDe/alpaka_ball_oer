@@ -1,3 +1,11 @@
+---
+Title: Punkte zählen
+Draft: false
+Weight: 40
+
+---
+
+
 # Punkte Zählen
 ## Punkte merken
 Als erstes müssen wir uns die Punktzahl für jedes Team merken:
@@ -75,6 +83,6 @@ Und nicht vergessen!!: Auslöser auch anpassen
 
 ![Auslöser auswählen](torblock-ausloeser-orange.png)
 
-{{< notice task Funktionierts?>}}  
+{{< notice task "Funktionierts?">}}  
 Und nochmal testen ;)
 {{< /notice >}}

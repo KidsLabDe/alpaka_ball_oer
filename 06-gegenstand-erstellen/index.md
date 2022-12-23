@@ -1,3 +1,10 @@
+---
+Title: Schläger
+Draft: false
+Weight: 60
+---
+
+
 # Schläger erstellen
 Wie beim Eishockey, Golf und Tennis macht das Spiel mehr spaß mit einem richtigen Schläger für den Ball ;)
 

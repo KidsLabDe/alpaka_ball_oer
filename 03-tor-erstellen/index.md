@@ -1,3 +1,11 @@
+---
+Title: Tor erstellen
+Draft: false
+Weight: 30
+
+---
+
+
 # Tor erstellen
 Unser Tor soll aus Blöcken gebaut werden können, desshalb erstellen wir einen Block:
 
@@ -65,7 +73,7 @@ Gerne mal testen. Falls du es nochmal testen willst kannst du die Bossbar mit
 `/bossbar remove orange`  
 wieder entfernen vor dem neuen test.
 
-{{< notice success Mal Nachschauen:>}}  
+{{< notice success "Mal Nachschauen:">}}  
 Jetzt sollte es so aussehen nachdem man einen orangenen Torblock gesetzt hat:
 
 ![ingame bossbar orange](ingame-bossbar-orange.png)  
@@ -96,7 +104,7 @@ Und in beiden Elementen müssen wir die IDs und Farbrelevanten eigenschaften anp
   kann beides zu *blue* geänder werden
 
 
-{{< notice success Fortschritt!>}}  
+{{< notice success "Fortschritt!">}}  
 Und so siehts bis jetzt aus:
 ![Das Ergebnis: so ist der jetzige Stand](ingame-so-siehts-bis-jetzt-aus-2.png)  
 {{< /notice >}}

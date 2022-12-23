@@ -1,3 +1,9 @@
+---
+Title: Arena!
+Draft: false
+Weight: 70
+---
+
 # Arena
 Superflachwelt erstellen:
 TODO: Anleitung dafür nötig?
