@@ -1,17 +1,22 @@
 # Ball erstellen
 Wenn wir das Projekt erstellt haben können wir mit dem + neue Objekte hinzufügen, und auswählen, welche Art von Objekt wir erstellen möchten:
+
 ![](ide-start.png)
+
 ![](lebewesen-erstellen-0.png)
 
 Natürlich müssen wir einen Namen vergeben:
+
 ![](lebewesen-erstellen-1.png)
 
 Bei der Bearbeitung von einem Objekt gibt es verschiedene Kategorien (in der Unteren Leiste auswählbar).
 Bei *Bild und Ton* ist folgendes wichtig für unseren Ball:
+
 ![](lebewesen-erstellen-2-bild-ton.png)
 1. Name wird übernommen aus vorigem Dialog
 2. Textur muss hinzugefügt werden mit dem Plus  
 als Textur kann z.B. diese hier verwendet werden  
+
 ![ball textur](flugball-texture.png)  
 muss bei dem Textur-Auswahl-Dialog importiert werden 
 TODO?: genauer erklären?
@@ -22,19 +27,23 @@ TODO?: genauer erklären?
 7. Speichern nicht vergessen.
 
 Nach dem speichern dauerts eine kleine Weile, bis MCreator die Mod daraus erstellt hat, wenn dann das Play-Dreieck oben rechts grün ist kann man mit dem Play-Dreieck dann Minecraft direkt mit der neuen Mod starten.
+
 ![play-dreieck](ide-start-play-dreieck.png)
 
 Wie gewohnt in minecraft eine Welt im Kreativmodus erstellen
 TODO?: anleitung dafür nötig?
 
 Das erstellte Spawn-Ei versteckt sich im Kreativ Inventar:
+
 ![wo ist das ei](ingame-wo-ist-das-spawn-ei.png)
+
 1. Verschiedenes Tab
 2. ganz nach unten scrollen
 3. tadaaa! :)
 
-{{< notice success Tadaaa! :)>}}  
+{{< notice success Tadaaa! :) >}}  
 So siehts bis jetzt aus:
+
 ![was wir bis jetzt haben](ingame-so-siehts-bis-jetzt-aus-0.png)
 - der Ball fällt und fliegt noch nicht
 - der Ball läuft selbst noch herum
@@ -45,8 +54,11 @@ So siehts bis jetzt aus:
 
 ## Verhalten bearbeiten:
 Mit Doppelcklick auf ein Element kann dieses wieder bearbeitet werden:
+
 ![element bearbeiten](ide-start-element-bearbeiten.png)
+
 ![verhalten einstellungen](lebewesen-erstellen-2-verhalten.png)
+
 erst unten auf den Verhaltens-Reiter wechseln:
 dann gibts die Werte zu ändern.
 - *creature* damit der Ball nich angreift
@@ -55,8 +67,9 @@ dann gibts die Werte zu ändern.
     - *Gesundheitswert* = 1024 (höchst möglicher wert, (2er potenz ;)) 
     - *Rüstungsschutz* = 100 (auch höchst möglicher wert)
 
-{{< notice success Fortschritt!>}}  
+{{< notice success Fortschritt! >}}  
 So siehts bis jetzt aus:
+
 ![was wir bis jetzt haben](ingame-so-siehts-bis-jetzt-aus-1.png)
 - der Ball fällt nicht mehr, sondern fliegt
 - der Ball läuft nicht mehr herum

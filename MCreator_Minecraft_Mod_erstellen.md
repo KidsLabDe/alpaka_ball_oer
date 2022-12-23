@@ -1,3 +1,27 @@
+---
+title: "MCreator: Erstelle deine eigene Mod HaecksenBall!"
+titlepage: true
+toc: true
+toc-title: "Übersicht"
+toc-own-page: true
+author: MatzE, KidsLab.de
+date: "2022-12-22"
+subject: "Markdown"
+keywords: [Markdown, Example]
+lang: "de"
+colorlinks: true
+header-includes:
+- |
+  ```{=latex}
+  \usepackage{awesomebox}
+  ```
+pandoc-latex-environment:
+  noteblock: [note]
+  tipblock: [tip]
+  warningblock: [warning]
+  cautionblock: [caution]
+  importantblock: [important]
+...
 ![Jugend hackt schriftzug](jugendhackt-schrift.png)
 # MCreator OER
 ## Eigene Minecraft Mod

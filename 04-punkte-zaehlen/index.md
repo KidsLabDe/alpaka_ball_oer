@@ -1,6 +1,7 @@
 # Punkte Zählen
 ## Punkte merken
 Als erstes müssen wir uns die Punktzahl für jedes Team merken:
+
 ![variable erstellen](variable-erstellen.png)
 dazu erstellen wir eine variable für jedes team:
 1. In der seitlichen Leiste *Variablen* auswählne
@@ -11,6 +12,7 @@ dazu erstellen wir eine variable für jedes team:
 
 ## Tore erkennen
 Dazu brauchen wir einen Auslöser der erkennt wann ein Tor geschossen wurde.
+
 ![neue auslöser](torblock-ausloeser.png)
 Wir bearbeiten den Torblock und gehen zu den Auslösern.
 Wir fügen 2 Auslöser hinzu:
@@ -20,11 +22,13 @@ Wir fügen 2 Auslöser hinzu:
   um Punkte zurück zu setzen.
 
 Die Prozedur für den Rechtsklick sieht so aus:
+
 ![code rechtsklick](code-rechtsklick.png)
 1. Setzt die globale variable zum Punkte Zählen auf 0 zurück
 2. führt `/bossbar set blue value 0` in Minecraft aus um die Bossbar wieder auf 0 zu setzen.
 
 Die Prozedur für den Zusammenstoß mit einem Entity ist länger und sieht so aus:
+
 ![code zusammenstoß entität](code-zusammenstoss-entitaet.png)
 1. Weil wir nur wollen, dass ein Punkt nur dann verteilt wird, wenn der Ball das Tor berührt checken wir bei ob es sich bei der Entität um einen Ball handelt
 2. dazu erhalten wir den Anzeige-Namen und prüfen ob der gleich *Flugball* (muss übereinstimmen, wie der Objektname bei [Bild und Ton von *Ball erstellen*](../02-ball-erstellen/ball-erstellen.md))
@@ -59,12 +63,16 @@ Jetzt kanns im Spiel getestet werden, und wenn ein Ball in einen blauen Torblock
 ### jetzt nochmal für Orange
 Die Variable `punktezahl_orange` für Orange haben wir ja schon erstellt.
 jetzt noch die Prozeduren kopieren:
+
 ![element duplizieren](ide-code-kopieren.png)
 Jetzt natürlich noch alle dinge von Blau zu Orange ändern in den beiden Codedateien:
+
 ![code zusammenstoß orange](code-zusammenstoss-entitaet-orange.png)
+
 ![code rechtsklick orange](code-rechtsklick-orange.png)
 
 Und nicht vergessen!!: Auslöser auch anpassen
+
 ![Auslöser auswählen](torblock-ausloeser-orange.png)
 
 {{< notice task Funktionierts?>}}  

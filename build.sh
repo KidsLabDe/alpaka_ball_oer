@@ -1,6 +1,5 @@
 #!/bin/bash
 
-rm -r .tmp
 
 # create tmp dir
 mkdir .tmp
@@ -47,4 +46,4 @@ pandoc *.md -o "../output.pdf" --from markdown --template "../eisvogel.latex" --
 cd ..
 
 # get rid of .tmp/
-# rm -r .tmp
+rm -r .tmp
