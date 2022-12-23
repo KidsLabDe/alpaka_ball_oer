@@ -41,7 +41,7 @@ Das erstellte Spawn-Ei versteckt sich im Kreativ Inventar:
 2. ganz nach unten scrollen
 3. tadaaa! :)
 
-{{< notice success Tadaaa! :) >}}  
+{{< notice success "Tadaaa! :)" >}}  
 So siehts bis jetzt aus:
 
 ![was wir bis jetzt haben](ingame-so-siehts-bis-jetzt-aus-0.png)
@@ -67,7 +67,7 @@ dann gibts die Werte zu ändern.
     - *Gesundheitswert* = 1024 (höchst möglicher wert, (2er potenz ;)) 
     - *Rüstungsschutz* = 100 (auch höchst möglicher wert)
 
-{{< notice success Fortschritt! >}}  
+{{< notice success "Fortschritt!" >}}  
 So siehts bis jetzt aus:
 
 ![was wir bis jetzt haben](ingame-so-siehts-bis-jetzt-aus-1.png)
