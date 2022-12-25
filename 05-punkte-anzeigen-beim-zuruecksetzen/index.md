@@ -6,7 +6,7 @@ Weight: 50
 
 
 # Punkte zurücksetzen erweitern:
-Weil ja noch jede\*r dem gegnerischen Team einfach Punkte klauen könnte ohne dass mans merkt können wir der logik noch was hinzufügen:
+Weil ja noch jede\*r dem gegnerischen Team einfach Punkte klauen könnte ohne dass mans merkt können wir der logik noch was hinzufügen:  
 ![erweiterung](code-erweitern.png)
 
 1. Wir setzen aus vielen Bauteilen die Nachricht für den Chat zusammen  
@@ -19,7 +19,7 @@ Weil ja noch jede\*r dem gegnerischen Team einfach Punkte klauen könnte ohne da
 Das gleiche natürlich auch noch in dem Code für Orange, damit es für beide Farben passt.
 
 {{< notice note "Aufgepasst! Platz lassen">}}  
-Wenn wir mehrere Textbausteine aneinander hängen, müssen wir drauf achten wo die Leerzeichen stehen, sonst wird der Text schwer lesbar ;)  
+Wenn wir mehrere Textbausteine aneinander hängen, müssen wir drauf achten wo die Leerzeichen stehen, sonst wird der Text schwer lesbar ;)
 z.B. vor und nach *hat* ist jeweils ein Leerzeichen.  
 {{< /notice >}}
 

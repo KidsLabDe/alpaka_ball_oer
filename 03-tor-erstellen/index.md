@@ -113,7 +113,7 @@ Und in beiden Elementen müssen wir die IDs und Farbrelevanten eigenschaften anp
 
 - Blocktextur austauschen
 - In der Kategorie *Eigenschaften* von dem Block sollte noch der Name von *Tor Block Orange* auf *Tor Block Blau* ändern.
-- Und natürlich den Auslöser auch anpassen, dass die Funktion für die blaue Bossbar aufgerufen wird:
+- Und natürlich den Auslöser auch anpassen, dass die Funktion für die blaue Bossbar aufgerufen wird:  
 ![Tausche die Farbe aus](code-farbe-austauschen.png)
 
 - code farbe austauschen  

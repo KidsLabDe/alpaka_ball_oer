@@ -36,6 +36,7 @@ Manchmal wartet man ewig und es war eigentlich schon fertig. Wenn man in der Kon
 
 ## Nützliche Einstellungen im Spiel
 vanilla Einstellungen, also Dinge die ohne Mod funktiionieren:
+
 - Zeit auf Tag setzen und auf Tag lassen  
 `/time set day` & `/gamerule doDaylightCycle false`
 - Wetter auf schön setzen und wetter so lassen

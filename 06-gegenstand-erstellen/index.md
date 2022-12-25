@@ -9,6 +9,7 @@ Weight: 60
 Wie beim Eishockey, Golf und Tennis macht das Spiel mehr spaß mit einem richtigen Schläger für den Ball ;)
 
 Wir fügen ein Gegenstand hinzu:
+
 ![Gegenstand erstellen](gegenstand-erstellen.png)
 
 Name vergeben z.B. Schlaeger
@@ -29,7 +30,7 @@ Weils hier keine Einstellung dafür gibt wie viel Rückstoß der Schläger haben
 
 ![Auslöser](ausloeser.png)
 
-Der code, dass der Schläger automatisch verzaubert wird:
+Der code, dass der Schläger automatisch verzaubert wird:  
 ![Code verzaubern](code-in-hand-verzaubern.png)
 
 1. Testen ob der Gegenstand noch nicht verzaubert ist.

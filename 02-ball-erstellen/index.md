@@ -70,6 +70,7 @@ Mit Doppelcklick auf ein Element kann dieses wieder bearbeitet werden:
 
 erst unten auf den Verhaltens-Reiter wechseln:
 dann gibts die Werte zu ändern.
+
 - *creature* damit der Ball nich angreift
 - *bewegungsgeschwindigkeit* = 0, damit er uns nicht von alleine weg fliegt
 - unser Ball soll nicht sterben wenn man ihn schlägt
@@ -81,6 +82,7 @@ So siehts bis jetzt aus:
 
 ![was wir bis jetzt haben](ingame-so-siehts-bis-jetzt-aus-1.png)
 
+<!-- TODO!: pandoc pdf macht hier keine liste draus?-->
 - der Ball fällt nicht mehr, sondern fliegt
 - der Ball läuft nicht mehr herum
 - Ball stirbt nicht mehr ;)
