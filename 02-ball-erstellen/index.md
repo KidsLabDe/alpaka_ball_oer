@@ -20,7 +20,8 @@ Natürlich müssen wir einen Namen vergeben:
 Bei der Bearbeitung von einem Objekt gibt es verschiedene Kategorien (in der Unteren Leiste auswählbar).
 Bei *Bild und Ton* ist folgendes wichtig für unseren Ball:
 
-![](lebewesen-erstellen-2-bild-ton.png)
+![lebewesen erstellen](lebewesen-erstellen-2-bild-ton.png)
+
 1. Name wird übernommen aus vorigem Dialog
 2. Textur muss hinzugefügt werden mit dem Plus  
 als Textur kann z.B. diese hier verwendet werden  
@@ -79,6 +80,7 @@ dann gibts die Werte zu ändern.
 So siehts bis jetzt aus:
 
 ![was wir bis jetzt haben](ingame-so-siehts-bis-jetzt-aus-1.png)
+
 - der Ball fällt nicht mehr, sondern fliegt
 - der Ball läuft nicht mehr herum
 - Ball stirbt nicht mehr ;)

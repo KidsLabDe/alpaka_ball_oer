@@ -13,14 +13,16 @@ Wir fügen ein Gegenstand hinzu:
 
 Name vergeben z.B. Schlaeger
 
-![Gegenstand Textur hinzufügen](gegenstand-textur-erstellen.png)
+![Gegenstand Textur hinzufügen](gegenstand-textur-erstellen.png)  
 ![Gegenstand malen](gegenstand-pixeln.png)
+
 1. Zeichentool auswählen
 2. Farbe auswählen
-3. Speichern, Als **Gegenstandtextur**!
-dann beim Gegenstand die gerade erstellte Textur nochmal auswählen.
+3. Speichern, Als **Gegenstandtextur**!  
+   Dann beim Gegenstand die gerade erstellte Textur nochmal auswählen.
 
 ![Gegenstand Eigenschaften](gegenstand-eigenschaften.png)
+
 Als Inventar Tab hab ich *Tools* ausgewählt, dass es bei den anderen Werkzeugen auftaucht im Inventar.
 
 Weils hier keine Einstellung dafür gibt wie viel Rückstoß der Schläger haben soll machen wir dafür wieder eine Prozedur die immer ausgeführt wird wenn der Schläger in der Hand gehalten wird:
@@ -29,11 +31,12 @@ Weils hier keine Einstellung dafür gibt wie viel Rückstoß der Schläger haben
 
 Der code, dass der Schläger automatisch verzaubert wird:
 ![Code verzaubern](code-in-hand-verzaubern.png)
+
 1. Testen ob der Gegenstand noch nicht verzaubert ist.
 2. Dazu verneinen wir die Antowrt auf die Frage *Ist Gegebener Gegenstandsstapel verzaubert*
 3. und dann fügen wir die Verzauberung *KNOCKBACK* auf deutsch Rückstoß mit dem level *3* hinzu.
 
-kleiner Test im Spiel:
+Kleiner Test im Spiel:
 ![ingame Schläger](ingame-schlaeger.png)
 Schläger in der Hand wird sofort verzaubert :D 
 
