@@ -1,3 +1,11 @@
+---
+Title: Ball erstellen
+Draft: false
+Weight: 20
+
+---
+
+
 # Ball erstellen
 Wenn wir das Projekt erstellt haben können wir mit dem + neue Objekte hinzufügen, und auswählen, welche Art von Objekt wir erstellen möchten:
 
@@ -12,7 +20,8 @@ Natürlich müssen wir einen Namen vergeben:
 Bei der Bearbeitung von einem Objekt gibt es verschiedene Kategorien (in der Unteren Leiste auswählbar).
 Bei *Bild und Ton* ist folgendes wichtig für unseren Ball:
 
-![](lebewesen-erstellen-2-bild-ton.png)
+![lebewesen erstellen](lebewesen-erstellen-2-bild-ton.png)
+
 1. Name wird übernommen aus vorigem Dialog
 2. Textur muss hinzugefügt werden mit dem Plus  
 als Textur kann z.B. diese hier verwendet werden  
@@ -61,6 +70,7 @@ Mit Doppelcklick auf ein Element kann dieses wieder bearbeitet werden:
 
 erst unten auf den Verhaltens-Reiter wechseln:
 dann gibts die Werte zu ändern.
+
 - *creature* damit der Ball nich angreift
 - *bewegungsgeschwindigkeit* = 0, damit er uns nicht von alleine weg fliegt
 - unser Ball soll nicht sterben wenn man ihn schlägt
@@ -71,6 +81,8 @@ dann gibts die Werte zu ändern.
 So siehts bis jetzt aus:
 
 ![was wir bis jetzt haben](ingame-so-siehts-bis-jetzt-aus-1.png)
+
+<!-- TODO!: pandoc pdf macht hier keine liste draus?-->
 - der Ball fällt nicht mehr, sondern fliegt
 - der Ball läuft nicht mehr herum
 - Ball stirbt nicht mehr ;)

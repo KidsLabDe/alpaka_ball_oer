@@ -22,7 +22,11 @@ pandoc-latex-environment:
   cautionblock: [caution]
   importantblock: [important]
 ...
+---
+
 ![Jugend hackt schriftzug](jugendhackt-schrift.png)
+
+
 
 # Eigene Minecraft-Mod erstellen: Haecksen-Ball!
 
