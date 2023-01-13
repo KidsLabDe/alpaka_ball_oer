@@ -1,11 +1,12 @@
 ---
-Title: Erweiterte Punkteanzeige
+Title: "Level 5: Erweiterte Punkteanzeige"
 Draft: false
 Weight: 50
 ---
 
 
-# Punkte zurücksetzen erweitern:
+# Level 5: Erweiterte Punkteanzeige / Punkte zurücksetzen
+
 Weil ja noch jede\*r dem gegnerischen Team einfach Punkte klauen könnte ohne dass mans merkt können wir der logik noch was hinzufügen:  
 ![erweiterung](code-erweitern.png)
 

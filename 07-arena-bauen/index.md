@@ -1,10 +1,10 @@
 ---
-Title: Arena!
+Title: "Level 6: Das Spielfeld: Die Arena!"
 Draft: false
 Weight: 70
 ---
 
-# Arena
+# Level 6: Das Spielfeld: Die Arena!
 Superflachwelt erstellen:
 TODO: Anleitung dafür nötig?
 

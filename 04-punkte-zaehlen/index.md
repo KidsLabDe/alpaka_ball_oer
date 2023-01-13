@@ -1,12 +1,12 @@
 ---
-Title: Punkte zählen
+Title: "Level 3: Tore / Punkte zählen"
 Draft: false
 Weight: 40
 
 ---
 
 
-# Punkte Zählen
+# Level 3: Tore / Punkte zählen
 ## Punkte merken
 Als erstes müssen wir uns die Punktzahl für jedes Team merken:
 
@@ -14,7 +14,7 @@ Als erstes müssen wir uns die Punktzahl für jedes Team merken:
 
 dazu erstellen wir eine variable für jedes team:
 
-1. In der seitlichen Leiste *Variablen* auswählne
+1. In der seitlichen Leiste *Variablen* auswählen
 2. Eine *Neue Variable hinzufügen*
 3. *Variablenname* vergeben und typ *Variablentyp* auf *number* setzen
 4. mit *Ok* speichern

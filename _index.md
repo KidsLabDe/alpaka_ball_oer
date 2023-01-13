@@ -4,7 +4,7 @@ titlepage: true
 toc: true
 toc-title: "Übersicht"
 toc-own-page: true
-author: MatzE, KidsLab.de
+author: KidsLab.de gGmbH - MatzE, KingBBQ
 date: "2022-12-22"
 subject: "Markdown"
 keywords: [Markdown, Example]
@@ -32,18 +32,17 @@ pandoc-latex-environment:
 
 Minecraft ist ist nicht nur ein außergewöhnlich kreatives Computerspiel – es ist auch eines der erfolgreichsten Computerspiele der Welt und bei Groß und Klein gleichermaßen beliebt. Diese Begeisterung kann man nutzen, um Neues zu lernen: erstelle deine eigene Mod in Minecraft - und damit dein "Spiel im Spiel": Haecksenball!
 
-MCreator (https://mcreator.net/), eine Open-Source Entwicklungsumgebung, bietet dazu alles nötige: vom einfachen Start bis pixeln der Blöcke, einfache Programmierung. Das ganze Spiel kann man ein 8 einzelnen Workshops (1-2h) oder alse Tages-Workshops erstellen. 
+MCreator (https://mcreator.net/), eine Open-Source Entwicklungsumgebung, bietet dazu alles nötige: vom einfachen Start bis pixeln der Blöcke, einfache Programmierung. Das ganze Spiel kann man ein 8 einzelnen Workshops (1-2h) oder als Tages-Workshops erstellen. 
 **Lizenz** CC BY 4.0 KidsLab  
 **Zielgruppe** ab 10  
 **Kathegorie** Coding, Gaming, Design  
 
-### Online-Version mit Links zu weiteren zugehörigen Dokumenten
-TODO: den Link ergänzen wir, sobald das OER hochgeladen wird
+
 
 ## Einführung
 "MCreator ist eine Open-Source-Software, mit der Minecraft Java Edition Mods, Bedrock Edition Add-Ons und Data Packs über eine intuitive, leicht zu erlernende Oberfläche oder mit einem integrierten Code-Editor erstellt werden können. Sie wird weltweit von Minecraft-Spielern, Mod-Entwicklern, in der Ausbildung und in MINT-Workshops eingesetzt." (Quelle: https://mcreator.net/)
 
-In diesem Video lernst Du die Basics - in 30 Minuten ist MCreator installiernt und die erste eigene Mod fertig:https://youtu.be/QeViHXM0aFQ
+In diesem Video lernst Du die Basics - in 30 Minuten ist MCreator installiert und die erste eigene Mod fertig:https://youtu.be/QeViHXM0aFQ
 
 
 
@@ -61,5 +60,6 @@ In diesem Video lernst Du die Basics - in 30 Minuten ist MCreator installiernt u
 - Leere Arbeitsumgebung installieren (der initiale Download aller Bibliotheken dauert sonst noch mal 15-30 Minuten im Workshop)
 
 
-## Ablauf
-TODO
+## Online-Version mit Links zu weiteren zugehörigen Dokumenten
+
+Du findest Diese Anleitung - zusammen mit allen Texturen und sonstigen Inhalten auch Online: http://kidslab.de/handbuch/mcreator/index.html

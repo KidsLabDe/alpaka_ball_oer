@@ -1,9 +1,9 @@
 ---
-Title: Exportieren & Veröffentlichen der Mod
+Title: "Level 7: Exportieren & Veröffentlichen der Mod"
 Draft: false
 Weight: 80
 ---
-# Mod exportieren
+# Level 7: Exportieren & Veröffentlichen der Mod
 Um die Mod in Minecraft ohne MCreator zu spielen brauchen wir eine `.jar` Datei.  
 Diese können wir uns generieren lassen:  
 ![mod exportieren](mod-exportieren-0.png)

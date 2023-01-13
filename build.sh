@@ -5,7 +5,7 @@
 mkdir .tmp
 
 # copy all md files 
-cp MCreator_Minecraft_Mod_erstellen.md .tmp/00-MCreator_Minecraft_Mod_erstellen.md
+cp _index.md .tmp/0-MCreator_Minecraft_Mod_erstellen.md
 # copy and reaname all the index.md (index.md is required for website generation)
 for f in */*.md; do
     # ls $f

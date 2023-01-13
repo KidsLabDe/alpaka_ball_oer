@@ -1,11 +1,11 @@
 ---
-Title: Schläger
+Title: "Level 5: Die Haecksenball-Schläger"
 Draft: false
 Weight: 60
 ---
 
 
-# Schläger erstellen
+# Level 5: Die Haecksenball-Schläger
 Wie beim Eishockey, Golf und Tennis macht das Spiel mehr spaß mit einem richtigen Schläger für den Ball ;)
 
 Wir fügen ein Gegenstand hinzu:
