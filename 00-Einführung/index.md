@@ -14,7 +14,7 @@ Weight: 5
 
 Aber was machen wir hier eigentlich? Mit Mods lässt sich Minecraft ja individuell erweitern. Da Minecraft ja vom Prinzip "Spiel im Spiel" lebt - also, dass man eigene Spiele in Minecraft spielt, die nichts mit dem ursprünglichen Prinzip zu tun haben. Gute Beispiele sind zum Beispiel Bedwars oder Builder-Challenge.
 
-Wir haben uns für unsere Spiel-Idee an dem Sport [Quidditch](https://de.wikipedia.org/wiki/Quidditch_(Sport)) orientiert, der ja von Zauberern und Hexen gespielt wird. Um das ganze noch perfekt in den Hacker-Kontext einzubetten, haben wir es (Haeckses-)[https://de.wikipedia.org/wiki/Haeckse]Ball genannt: eine Haeckse ist ein weiblicher Hacker :)
+Wir haben uns für unsere Spiel-Idee an dem Sport [Quidditch](https://de.wikipedia.org/wiki/Quidditch_(Sport)) orientiert, der ja von Zauberern und Hexen gespielt wird. Um das ganze noch perfekt in den Hacker-Kontext einzubetten, haben wir es [Haecksen-](https://de.wikipedia.org/wiki/Haeckse)Ball genannt: eine Haeckse ist ein weiblicher Hacker :)
 
 
 ## Mods, MCreator, Java - eine kleine Einführung
