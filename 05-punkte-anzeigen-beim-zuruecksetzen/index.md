@@ -1,5 +1,5 @@
 ---
-Title: "Level 5: Erweiterte Punkteanzeige"
+Title: "Level 4: Erweiterte Punkteanzeige"
 Draft: false
 Weight: 50
 ---
