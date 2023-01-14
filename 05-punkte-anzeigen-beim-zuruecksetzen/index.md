@@ -4,11 +4,11 @@ Draft: false
 Weight: 50
 ---
 
+# Level 5: Erweiterte Punkte-Anzeige / Punkte zurücksetzen
 
-# Level 5: Erweiterte Punkteanzeige / Punkte zurücksetzen
+Beim testen und spielen, ist uns etwas aufgefallen: Jeder kann ja relativ einfach dem anderen Team Punkte klauen - einfach zum Tor schleifen und rechts klicken. Da haben wir uns folgendes überlegt: wenn es jedes mal eine Nachricht an alle Spieler gibt, wenn Punkte zurückgesetzt werden, wäre der Mogler schnell enttarnt!  Schau Dir mal folgenden Programm-Code an:
 
-Weil ja noch jede\*r dem gegnerischen Team einfach Punkte klauen könnte ohne dass mans merkt können wir der logik noch was hinzufügen:  
-![erweiterung](code-erweitern.png)
+![Erweiterung des Codes zum Zurücksetzen](code-erweitern.png)
 
 1. Wir setzen aus vielen Bauteilen die Nachricht für den Chat zusammen  
     - Spielername mit *Erhalte den (Anzeige-)Name von > Event/target entity*
@@ -19,12 +19,12 @@ Weil ja noch jede\*r dem gegnerischen Team einfach Punkte klauen könnte ohne da
 
 Das gleiche natürlich auch noch in dem Code für Orange, damit es für beide Farben passt.
 
-{{< notice note "Aufgepasst! Platz lassen">}}  
+{{< notice warning "Aufgepasst! Platz lassen">}}  
 Wenn wir mehrere Textbausteine aneinander hängen, müssen wir drauf achten wo die Leerzeichen stehen, sonst wird der Text schwer lesbar ;)
 z.B. vor und nach *hat* ist jeweils ein Leerzeichen.  
 {{< /notice >}}
 
 {{< notice task "Testen schadet nie ;)">}}  
-Klappt alles wie erwartet?  
+Starte Dein Programm und teste alles noch mal durch! Geht alles?  
 Für beide Farben?  
 {{< /notice >}}

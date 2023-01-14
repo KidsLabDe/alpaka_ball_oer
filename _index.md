@@ -63,3 +63,8 @@ In diesem Video lernst Du die Basics - in 30 Minuten ist MCreator installiert un
 ## Online-Version mit Links zu weiteren zugehörigen Dokumenten
 
 Du findest Diese Anleitung - zusammen mit allen Texturen und sonstigen Inhalten auch Online: http://kidslab.de/handbuch/mcreator/index.html
+
+## Source-Code und weitere Dateien
+
+Alle Quell-Dateien und auch die fertige Mod aus diesem OER findest Du auf GitHub: https://github.com/KidsLabDe/haecksen_ball_oer
+

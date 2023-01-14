@@ -1,14 +1,9 @@
 ---
 Title: "Vorbereitung: Neues Projekt in MCreator anlegen"
 Draft: false
-Description: In diesem Kapitel erstellst Du das erste Projekt in MCreator und wir schauen uns einzelnen Elemente des Programms an.
+Description: "In diesem Kapitel erstellst Du das erste Projekt in MCreator und wir schauen uns einzelnen Elemente des Programms an."
 Weight: 10
-
 ---
-
-
-
-
 
 
 # Vorbereitung: Neues Projekt in MCreator anlegen
@@ -31,14 +26,13 @@ Klicke dann auf "Neue Arbeitsumgebung erstellen" - es öffnet sich eine Internet
 
 Der Download und erste Build dauert je nach Internet und Computer ein bisschen. Dadurch wird uns aber viel Arbeit abgenommen die wir sonst von Hand machen müssten, also warten wir gerne :)
 
-{{< notice warning Achtung >}}  
+{{< notice warning "Dauert ewig?" >}}  
 Manchmal wartet man ewig und es war eigentlich schon fertig. Wenn man in der Konsole eine erfolgsnachricht sieht, und nichts mehr passiert, kann es sein, dass man das Popup fenster schließen kann und trotzdem alles fertig installiert ist.  
 {{< /notice >}}
 
 ## Übersicht über die IDE
 
-{{< notice note >}}
-**ID.... was?**
+{{< notice note "ID.... was?">}}
 [IDE](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung) steht für Integrated Development Editor oder Integrierte Entwicklungsumgebung. Das ist ein Programm, dass alle nötigen Tools zum Programmieren zusammenfasst - unsere Arbeitsumgebung für dieses Tutorial. 
 
 {{< /notice >}}
@@ -57,15 +51,14 @@ Hier siehst Du die Startseite der IDE und alle wichtigen Elemente:
     - die Orangene Datei mit dem Pfeil: exportiert die Mod zur Verwendung mit anderen Mod-Launchern.  
 5. hier kann man Variablen erstellen, das brauchen wir später auch noch :)
 
-{{< notice mentor >}}
-**Nützliche Einstellungen im Spiel**
+{{< notice mentor "Nützliche Einstellungen im Spiel">}}
 Vanilla-Einstellungen, also Dinge die ohne Mod funktionieren:
 
 - Zeit auf Tag setzen und auf Tag lassen  
 `/time set day` & `/gamerule doDaylightCycle false`
 - Wetter auf schön setzen und wetter so lassen
 `/weather clear` & `/gamerule doWeatherCycle false`
- 
+
 {{< /notice >}}
 
 {{< notice note Minecraft Wiki>}}  

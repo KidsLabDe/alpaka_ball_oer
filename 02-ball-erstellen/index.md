@@ -9,29 +9,27 @@ Weight: 20
 # Level 1: Der Ball für unser Spiel 
 
 Als erstes brauchen wir einen passenden Ball, er ist das Zentrum unseres Spiels.
-Es gibt in Minecraft ja viel verschiedene "Sachen" - Blöcke, Pflanzen, Mobs. Für den Ball haben wir uns für ....
+Es gibt in Minecraft ja viel verschiedene "Sachen" - Blöcke, Pflanzen, Mobs. Für den Ball haben wir uns für ein **Lebewesen** als Ball entschieden. Warum gleich noch mehr... 
 
-![](ide-start.png)
+![Starte die IDE und erstelle neues Objekt](ide-start.png)
 
 Du kannst neue Objekte über das "+" Plus Zeichen hinzufügen. Wähle dann "Lebewesen" aus:
 
-
-
-![](lebewesen-erstellen-0.png)
+![Wähle "Lebewesen"](lebewesen-erstellen-0.png)
 
 
 Lebewesen sind "Entities", die sich bewegen können - anhand von Regeln und KI, die Du festlegen kannst - das passt doch perfekt!
 
 Natürlich musst Du einen Namen vergeben:
 
-![](lebewesen-erstellen-1.png)
+![Name des Lebewesens: "Flugball"](lebewesen-erstellen-1.png)
 
 Jetzt öffnen sich das Fenster, in dem Du alle Eigenschaften des neue erstellten Lebewesens festlegen kannst. 
 Bei der Bearbeitung von einem Objekt gibt es verschiedene Kategorien (in der Unteren Leiste auswählbar).
 
 Bei *Bild und Ton* ist folgendes wichtig für unseren Ball:
 
-![Erstelle ein neues Lebewesen](lebewesen-erstellen-2-bild-ton.png)
+![Lebewesen - Bild und Ton anpassen](lebewesen-erstellen-2-bild-ton.png)
 
 
 1. Name wird übernommen aus vorigem Dialog
@@ -46,7 +44,7 @@ Nach dem speichern dauert es eine kleine Weile, bis MCreator die Mod daraus erst
 
 ![Starte Minecraft mit deiner Mod: der Play-Knopf](ide-start-play-dreieck.png)
 
-{{< notice task >}}
+{{< notice task "Was passiert da im Hintergrund?" >}}
 Da passiert ganz viel im Hintergrund - unter **Konsole** kannst Du Dir anschauen, was MCreator alles machen muss, um die Mod zu kompilieren.
 {{< /notice >}}
 
@@ -60,7 +58,7 @@ Das erstellte Spawn-Ei versteckt sich im Kreativ Inventar:
 2. ganz nach unten scrollen
 3. tadaaa! :)
 
-{{< notice success >}}
+{{< notice success "Geschafft: Der Ball fliegt!" >}}
 Tadaaa! So sieht es bis jetzt aus:
 
 ![Übersicht - was haben wir schon geschafft](ingame-so-siehts-bis-jetzt-aus-0.png)
@@ -71,7 +69,7 @@ Tadaaa! So sieht es bis jetzt aus:
 {{< /notice >}}
 
 
-## Verhalten bearbeiten:
+## Verhalten anpassen
 Jetzt wollen wir aber dem Ball noch beibringen, dass er sich wie ein Ball verhalten soll. Schließe Minecraft und gehe dazu wieder in MCreater. Mit Doppelklick auf ein Element kann dieses wieder bearbeitet werden:
 
 ![Bearbeiten der Eigenschaften: Verhalten ändern](ide-start-element-bearbeiten.png)
@@ -86,7 +84,7 @@ Um das Verhalten zu verändern, wechselst Du unten auf den Verhaltens-Reiter. Je
     - **Gesundheitswert** = 1024 (höchst möglicher wert, (2er-Potenz ;)) 
     - **Rüstungsschutz** = 100 (auch höchst möglicher wert)
 
-{{< notice success >}}  
+{{< notice success "Ball fertig - yeah!">}}  
 
 Das hast Du schon geschafft: 
 

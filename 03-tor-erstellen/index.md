@@ -37,8 +37,7 @@ Gib dem Block jetzt glasähnliche Eigenschaften:
 
 Wir haben verschiedene Sachen getestet, wir haben uns entschieden, den Block so zu konfigurieren, dass man durch ihn laufen kann. 
 
-{{< notice task >}}
-**Probier es aus!**
+{{< notice task "Probier es aus!">}}
 Beim Programmieren ist es immer gut, wenn man zwischendurch immer mal wieder testet und ausprobiert. Jetzt ist ein guter Zeitpunkt: drucke den grünen Play-Knopf (rechts oben) und teste das ganze mal!
 {{< /notice >}}
 
@@ -70,9 +69,8 @@ Dazu benutzt man diese Befehle:
 
    `/bossbar set orange players @a`
 
-
-{{< notice task >}}
-Probiere es aus! Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ Welt. Und gib die Befehle wie oben Schritt für Schritt in der Konsole ein. Klappt es? Dann solltest Du jetzt eine Bass-Bar sehen! 
+{{< notice task "Probiere es aus!">}}
+Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ Welt. Und gib die Befehle wie oben Schritt für Schritt in der Konsole ein. Klappt es? Dann solltest Du jetzt eine Bass-Bar sehen! 
 {{< /notice >}}
 
 ## Wie werden die Tore gezählt? Auslöser!
@@ -108,7 +106,7 @@ wieder entfernen vor dem neuen test.
 {{< notice success "Mal Nachschauen:">}}  
 Jetzt sollte es so aussehen nachdem man einen orangenen Torblock gesetzt hat:
 
-![ingame bossbar orange](ingame-bossbar-orange.png)  
+![Bossbar für Team Orange](ingame-bossbar-orange.png)  
 {{< /notice >}}
 
 
