@@ -23,10 +23,10 @@ Los gehts!
 
 ![Beispiel Haecksenball-Arena](ingame-arena.png)
 
-{{< notice note "Tipp: Schneller bauen">}}
+{{% notice note "Tipp: Schneller bauen"%}}
 
 Keine Lust lange rumzubuddeln? 
 
 [Minecraft Wiki: `/fill`](https://minecraft.fandom.com/wiki/Commands/fill) schau dir mal den Fill-Befehl an!
 
-{{< /notice >}} 
+{{% /notice %}} 

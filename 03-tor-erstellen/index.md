@@ -37,9 +37,9 @@ Gib dem Block jetzt glasähnliche Eigenschaften:
 
 Wir haben verschiedene Sachen getestet, wir haben uns entschieden, den Block so zu konfigurieren, dass man durch ihn laufen kann. 
 
-{{< notice task "Probier es aus!">}}
+{{% notice task "Probier es aus!"%}}
 Beim Programmieren ist es immer gut, wenn man zwischendurch immer mal wieder testet und ausprobiert. Jetzt ist ein guter Zeitpunkt: drucke den grünen Play-Knopf (rechts oben) und teste das ganze mal!
-{{< /notice >}}
+{{% /notice %}}
 
 
 ## Anzeige des Spielstandes - wieviele Tore wurden geschossen?
@@ -69,9 +69,9 @@ Dazu benutzt man diese Befehle:
 
    `/bossbar set orange players @a`
 
-{{< notice task "Probiere es aus!">}}
+{{% notice task "Probiere es aus!"%}}
 Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ Welt. Und gib die Befehle wie oben Schritt für Schritt in der Konsole ein. Klappt es? Dann solltest Du jetzt eine Bass-Bar sehen! 
-{{< /notice >}}
+{{% /notice %}}
 
 ## Wie werden die Tore gezählt? Auslöser!
 Jetzt muss das Tor ja wissen, dass ein Ball rein geflogen kommt. Wie könnte man das am besten anstellen? 
@@ -103,11 +103,11 @@ Gerne mal testen. Falls du es nochmal testen willst kannst du die Bossbar mit
 `/bossbar remove orange`  
 wieder entfernen vor dem neuen test.
 
-{{< notice success "Mal Nachschauen:">}}  
+{{% notice success "Mal Nachschauen:"%}}  
 Jetzt sollte es so aussehen nachdem man einen orangenen Torblock gesetzt hat:
 
 ![Bossbar für Team Orange](ingame-bossbar-orange.png)  
-{{< /notice >}}
+{{% /notice %}}
 
 
 ## Was ist mit der gegnerischen Manschafft? 
@@ -138,8 +138,8 @@ Und in beiden Elementen musst Dudie IDs und Farbrelevanten Eigenschaften anpasse
   kann beides zu *blue* geändert werden
 
 
-{{< notice success "Geschafft!">}}  
+{{% notice success "Geschafft!"%}}  
 Wow - Du hast schon eine Menge geschafft:
 Bälle gibt's, Tore - und sogar die Tor-Anzeige!
 ![Tor und Ball sind da: das Spiel kann bald beginnen!](ingame-so-siehts-bis-jetzt-aus-2.png)  
-{{< /notice >}}
+{{% /notice %}}

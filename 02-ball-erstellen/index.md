@@ -44,9 +44,9 @@ Nach dem speichern dauert es eine kleine Weile, bis MCreator die Mod daraus erst
 
 ![Starte Minecraft mit deiner Mod: der Play-Knopf](ide-start-play-dreieck.png)
 
-{{< notice task "Was passiert da im Hintergrund?" >}}
+{{% notice task "Was passiert da im Hintergrund?" %}}
 Da passiert ganz viel im Hintergrund - unter **Konsole** kannst Du Dir anschauen, was MCreator alles machen muss, um die Mod zu kompilieren.
-{{< /notice >}}
+{{% /notice %}}
 
 Wenn Minecraft gestartet ist, erstelle eine Welt im [Kreativ-Modus](https://minecraft.fandom.com/de/wiki/Kreativmodus) - damit hast Du direkt Zugriff auf alle Gegenstände und kannst den Ball am einfachsten testen.
 
@@ -58,7 +58,7 @@ Das erstellte Spawn-Ei versteckt sich im Kreativ Inventar:
 2. ganz nach unten scrollen
 3. tadaaa! :)
 
-{{< notice success "Geschafft: Der Ball fliegt!" >}}
+{{% notice success "Geschafft: Der Ball fliegt!" %}}
 Tadaaa! So sieht es bis jetzt aus:
 
 ![Übersicht - was haben wir schon geschafft](ingame-so-siehts-bis-jetzt-aus-0.png)
@@ -66,7 +66,7 @@ Tadaaa! So sieht es bis jetzt aus:
 - der Ball läuft selbst noch herum
 - Ball kann noch sterben werden wenn man ihn schlägt :(
 
-{{< /notice >}}
+{{% /notice %}}
 
 
 ## Verhalten anpassen
@@ -84,7 +84,7 @@ Um das Verhalten zu verändern, wechselst Du unten auf den Verhaltens-Reiter. Je
     - **Gesundheitswert** = 1024 (höchst möglicher wert, (2er-Potenz ;)) 
     - **Rüstungsschutz** = 100 (auch höchst möglicher wert)
 
-{{< notice success "Ball fertig - yeah!">}}  
+{{% notice success "Ball fertig - yeah!"%}}  
 
 Das hast Du schon geschafft: 
 
@@ -95,4 +95,4 @@ Das hast Du schon geschafft:
 - Ball stirbt nicht mehr ;)
 - macht jetzt schon Spaß den Ball mit Schlag oder Rückstoß verzauberten Schwert und Bogen zu schubsen ;D
 
-{{< /notice >}}
+{{% /notice %}}

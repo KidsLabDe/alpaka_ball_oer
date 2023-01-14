@@ -9,7 +9,7 @@ Weight: 40
 
 So, wir haben Tore, einen Ball - aber aktuell werden die Tore noch nicht gezählt. Das packen wir in diesem Level an!
 
-{{< notice note "Variablen - eine kurze Einführung" >}}
+{{% notice note "Variablen - eine kurze Einführung" %}}
 
 Was ist denn genau eine Variable? Variabel hört sich ja an wie „variabel“, also veränderbar. Am besten kannst Du dir eine Variable einen dieser Klebezettel vorstellen. Die sind super, um sich Sachen zu merken!
 
@@ -28,7 +28,7 @@ Und nach ganz viele mehr…
 
 Variablen-Namen können nur aus einem Buchstaben, aber auch ganzen Wörtern bestehen. Wähle den also weise: gib den Variablen Namen, die andere (und auch Du noch 2 Wochen ;-)) noch verstehen. Dann findest Du Dich viel leichter im eigenen Programm zurecht. 
 
-{{< /notice >}} 
+{{% /notice %}} 
 
 ## Punkte merken
 
@@ -92,19 +92,19 @@ Die Prozedur für den Zusammenstoß mit einem Entity ist länger und sieht so au
     - Achtung: die Minecraft befehle `kill @e[...]`, `tp @e[...] ~ -500 ~` und MCreator `Lösche` gehen nicht aus verschiedenen Gründen.
 11. **Speichern nicht vergessen ;)**
 
-{{< notice note "Blau bekommt einen Punkt?">}}
+{{% notice note "Blau bekommt einen Punkt?"%}}
 Vielleicht wunderst Du Dich, warum wir jetzt dem blauen Team einen Punkt geben, wenn ein Ball ins blaue Tor geht - müsste ja eigentlich anders rum sein oder? So dachten wir, es es einfacher - wenn man mit 2 Teams spielt, geht es ja noch. Aber man kann das ganze ja auch für 3 oder mehr Teams programmieren, dann geht es nicht mehr so einfach. Mit 12 Punkten hat man also verloren...
 
-{{< /notice >}} 
+{{% /notice %}} 
 
-{{< notice task "Alternative: Punkte abziehen">}}  
+{{% notice task "Alternative: Punkte abziehen"%}}  
 Wenn ihr wollt könnt ihr am Anfang auch 12 Punkte vergeben und mit jedem Tor in den blauen Torblock 1 Punkt von Blau abziehen.
 Spielt gerne mit den Zahlen rum ;)  
-{{< /notice >}}  
+{{% /notice %}}  
 
-{{< notice success "Geschafft! Tore zählen - ich habe fertig!" >}}  
+{{% notice success "Geschafft! Tore zählen - ich habe fertig!" %}}  
 Jetzt kann's im Spiel getestet werden, und wenn ein Ball in einen blauen Torblock fliegt, dann sollte ein Ton kommen, die Punktzahl in der Bossbar erhöht werden, der Ball verschwinden und man bekommt ein neues Spawn-Ei.  
-{{< /notice >}}
+{{% /notice %}}
 
 
 ### Jetzt nochmal für Orange
@@ -126,9 +126,9 @@ Jetzt natürlich noch alle dinge von Blau zu Orange ändern in den beiden Codeda
 
 ![Und nicht vergessen!!: Auslöser auch anpassen](torblock-ausloeser-orange.png)
 
-{{< notice task "Funktionierts?">}}  
+{{% notice task "Funktionierts?"%}}  
 Und nochmal testen ;)
 
 Wenn was nicht klappt, schau oben Schritt für Schritt alles durch, ob Du was vergessen hast.
 
-{{< /notice >}}
+{{% /notice %}}

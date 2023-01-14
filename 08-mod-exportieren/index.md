@@ -33,7 +33,7 @@ Am einfachsten klappt die Installation von Mods mit einem erweiterten Launcher, 
 
 
 
-{{< notice note "Mods & Server">}}
+{{% notice note "Mods & Server"%}}
 
 Gemeinsam auf einem Server spielen? Die einfachste Variante ist, in Minecraft von einem Rechner das Spiel freizugeben:
 
@@ -46,4 +46,4 @@ Gemeinsam auf einem Server spielen? Die einfachste Variante ist, in Minecraft vo
 
 Wenn Du auf einem "öffentlichen" Server im Internet gemeinsam spielen willst, muss dieser auch mit Forge laufen und auch die Mod installiert haben. 
 
-{{< /notice >}} 
+{{% /notice %}} 
