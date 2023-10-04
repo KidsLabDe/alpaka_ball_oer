@@ -6,7 +6,7 @@ Weight: 50
 
 # Level 4: Erweiterte Punkte-Anzeige / Punkte zurücksetzen
 
-Beim testen und spielen, ist uns etwas aufgefallen: Jeder kann ja relativ einfach dem anderen Team Punkte klauen - einfach zum Tor schleifen und rechts klicken. Da haben wir uns folgendes überlegt: wenn es jedes mal eine Nachricht an alle Spieler gibt, wenn Punkte zurückgesetzt werden, wäre der Mogler schnell enttarnt!  Schau Dir mal folgenden Programm-Code an:
+Beim testen und spielen, ist uns etwas aufgefallen: Jeder kann ja relativ einfach dem anderen Team Punkte klauen - einfach zum Tor schleichen und rechts klicken. Da haben wir uns folgendes überlegt: wenn es jedes mal eine Nachricht an alle Spieler gibt, wenn Punkte zurückgesetzt werden, wäre der Mogler schnell enttarnt!  Schau Dir mal folgenden Programm-Code an:
 
 ![Erweiterung des Codes zum Zurücksetzen](code-erweitern.png)
 
