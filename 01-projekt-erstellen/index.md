@@ -8,7 +8,7 @@ Weight: 10
 
 # Vorbereitung: Neues Projekt in MCreator anlegen
 
-Öffne im ersten Schritt MCreator. Unter allen Betriebssystemen (Windows, macOS und Linux) ist MCreator eine normale Anwendung und kann wie jede Andere gestartet werden.
+Öffne im ersten Schritt MCreator. Unter allen Betriebssystemen (Windows, macOS und Linux) ist MCreator eine normale Anwendung und kann wie jede andere gestartet werden.
 
 Als erstes erstellst du jetzt ein neues Projekt:
 
@@ -19,7 +19,7 @@ Als erstes erstellst du jetzt ein neues Projekt:
 
 Folgende Felder füllst du nun aus:
 - **Mod-Anzeigename** - wie soll deine Mod heißen? 
-- **Mod-ID** - Interner Name, der muss ohne Leerzeichen etc. sein
+- **Mod-ID** - Interner Name (muss ohne Leerzeichen etc. sein)
 - **Minecraft-Version** - Mods müssen passend zur Minecraft Version sein - hier wählst du bitte für dieses Tutorial "Minecraft Forge for 1.19.2"
 
 Klicke dann auf "Neue Arbeitsumgebung erstellen" - es öffnet sich eine Internetseite die um eine Spende bittet.
@@ -41,22 +41,22 @@ Hier siehst du die Startseite der IDE und alle wichtigen Elemente:
 
 ![IDE Übersicht: das sind die wichtigsten Elemente](ide-uebersicht.png)
 
-1. mit dem + kann man neue Elemente erstellen, z.B. Blöcke, Tiere, Gegenstände ...
-2. in dieser Leiste sieht man welche Elemente gerade zur Bearbeitung geöffnet sind.
-3. in dem großen (noch leeren) Bereich sieht man dann eine Übersicht über alle erstellten Elemente.
-4. hier sind mehrere kleine Knöpfe wichtig:  
+1. Mit dem + kann man neue Elemente erstellen, z.B. Blöcke, Tiere, Gegenstände ...
+2. In dieser Leiste sieht man welche Elemente gerade zur Bearbeitung geöffnet sind.
+3. In dem großen (noch leeren) Bereich sieht man dann eine Übersicht über alle erstellten Elemente.
+4. Hier sind mehrere kleine Knöpfe wichtig:  
     sind manche Symbole ausgegraut, können diese aktuell nicht geklickt werden.
     - das grüne Dreieck: startet Minecraft mit der neu erstellten Mod
     - das rote Viereck: stoppt was gerade läuft, also z.B. wenn man Minecraft noch gestartet hat
-    - die Orangene Datei mit dem Pfeil: exportiert die Mod zur Verwendung mit anderen Mod-Launchern.  
-5. hier kann man Variablen erstellen, das brauchen wir später auch noch :)
+    - die orangene Datei mit dem Pfeil: exportiert die Mod zur Verwendung mit anderen Mod-Launchern.  
+5. Hier kann man Variablen erstellen
 
 {{% notice mentor "Nützliche Einstellungen im Spiel"%}}
 Vanilla-Einstellungen, also Dinge die ohne Mod funktionieren:
 
 - Zeit auf Tag setzen und auf Tag lassen  
 `/time set day` & `/gamerule doDaylightCycle false`
-- Wetter auf schön setzen und wetter so lassen
+- Wetter auf schön setzen und Wetter so lassen
 `/weather clear` & `/gamerule doWeatherCycle false`
 
 {{% /notice %}}
