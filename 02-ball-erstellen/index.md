@@ -9,7 +9,7 @@ Weight: 20
 # Level 1: Der Ball für unser Spiel 
 
 Als erstes brauchen wir einen passenden Ball, er ist das Zentrum unseres Spiels.
-Es gibt in Minecraft ja viel verschiedene "Sachen" - Blöcke, Pflanzen, Mobs. Für den Ball haben wir uns für ein **Lebewesen** als Ball entschieden. Warum gleich noch mehr... 
+Es gibt in Minecraft ja viel verschiedene "Sachen" - Blöcke, Pflanzen, Mobs. Für den Ball haben wir uns für ein **Lebewesen** als Ball entschieden. Warum, effahrt ihr gleich mehr... 
 
 ![Starte die IDE und erstelle neues Objekt](ide-start.png)
 
@@ -18,14 +18,14 @@ Du kannst neue Objekte über das "+" Plus Zeichen hinzufügen. Wähle dann "Lebe
 ![Wähle "Lebewesen"](lebewesen-erstellen-0.png)
 
 
-Lebewesen sind "Entities", die sich bewegen können - anhand von Regeln und KI, die du festlegen kannst - das passt doch perfekt!
+Lebewesen sind "Entities", die sich bewegen können - anhand von Regeln und KI, die du festlegen kannst.
 
 Natürlich musst du einen Namen vergeben:
 
 ![Name des Lebewesens: "Flugball"](lebewesen-erstellen-1.png)
 
 Jetzt öffnen sich das Fenster, in dem du alle Eigenschaften des neue erstellten Lebewesens festlegen kannst. 
-Bei der Bearbeitung von einem Objekt gibt es verschiedene Kategorien (in der Unteren Leiste auswählbar).
+Bei der Bearbeitung von einem Objekt gibt es verschiedene Kategorien (in der unteren Leiste auswählbar).
 
 Bei *Bild und Ton* ist folgendes wichtig für unseren Ball:
 
@@ -40,7 +40,7 @@ Bei *Bild und Ton* ist folgendes wichtig für unseren Ball:
 6. Zu jedem Attribut, das man hier auswählen kann gibt es bei dem fragezeichen einen Hilfetext
 7. Speichern nicht vergessen!
 
-Nach dem speichern dauert es eine kleine Weile, bis MCreator die Mod daraus erstellt hat, wenn dann das Play-Dreieck oben rechts grün ist kann man mit dem Play-Dreieck dann Minecraft direkt mit der neuen Mod starten:
+Nach dem Speichern dauert es eine Weile bis MCreator die Mod daraus erstellt hat. Wenn  das Play-Dreieck oben rechts grün leuchtet kann man mit dem Play-Dreieck Minecraft direkt mit der neuen Mod starten:
 
 ![Starte Minecraft mit deiner Mod: der Play-Knopf](ide-start-play-dreieck.png)
 
@@ -62,9 +62,9 @@ Das erstellte Spawn-Ei versteckt sich im Kreativ Inventar:
 Tadaaa! So sieht es bis jetzt aus:
 
 ![Übersicht - was haben wir schon geschafft](ingame-so-siehts-bis-jetzt-aus-0.png)
-- der Ball fällt und fliegt noch nicht
+- Der Ball fällt und fliegt noch nicht
 - der Ball läuft selbst noch herum
-- Ball kann noch sterben werden wenn man ihn schlägt :(
+- Ball kann noch sterben, wenn man ihn schlägt :(
 
 {{% /notice %}}
 
@@ -79,10 +79,10 @@ Jetzt wollen wir aber dem Ball noch beibringen, dass er sich wie ein Ball verhal
 Um das Verhalten zu verändern, wechselst du unten auf den Verhaltens-Reiter. Jetzt kanst du die Werte ändern:
 
 - **creature** damit der Ball nicht angreift
-- **bewegungsgeschwindigkeit** = 0, damit er uns nicht von alleine weg fliegt
+- **bewegungsgeschwindigkeit** = 0, damit er nicht von alleine weg fliegt
 - unser Ball soll nicht sterben wenn man ihn schlägt
-    - **Gesundheitswert** = 1024 (höchst möglicher wert, (2er-Potenz ;)) 
-    - **Rüstungsschutz** = 100 (auch höchst möglicher wert)
+    - **Gesundheitswert** = 1024 (höchst möglicher Wert, (2er-Potenz) 
+    - **Rüstungsschutz** = 100 (auch höchst möglicher Wert)
 
 {{% notice success "Ball fertig - yeah!"%}}  
 
@@ -92,7 +92,7 @@ Das hast du schon geschafft:
 
 - der Ball fällt nicht mehr, sondern fliegt
 - der Ball läuft nicht mehr herum
-- Ball stirbt nicht mehr ;)
-- macht jetzt schon Spaß den Ball mit Schlag oder Rückstoß verzauberten Schwert und Bogen zu schubsen ;D
+- Ball stirbt nicht mehr
+- es macht jetzt schon Spaß den Ball mit Schwert und Bogen zu schubsen (die Verzauperungen "Schlag" oder "Rückstoß" helfen dabei ;D)
 
 {{% /notice %}}
