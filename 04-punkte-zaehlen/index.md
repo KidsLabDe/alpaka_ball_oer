@@ -11,7 +11,7 @@ So, wir haben Tore, einen Ball - aber aktuell werden die Tore noch nicht gezähl
 
 {{% notice note "Variablen - eine kurze Einführung" %}}
 
-Was ist denn genau eine Variable? Variabel hört sich ja an wie „variabel“, also veränderbar. Am besten kannst Du dir eine Variable einen dieser Klebezettel vorstellen. Die sind super, um sich Sachen zu merken!
+Was ist denn genau eine Variable? Variabel hört sich ja an wie „variabel“, also veränderbar. Am besten kannst du dir eine Variable einen dieser Klebezettel vorstellen. Die sind super, um sich Sachen zu merken!
 
 **Hintergrund: Variablen-Typen**
 
@@ -26,7 +26,7 @@ Und nach ganz viele mehr…
 
 **Achtung: Gute Namen sind gute Helfer**
 
-Variablen-Namen können nur aus einem Buchstaben, aber auch ganzen Wörtern bestehen. Wähle den also weise: gib den Variablen Namen, die andere (und auch Du noch 2 Wochen ;-)) noch verstehen. Dann findest Du Dich viel leichter im eigenen Programm zurecht. 
+Variablen-Namen können nur aus einem Buchstaben, aber auch ganzen Wörtern bestehen. Wähle den also weise: gib den Variablen Namen, die andere (und auch du noch 2 Wochen ;-)) noch verstehen. Dann findest du Dich viel leichter im eigenen Programm zurecht. 
 
 {{% /notice %}} 
 
@@ -34,7 +34,7 @@ Variablen-Namen können nur aus einem Buchstaben, aber auch ganzen Wörtern best
 
 Wir erstellen also eine Variable - in der merken wir uns jeweils die Tore / Punkte pro Team
 
-![So erstellst Du eine neue Variable](variable-erstellen.png)
+![So erstellst du eine neue Variable](variable-erstellen.png)
 
 Dazu erstellen wir eine variable für jedes team:
 
@@ -82,7 +82,7 @@ Die Prozedur für den Zusammenstoß mit einem Entity ist länger und sieht so au
     - und fügt mit *+* 
     - die Zahl *1* hinzu 
     - und Speichert das Ergebnis mit `Setze Global: punktzahl` zu wieder in der Punktezahl für blau ab.
-6. Wir führen den Minecraft Befehl für die Bossbar aus - den kennst Du ja schon aus Level 3.
+6. Wir führen den Minecraft Befehl für die Bossbar aus - den kennst du ja schon aus Level 3.
 7. Dazu kombinieren wir den text `/bossbar set blue value ` **(!Achtung! Leerzeichen am Ende wichtig, dass es funktioniert)** mit der `punktzahl_blau` und runden diese, weil es sich sonst um eine Kommazahl handelt. (zwar immer ,0 aber Minecraft kennt hier keine Kommazahl, desshalb machen wir die so weg)
 8. wir geben dem Spieler, der am nächsten steht (`@p`) ein neues Spawn-Ei  
     `/give @p haecksen_ball:flugball_spawn_egg`
@@ -93,7 +93,7 @@ Die Prozedur für den Zusammenstoß mit einem Entity ist länger und sieht so au
 11. **Speichern nicht vergessen ;)**
 
 {{% notice note "Blau bekommt einen Punkt?"%}}
-Vielleicht wunderst Du Dich, warum wir jetzt dem blauen Team einen Punkt geben, wenn ein Ball ins blaue Tor geht - müsste ja eigentlich anders rum sein oder? So dachten wir, es es einfacher - wenn man mit 2 Teams spielt, geht es ja noch. Aber man kann das ganze ja auch für 3 oder mehr Teams programmieren, dann geht es nicht mehr so einfach. Mit 12 Punkten hat man also verloren...
+Vielleicht wunderst du Dich, warum wir jetzt dem blauen Team einen Punkt geben, wenn ein Ball ins blaue Tor geht - müsste ja eigentlich anders rum sein oder? So dachten wir, es es einfacher - wenn man mit 2 Teams spielt, geht es ja noch. Aber man kann das ganze ja auch für 3 oder mehr Teams programmieren, dann geht es nicht mehr so einfach. Mit 12 Punkten hat man also verloren...
 
 {{% /notice %}} 
 
@@ -129,6 +129,6 @@ Jetzt natürlich noch alle dinge von Blau zu Orange ändern in den beiden Codeda
 {{% notice task "Funktionierts?"%}}  
 Und nochmal testen ;)
 
-Wenn was nicht klappt, schau oben Schritt für Schritt alles durch, ob Du was vergessen hast.
+Wenn was nicht klappt, schau oben Schritt für Schritt alles durch, ob du was vergessen hast.
 
 {{% /notice %}}

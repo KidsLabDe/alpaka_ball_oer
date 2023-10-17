@@ -11,7 +11,7 @@ So alles fertig - jetzt wird es Zeit, die Mod zu exportieren und zu veröffentli
 
 Um die Mod in Minecraft ohne MCreator zu spielen brauchen wir eine `.jar` Datei.  
 Diese können wir uns generieren lassen:  
-![So exportierst Du die Mod als JAR-Datei](mod-exportieren-0.png)
+![So exportierst du die Mod als JAR-Datei](mod-exportieren-0.png)
 nachdem click auf das exportieren symbol wird dier `.jar` generiert und MCreator fragt nach einem Speicherort:  
 ![JAR Datei: wähle den Speicherort](mod-exportieren-1.png)
 
@@ -44,6 +44,6 @@ Gemeinsam auf einem Server spielen? Die einfachste Variante ist, in Minecraft vo
 3. Klicken Sie im Spiel auf die "Escape Taste" und wählen Sie anschließend "Für **LAN** öffnen".
 4. Passen Sie die Einstellungen an und Klicken Sie auf "OK".
 
-Wenn Du auf einem "öffentlichen" Server im Internet gemeinsam spielen willst, muss dieser auch mit Forge laufen und auch die Mod installiert haben. 
+Wenn du auf einem "öffentlichen" Server im Internet gemeinsam spielen willst, muss dieser auch mit Forge laufen und auch die Mod installiert haben. 
 
 {{% /notice %}} 

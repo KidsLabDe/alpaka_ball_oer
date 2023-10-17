@@ -11,13 +11,13 @@ Weight: 30
 Wir haben uns überlegt, wie man das Tor am besten darstellen könnte. Blöcke erschienen uns am passendend: 
 Unser Tor soll aus Blöcken gebaut werden können. 
 
-In diesem Level erstellst Du also einen eigene Block, mit dem dann das Tor im Spiel gebaut werden kann.
+In diesem Level erstellst du also einen eigene Block, mit dem dann das Tor im Spiel gebaut werden kann.
 
 ![Erstelle einen neuen Block](block-erstellen-0.png)
 
 ![Gib dem neuen Block einen (sinnvollen) Namen](block-namen-geben.png)
 
-Jetzt kannst Du die Eigenschaften des Blocks anpassen - das kennst Du ja schon aus unserem ersten Level, dort haben wir die Eigenschaften des "Lebewesens" Balls angepasst. 
+Jetzt kannst du die Eigenschaften des Blocks anpassen - das kennst du ja schon aus unserem ersten Level, dort haben wir die Eigenschaften des "Lebewesens" Balls angepasst. 
 
 ![Die optischen Eigenschaften des Blocks](block-eigenschaften-optisch.png)
 
@@ -25,11 +25,11 @@ Jetzt kannst Du die Eigenschaften des Blocks anpassen - das kennst Du ja schon a
 2. die Beispieltextur (schritt 4) ist halb transparent, deshalb wähle hier aus, dass die der Block transparente Teile enthält
 3. Setze den Transparenztyp auf `Translucent`
 
-4. Hier kannst Du die Textur für den Block importieren und auswählen.
-   Als Beispieltextur für das Tor kannst Du diese Vorlage verwenden:  
+4. Hier kannst du die Textur für den Block importieren und auswählen.
+   Als Beispieltextur für das Tor kannst du diese Vorlage verwenden:  
    [Gimp-Projekt "Tor_block_rahmen"](tor_block_rahmen.xcf)
    ![Textur des Tors](tor_block_orange.png)  
-   Natürlich kannst Du auch selbst kreativ werden und deine eigene Textur erstellen!
+   Natürlich kannst du auch selbst kreativ werden und deine eigene Textur erstellen!
 
 Gib dem Block jetzt glasähnliche Eigenschaften:
 
@@ -70,20 +70,20 @@ Dazu benutzt man diese Befehle:
    `/bossbar set orange players @a`
 
 {{% notice task "Probiere es aus!"%}}
-Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ Welt. Und gib die Befehle wie oben Schritt für Schritt in der Konsole ein. Klappt es? Dann solltest Du jetzt eine Bass-Bar sehen! 
+Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ Welt. Und gib die Befehle wie oben Schritt für Schritt in der Konsole ein. Klappt es? Dann solltest du jetzt eine Bass-Bar sehen! 
 {{% /notice %}}
 
 ## Wie werden die Tore gezählt? Auslöser!
 Jetzt muss das Tor ja wissen, dass ein Ball rein geflogen kommt. Wie könnte man das am besten anstellen? 
 **Auslöser** bieten  die Möglichkeit auf gewisse Ereignisse in Minecraft zu reagieren und unseren Code auszuführen, z.B. wenn ein Block gesetzt wird. 
 Gehe noch mal in die Eigenschaften des Tor-Blocks und wähle unten "Auslöser" aus.
-Jetzt geht's ans eingemachte und Du schreibst deinen ersten Code für die Mod: wähle im Bereich **Wenn Block hinzugefügt** aus, dass du eine neue Prozedur erstellen willst - wie gewohnt mit dem **+ Plus** Knopf.
+Jetzt geht's ans eingemachte und du schreibst deinen ersten Code für die Mod: wähle im Bereich **Wenn Block hinzugefügt** aus, dass du eine neue Prozedur erstellen willst - wie gewohnt mit dem **+ Plus** Knopf.
 
 Wir erstellen also eine Prozedur, eine stück Code, das ausgeführt werden soll, wenn der Block eine Entität (Entity) berührt:
 
 ![Auslöser hinzufügen - erzeugt ein Ereignis](block-auslöser.png)
 
-Der Name der Prozedur wird automatisch generiert, denn kannst Du so lassen.
+Der Name der Prozedur wird automatisch generiert, denn kannst du so lassen.
 Jetzt sollten die 4 Minecraft-Befehle von oben ausgeführt werden, wenn das Tor gebaut wird. Also suchen wir den Baustein, der uns ermöglicht einen Minecraft-Befehl auszuführen.
 
 ![Wie können Minecraft-Befehle ausgeführt werden](prozedur-minecraft-befehl.png)
@@ -114,7 +114,7 @@ Jetzt sollte es so aussehen nachdem man einen orangenen Torblock gesetzt hat:
 Jetzt natürlich das Ganze noch für das zweite Team: Team Blau.
 Weil wir nicht alles nochmal neu machen wollen, können wir die bestehenden Elemente kopieren:
 
-![Arbeit sparen: so kannst Du bestehende Elemente duplizieren](element-duplizieren.png)
+![Arbeit sparen: so kannst du bestehende Elemente duplizieren](element-duplizieren.png)
 
 Du musst jetzt einen neuen Namen vergeben, z.B. *TorBlockBlue*   
 
@@ -139,7 +139,7 @@ Und in beiden Elementen musst Dudie IDs und Farbrelevanten Eigenschaften anpasse
 
 
 {{% notice success "Geschafft!"%}}  
-Wow - Du hast schon eine Menge geschafft:
+Wow - du hast schon eine Menge geschafft:
 Bälle gibt's, Tore - und sogar die Tor-Anzeige!
 ![Tor und Ball sind da: das Spiel kann bald beginnen!](ingame-so-siehts-bis-jetzt-aus-2.png)  
 {{% /notice %}}

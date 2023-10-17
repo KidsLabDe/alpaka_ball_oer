@@ -42,7 +42,7 @@ MCreator (https://mcreator.net/), eine Open-Source Entwicklungsumgebung, bietet 
 ## Einführung
 "MCreator ist eine Open-Source-Software, mit der Minecraft Java Edition Mods, Bedrock Edition Add-Ons und Data Packs über eine intuitive, leicht zu erlernende Oberfläche oder mit einem integrierten Code-Editor erstellt werden können. Sie wird weltweit von Minecraft-Spielern, Mod-Entwicklern, in der Ausbildung und in MINT-Workshops eingesetzt." (Quelle: https://mcreator.net/)
 
-In diesem Video lernst Du die Basics - in 30 Minuten ist MCreator installiert und die erste eigene Mod fertig: https://youtu.be/QeViHXM0aFQ
+In diesem Video lernst du die Basics - in 30 Minuten ist MCreator installiert und die erste eigene Mod fertig: https://youtu.be/QeViHXM0aFQ
 
 
 
@@ -66,5 +66,5 @@ Du findest diese Anleitung - zusammen mit allen Texturen und sonstigen Inhalten 
 
 ## Source-Code und weitere Dateien
 
-Alle Quell-Dateien und auch die fertige Mod aus diesem OER findest Du auf GitHub: https://github.com/KidsLabDe/haecksen_ball_oer
+Alle Quell-Dateien und auch die fertige Mod aus diesem OER findest du auf GitHub: https://github.com/KidsLabDe/haecksen_ball_oer
 

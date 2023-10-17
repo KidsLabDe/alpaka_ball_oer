@@ -1,7 +1,7 @@
 ---
 Title: "Vorbereitung: Neues Projekt in MCreator anlegen"
 Draft: false
-Description: "In diesem Kapitel erstellst Du das erste Projekt in MCreator und wir schauen uns einzelnen Elemente des Programms an."
+Description: "In diesem Kapitel erstellst du das erste Projekt in MCreator und wir schauen uns einzelnen Elemente des Programms an."
 Weight: 10
 ---
 
@@ -10,17 +10,17 @@ Weight: 10
 
 Öffne im ersten Schritt MCreator. Unter allen Betriebssystemen (Windows, macOS und Linux) ist MCreator eine normale Anwendung und kann wie jede Andere gestartet werden.
 
-Als erstes erstellst Du jetzt ein neues Projekt:
+Als erstes erstellst du jetzt ein neues Projekt:
 
 
 ![Neues Projekt anlegen - 1](projekt-anlegen-0.png)
 
 ![Neues Projekt anlegen - 2](projekt-anlegen-1.png)
 
-Folgende Felder füllst Du nun aus:
+Folgende Felder füllst du nun aus:
 - **Mod-Anzeigename** - wie soll deine Mod heißen? 
 - **Mod-ID** - Interner Name, der muss ohne Leerzeichen etc. sein
-- **Minecraft-Version** - Mods müssen passend zur Minecraft Version sein - hier wählst Du bitte für dieses Tutorial "Minecraft Forge for 1.19.2"
+- **Minecraft-Version** - Mods müssen passend zur Minecraft Version sein - hier wählst du bitte für dieses Tutorial "Minecraft Forge for 1.19.2"
 
 Klicke dann auf "Neue Arbeitsumgebung erstellen" - es öffnet sich eine Internetseite die um eine Spende bittet.
 
@@ -37,7 +37,7 @@ Manchmal wartet man ewig und es war eigentlich schon fertig. Wenn man in der Kon
 
 {{% /notice %}}
 
-Hier siehst Du die Startseite der IDE und alle wichtigen Elemente:
+Hier siehst du die Startseite der IDE und alle wichtigen Elemente:
 
 ![IDE Übersicht: das sind die wichtigsten Elemente](ide-uebersicht.png)
 
