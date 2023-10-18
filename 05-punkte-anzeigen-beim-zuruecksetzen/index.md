@@ -6,7 +6,7 @@ Weight: 50
 
 # Level 4: Erweiterte Punkte-Anzeige / Punkte zurücksetzen
 
-Beim testen und spielen, ist uns etwas aufgefallen: Jeder kann ja relativ einfach dem anderen Team Punkte klauen - einfach zum Tor schleichen und rechts klicken. Da haben wir uns folgendes überlegt: wenn es jedes mal eine Nachricht an alle Spieler gibt, wenn Punkte zurückgesetzt werden, wäre der Mogler schnell enttarnt!  Schau dir mal folgenden Programm-Code an:
+Beim Testen und Spielen, ist uns etwas aufgefallen: Jede\*r kann relativ einfach dem anderen Team Punkte klauen - einfach zum Tor schleichen und rechts klicken. Deswegen haben wir uns Folgendes überlegt: Wenn jedes mal eine Nachricht an alle Spieler\*innen gesendet wird, wenn Punkte zurückgesetzt werden, wäre der Betrug schnell enttarnt.  Schau dir mal folgenden Programm-Code an:
 
 ![Erweiterung des Codes zum Zurücksetzen](code-erweitern.png)
 
@@ -17,14 +17,14 @@ Beim testen und spielen, ist uns etwas aufgefallen: Jeder kann ja relativ einfac
     - " Punkte von Blau zurückgesetzt!"
 2. Aufpassen, dass die Punkte erst danach auf 0 gesetzt werden, ansonsten wird im Chat immer 0 angezeigt.
 
-Das gleiche natürlich auch noch in dem Code für Orange, damit es für beide Farben passt.
+Das gleiche auch noch in dem Code für Orange, damit es für beide Farben passt.
 
 {{% notice warning "Aufgepasst! Platz lassen"%}}  
-Wenn wir mehrere Textbausteine aneinander hängen, müssen wir drauf achten wo die Leerzeichen stehen, sonst wird der Text schwer lesbar ;)
+Wenn wir mehrere Textbausteine aneinander hängen, müssen wir drauf achten wo die Leerzeichen stehen, sonst wird der Text schwer lesbar
 z.B. vor und nach *hat* ist jeweils ein Leerzeichen.  
 {{% /notice %}}
 
 {{% notice task "Testen schadet nie ;)"%}}  
-Starte Dein Programm und teste alles noch mal durch! Geht alles?  
+Starte dein Programm und teste alles noch mal! Geht alles?  
 Für beide Farben?  
 {{% /notice %}}
