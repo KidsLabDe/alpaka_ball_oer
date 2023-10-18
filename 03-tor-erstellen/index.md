@@ -8,21 +8,20 @@ Weight: 30
 
 # Level 2: Tor! Oder: da muss der Ball rein
 
-Wir haben uns überlegt, wie man das Tor am besten darstellen könnte. Blöcke erschienen uns am passendend: 
 Unser Tor soll aus Blöcken gebaut werden können. 
 
-In diesem Level erstellst du also einen eigene Block, mit dem dann das Tor im Spiel gebaut werden kann.
+In diesem Level erstellst du also einen eigenen Block, mit dem dann das Tor im Spiel gebaut werden kann.
 
 ![Erstelle einen neuen Block](block-erstellen-0.png)
 
 ![Gib dem neuen Block einen (sinnvollen) Namen](block-namen-geben.png)
 
-Jetzt kannst du die Eigenschaften des Blocks anpassen - das kennst du ja schon aus unserem ersten Level, dort haben wir die Eigenschaften des "Lebewesens" Balls angepasst. 
+Jetzt kannst du die Eigenschaften des Blocks anpassen - das kennst du schon aus unserem ersten Level, dort haben wir die Eigenschaften des "Lebewesens" Ball angepasst. 
 
 ![Die optischen Eigenschaften des Blocks](block-eigenschaften-optisch.png)
 
-1. Wähle hier aus, auf allen Seiten die gleiche Textur verwendet werden soll, das spart uns Arbeit ;)
-2. die Beispieltextur (schritt 4) ist halb transparent, deshalb wähle hier aus, dass die der Block transparente Teile enthält
+1. Wähle hier aus, dass auf allen Seiten die gleiche Textur verwendet werden soll, das spart uns Arbeit
+2. Die Beispieltextur (Schritt 4) ist halb transparent, deshalb wähle hier aus, dass der Block transparente Teile enthält
 3. Setze den Transparenztyp auf `Translucent`
 
 4. Hier kannst du die Textur für den Block importieren und auswählen.
@@ -35,14 +34,14 @@ Gib dem Block jetzt glasähnliche Eigenschaften:
 
 ![Eigenschaft: Glass-ähnlich](block-eigenschaften-glas.png)
 
-Wir haben verschiedene Sachen getestet, wir haben uns entschieden, den Block so zu konfigurieren, dass man durch ihn laufen kann. 
+Wir haben verschiedene Möglichkeiten getestet und haben uns entschieden, den Block so zu konfigurieren, dass man durch ihn laufen kann. 
 
 {{% notice task "Probier es aus!"%}}
-Beim Programmieren ist es immer gut, wenn man zwischendurch immer mal wieder testet und ausprobiert. Jetzt ist ein guter Zeitpunkt: drucke den grünen Play-Knopf (rechts oben) und teste das ganze mal!
+Beim Programmieren ist es immer gut, wenn man zwischendurch immer mal wieder testet und ausprobiert. Jetzt ist ein guter Zeitpunkt: Drücke den grünen Play-Knopf (rechts oben) und teste das Ganze!
 {{% /notice %}}
 
 
-## Anzeige des Spielstandes - wieviele Tore wurden geschossen?
+## Anzeige des Spielstandes - Wieviele Tore wurden geschossen?
 
 Wie könnte man jetzt die erzielten Tore anzeigen? Wir haben uns an die Boss-Bar erinnert: in Minecraft Vanilla (ohne Mods) kann man mit bordeigenen Mitteln eine Bossbar hinzufügen. 
 
@@ -70,38 +69,38 @@ Dazu benutzt man diese Befehle:
    `/bossbar set orange players @a`
 
 {{% notice task "Probiere es aus!"%}}
-Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ Welt. Und gib die Befehle wie oben Schritt für Schritt in der Konsole ein. Klappt es? Dann solltest du jetzt eine Bass-Bar sehen! 
+Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ Welt. Gib die Befehle wie oben Schritt für Schritt in der Konsole ein. Klappt es? Dann solltest du jetzt eine Bass-Bar sehen! 
 {{% /notice %}}
 
 ## Wie werden die Tore gezählt? Auslöser!
 Jetzt muss das Tor ja wissen, dass ein Ball rein geflogen kommt. Wie könnte man das am besten anstellen? 
 **Auslöser** bieten  die Möglichkeit auf gewisse Ereignisse in Minecraft zu reagieren und unseren Code auszuführen, z.B. wenn ein Block gesetzt wird. 
 Gehe noch mal in die Eigenschaften des Tor-Blocks und wähle unten "Auslöser" aus.
-Jetzt geht's ans eingemachte und du schreibst deinen ersten Code für die Mod: wähle im Bereich **Wenn Block hinzugefügt** aus, dass du eine neue Prozedur erstellen willst - wie gewohnt mit dem **+ Plus** Knopf.
+Jetzt schreibst du deinen ersten Code für die Mod: Wähle im Bereich **Wenn Block hinzugefügt** aus, dass du eine neue Prozedur erstellen willst - wie gewohnt mit dem **+ Plus** Knopf.
 
-Wir erstellen also eine Prozedur, eine stück Code, das ausgeführt werden soll, wenn der Block eine Entität (Entity) berührt:
+Wir erstellen also eine Prozedur, ein Stück Code, das ausgeführt werden soll, wenn der Block eine Entität (Entity) berührt:
 
 ![Auslöser hinzufügen - erzeugt ein Ereignis](block-auslöser.png)
 
-Der Name der Prozedur wird automatisch generiert, denn kannst du so lassen.
+Der Name der Prozedur wird automatisch generiert (den kannst du so lassen).
 Jetzt sollten die 4 Minecraft-Befehle von oben ausgeführt werden, wenn das Tor gebaut wird. Also suchen wir den Baustein, der uns ermöglicht einen Minecraft-Befehl auszuführen.
 
-![Wie können Minecraft-Befehle ausgeführt werden](prozedur-minecraft-befehl.png)
+![Wie können Minecraft-Befehle ausgeführt werden?](prozedur-minecraft-befehl.png)
 
 - Wähle links in den Kategorien *Welt Management* 
 - Nimm den Programmier-Block ganz oben: `Führe Befehl ... aus ...`
-- ziehe ihn in die Programmier-Oberflüge und docke ihn unter dem Event-Auslöser an
+- Ziehe ihn in die Programmier-Oberfläche und docke ihn unter dem Event-Auslöser an
 - Füge jeweils in den Anführungszeichen die Befehle von oben ein.
 
-So sieht das dann aus wenn die Befehle von oben alle ausgeführt werden sollen:
+So sieht es aus wenn die Befehle von oben alle ausgeführt werden sollen:
 
 ![Minecraft Befehle in MCreator für bossbar](code-torblock-setzen.png)
 
-Speichern nicht vergessen ;) Drücke dazu rechts oben auf **Mod Element speichern**
+Speichern nicht vergessen. Drücke dazu rechts oben auf **Mod Element speichern**
 
 Gerne mal testen. Falls du es nochmal testen willst kannst du die Bossbar mit 
 `/bossbar remove orange`  
-wieder entfernen vor dem neuen test.
+wieder entfernen vor dem neuen Test.
 
 {{% notice success "Mal Nachschauen:"%}}  
 Jetzt sollte es so aussehen nachdem man einen orangenen Torblock gesetzt hat:
@@ -124,13 +123,13 @@ Erstelle jetzt - wie vorher beim ersten Block - einen neuen Auslöser und eine n
 - *Mod-Element duplizieren*
 - Neuer Name *TorBlockBlueWennBlockHinzugefügt*
 
-Und in beiden Elementen musst Dudie IDs und Farbrelevanten Eigenschaften anpassen:
+Und in beiden Elementen musst Dudie IDs und farbrelevanten Eigenschaften anpassen:
 
-![Tausche die Textur der Blockes aus](block-textur-austauschen.png)
+![Tausche die Textur des Blockes aus](block-textur-austauschen.png)
 
 - Tausche die Blocktextur aus
-- In der Kategorie *Eigenschaften* von dem Block sollte noch der Name von *Tor Block Orange* auf *Tor Block Blau* ändern.
-- Und natürlich den Auslöser auch anpassen, dass die Funktion für die blaue Bossbar aufgerufen wird:  
+- In der Kategorie *Eigenschaften* von dem Block solltest du noch den Name von *Tor Block Orange* auf *Tor Block Blau* ändern.
+- Und natürlich den Auslöser auch anpassendamit die Funktion für die blaue Bossbar aufgerufen wird:  
 ![Tausche die Farbe aus](code-farbe-austauschen.png)
 
 - Tausche den Code für die Farbe aus  
