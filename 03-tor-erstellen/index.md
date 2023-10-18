@@ -26,8 +26,9 @@ Jetzt kannst du die Eigenschaften des Blocks anpassen - das kennst du schon aus 
 
 4. Hier kannst du die Textur für den Block importieren und auswählen.
    Als Beispieltextur für das Tor kannst du diese Vorlage verwenden:  
-   [Gimp-Projekt "Tor_block_rahmen"](tor_block_rahmen.xcf)
    ![Textur des Tors](tor_block_orange.png)  
+   [Gimp-Projekt "Tor_block_rahmen"](tor_block_rahmen.xcf)  
+   [Von GitHub herunterladen](https://raw.githubusercontent.com/KidsLabDe/alpaka_ball_oer/main/03-tor-erstellen/tor_block_rahmen.xcf)  
    Natürlich kannst du auch selbst kreativ werden und deine eigene Textur erstellen!
 
 Gib dem Block jetzt glasähnliche Eigenschaften:
@@ -45,7 +46,7 @@ Beim Programmieren ist es immer gut, wenn man zwischendurch immer mal wieder tes
 
 Wie könnte man jetzt die erzielten Tore anzeigen? Wir haben uns an die Boss-Bar erinnert: in Minecraft Vanilla (ohne Mods) kann man mit bordeigenen Mitteln eine Bossbar hinzufügen. 
 
-Dazu benutzt man diese Befehle: 
+Dafür gibt es diese Befehle: 
 
 <!-- all those empty lines to help pandoc make the correct line breaks (i hope)-->
 1. Neue Bossbar erstellen
@@ -69,7 +70,7 @@ Dazu benutzt man diese Befehle:
    `/bossbar set orange players @a`
 
 {{% notice task "Probiere es aus!"%}}
-Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ Welt. Gib die Befehle wie oben Schritt für Schritt in der Konsole ein. Klappt es? Dann solltest du jetzt eine Bass-Bar sehen! 
+Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ Welt. Öffne mit `T` die Chat Zeile. Gib die Befehle wie oben nacheinander in dieser Zeile ein und bestätige jeden mit Enter. Klappt es? Dann solltest du jetzt eine Boss-Bar sehen! 
 {{% /notice %}}
 
 ## Wie werden die Tore gezählt? Auslöser!

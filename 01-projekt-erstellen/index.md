@@ -52,7 +52,7 @@ Hier siehst du die Startseite der IDE und alle wichtigen Elemente:
 5. Hier kann man Variablen erstellen
 
 {{% notice mentor "Nützliche Einstellungen im Spiel"%}}
-Vanilla-Einstellungen, also Dinge die ohne Mod funktionieren:
+Wenn man in Minecraft länger an etwas baut, dann hilft es ein paar Einstellungen vorzunehmen. Dazu gibt es Befehle in Minecraft. Um einen Befehl einzugeben öffne im Spiel mit `T` den Chat und tippe ein `/` und danach den Befehl ein.
 
 - Zeit auf Tag setzen und auf Tag lassen  
 `/time set day` & `/gamerule doDaylightCycle false`

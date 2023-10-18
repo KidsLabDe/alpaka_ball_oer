@@ -57,7 +57,7 @@ In diesem Video lernst du die Basics - in 30 Minuten ist MCreator installiert un
 
 ## Vorbereitung 
 - MCreator auf allen Computern installieren (https://mcreator.net/install)
-- Leere Arbeitsumgebung installieren (der initiale Download aller Bibliotheken dauert sonst noch mal 15-30 Minuten im Workshop)
+- Nach dem Installieren an jedem Computer ein neues MCreator Projekt erstellen. Beim ersten Mal werden weitere Dateien für MCreator heruntergeladen. Der initiale Download aller Bibliotheken dauert sonst noch mal 15-30 Minuten im Workshop.
 
 
 ## Online-Version mit Links zu weiteren zugehörigen Dokumenten

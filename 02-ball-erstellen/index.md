@@ -33,7 +33,7 @@ Bei *Bild und Ton* ist folgendes wichtig für unseren Ball:
 
 
 1. Name wird übernommen aus vorigem Dialog
-2. Die Textur bestimmt das Aussehen Deines Balls - du fügst die Textur mit dem **+ Plus** hinzu. du kannst selbst eine Textur erstellen oder diese als Beispiel benutzen: ![ball textur](flugball-texture.png)  
+2. Die Textur bestimmt das Aussehen Deines Balls - du fügst die Textur mit dem **+ Plus** hinzu. du kannst selbst eine Textur erstellen oder diese als Beispiel benutzen: [Textur herunterladen](https://raw.githubusercontent.com/KidsLabDe/alpaka_ball_oer/main/02-ball-erstellen/flugball-texture.png) ![ball textur](flugball-texture.png)  
 3. Erst danach kannst du die Textur im Dropdown auswählen
 4. Wir lassen uns auch ein Spawn-Ei generieren
 5. Für das Ei können wir bei den 3 Punkten neben dem Farbfeld die Farben auswählen die das Ei haben soll.
