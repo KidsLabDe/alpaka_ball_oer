@@ -6,7 +6,7 @@ Weight: 60
 
 # Level 5: Die Haecksenball-Schläger
 
-Stell dir vor, du spielst Eishockey, Golf oder Tennis - ohne Schläger. Hört sich komisch an, oder? Also brauchen wir noch den passenden Schläger: da macht das Spiel noch mehr Spaß! 
+Stell dir vor, du spielst Eishockey, Golf oder Tennis - ohne Schläger. Hört sich komisch an, oder? Also brauchen wir noch den passenden Schläger: Da macht das Spiel noch mehr Spaß! 
 
 ## Erstelle einen neuen **Gegenstand**
 
@@ -21,7 +21,7 @@ Der neue Gegenstand braucht natürlich einen Namen - "Schlaeger" zum Beispiel.
 
 Probier mal den Schläger auch so zu nennen mit Ä statt AE. Wenn du den Gegenstand angelegt hast, fällt dir vielleicht auf, dass er dann in MCreator "Schlager" heißt. Schlager? Komisch!
 
-Das liegt daran, das Computer an ganz vielen Stellen noch nicht wirklich mit Umlauten und erweiterten Zeichen wie Emoticons oder anderen Schriftarten umgehen können. Darum macht MCreator automatisch aus dem **Ä** ein **A**. Darum haben wir uns gleich für den Namen Schl**ae**ger mit entschieden. 
+Das liegt daran, das Computer an ganz vielen Stellen noch nicht mit Umlauten und erweiterten Zeichen wie Emoticons oder anderen Schriftarten umgehen können. Darum macht MCreator automatisch aus dem **Ä** ein **A**. Darum haben wir uns gleich für den Namen Schl**ae**ger entschieden. 
 
 {{% /notice %}} 
 
@@ -37,26 +37,26 @@ Das liegt daran, das Computer an ganz vielen Stellen noch nicht wirklich mit Uml
 
 ### Eigenschaften des Schlägers
 
-Jetzt müssen wir noch ein paar Sachen festlegen, damit auch alles so ist, wie wir das für einen Schläger erwarten. Wechsel dazu zu den *Eigenschaften*.
+Jetzt müssen wir noch die Eigenschaften des Schlägers bearbeiten, damit auch alles so ist, wie wir das von einem Schläger erwarten. Wechsel dazu zu den *Eigenschaften*.
 
 ![Gegenstand Eigenschaften](gegenstand-eigenschaften.png)
 
-Als Inventar Tab hab ich *Tools* ausgewählt, dass es bei den anderen Werkzeugen auftaucht im Inventar.
+Als Inventar Tab haben wir *Tools* ausgewählt, damit es bei den anderen Werkzeugen im Inventar auftaucht.
 
-### Rücktstoß
+### Rückstoß
 
-Der Schläger soll natürlich jetzt besondere Eigenschaften haben, wie eich echter Sport-Schläger. Weil es aber in der normalen Eigenschaften keine Einstellung dafür gibt, wie viel Rückstoß der Schläger haben soll, behelfen wir uns anders. 
+Der Schläger soll besondere Eigenschaften bekommen, wie ein echter Sport-Schläger. Da es aber in den normalen Eigenschaften keine Einstellung dafür gibt, wie viel Rückstoß der Schläger haben soll, behelfen wir uns anders. 
 
-Genau - die Auslöser kann man ja nutzen, um auf Sachen im Spiel zu reagieren. du nutzt jetzt einen neuen Auslöser - der immer läuft, wenn man ihn in der Hand hält: 
+Die Auslöser kann man nutzen, um auf Ereignisse im Spiel zu reagieren. du nutzt jetzt einen neuen Auslöser - der immer läuft, wenn man ihn in der Hand hält: 
 
 ![Auslöser für den Schläger - Bei jedem Tick](ausloeser.png)
 
-Um den Rückschlag zu erstellen, "verzaubern" wir den Schläger einfach. Der Auslöser läuft ja "immer", solange ein Spieler den Schläger in der Hand hat, darum musst du etwas mehr programmieren:
+Um den Rückschlag zu erstellen, "verzaubern" wir den Schläger einfach. Der Auslöser läuft "immer", solange ein\*e Spieler\*in den Schläger in der Hand hat. Deswegen musst du etwas mehr programmieren:
 ![Code zum Verzaubern des Schlägers](code-in-hand-verzaubern.png)
 
-1. Testen ob der Gegenstand noch nicht verzaubert ist - sonst würde er ja jeden Tick neu verzaubert
+1. Testen ob der Gegenstand noch nicht verzaubert ist - sonst würde er jeden Tick neu verzaubert werden
 2. Dazu "verneinen" wir die Antwort auf die Frage *Ist Gegebener Gegenstandsstapel verzaubert*. Das bedeutet, mit dem Befehl `nicht` drehen wir das Ergebnis von `ist ... verzaubert` um, und erhalten `wahr`, wenn er nicht verzaubert ist.
-3. und dann fügen wir die Verzauberung `KNOCKBACK` auf deutsch "Rückstoß" mit dem `Level *3*` hinzu.
+3. und dann fügen wir die Verzauberung `KNOCKBACK` (auf Deutsch "Rückstoß") mit dem `Level *3*` hinzu.
 
 {{% notice task "Ausprobieren!"%}}
 
