@@ -5,17 +5,17 @@ Weight: 80
 ---
 # Level 7: Exportieren & Installieren der Mod
 
-So alles fertig - jetzt wird es Zeit, die Mod zu exportieren und zu veröffentlichen, damit auch deine Freunde die Mod herunterladen und installieren können.
+So, alles fertig - jetzt wird es Zeit, die Mod zu exportieren und zu veröffentlichen, damit auch deine Freund\*innen die Mod herunterladen und installieren können.
 
 ## JAR-Datei exportieren
 
 Um die Mod in Minecraft ohne MCreator zu spielen brauchen wir eine `.jar` Datei.  
 Diese können wir uns generieren lassen:  
 ![So exportierst du die Mod als JAR-Datei](mod-exportieren-0.png)
-nachdem click auf das exportieren symbol wird dier `.jar` generiert und MCreator fragt nach einem Speicherort:  
+Nachdem Klick auf das Exportieren-symbol wird die `.jar`-Datei generiert und MCreator fragt nach einem Speicherort:  
 ![JAR Datei: wähle den Speicherort](mod-exportieren-1.png)
 
-diese `.jar` Datei kann man wie jede andere mod installiert werden.  
+Diese `.jar`-Datei kann man wie jede andere mod installiert werden.  
 
 ## Mod Installieren
 
@@ -39,10 +39,10 @@ Gemeinsam auf einem Server spielen? Die einfachste Variante ist, in Minecraft vo
 
 ***\*Minecraft\** über \**LAN\**-Server spielen**
 
-1. Starten Sie das Spiel **Minecraft** wie gewohnt.
-2. Wählen Sie "Singleplayer" und starten Sie die gewünschte Welt, oder erstellen Sie eine neue.
-3. Klicken Sie im Spiel auf die "Escape Taste" und wählen Sie anschließend "Für **LAN** öffnen".
-4. Passen Sie die Einstellungen an und Klicken Sie auf "OK".
+1. Starte das Spiel **Minecraft** wie gewohnt.
+2. Wähle "Singleplayer" und starte die gewünschte Welt, oder erstelle eine neue.
+3. Klicke im Spiel auf die "Escape Taste" und wähle anschließend "Für **LAN** öffnen".
+4. Passe die Einstellungen an und klicke auf "OK".
 
 Wenn du auf einem "öffentlichen" Server im Internet gemeinsam spielen willst, muss dieser auch mit Forge laufen und auch die Mod installiert haben. 
 
