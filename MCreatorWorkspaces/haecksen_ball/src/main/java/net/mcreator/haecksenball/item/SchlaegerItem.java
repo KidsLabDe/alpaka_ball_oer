@@ -5,7 +5,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
@@ -14,15 +13,13 @@ import net.mcreator.haecksenball.procedures.SchlaegerBeimTickDesGegenstandesInDe
 
 public class SchlaegerItem extends Item {
 	public SchlaegerItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		SchlaegerWennLebewesenMitGegenstandGetroffenWirdProcedure.execute(
-
-		);
+		SchlaegerWennLebewesenMitGegenstandGetroffenWirdProcedure.execute();
 		return retval;
 	}
 

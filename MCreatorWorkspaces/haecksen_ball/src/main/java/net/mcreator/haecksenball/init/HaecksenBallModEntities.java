@@ -23,8 +23,7 @@ import net.mcreator.haecksenball.HaecksenBallMod;
 public class HaecksenBallModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, HaecksenBallMod.MODID);
 	public static final RegistryObject<EntityType<FlugballEntity>> FLUGBALL = register("flugball",
-			EntityType.Builder.<FlugballEntity>of(FlugballEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(FlugballEntity::new)
+			EntityType.Builder.<FlugballEntity>of(FlugballEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FlugballEntity::new)
 
 					.sized(1f, 1f));
 

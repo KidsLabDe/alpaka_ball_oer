@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "haecksen_ball:blocks/tor_block_orange",
-    "particle": "haecksen_ball:blocks/tor_block_orange"
+    "all": "haecksen_ball:block/tor_block_orange",
+    "particle": "haecksen_ball:block/tor_block_orange"
   },
   "render_type": "translucent"
 }

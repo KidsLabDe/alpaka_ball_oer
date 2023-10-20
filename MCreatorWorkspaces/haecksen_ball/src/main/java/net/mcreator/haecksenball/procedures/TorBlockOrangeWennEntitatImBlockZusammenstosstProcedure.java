@@ -22,28 +22,23 @@ public class TorBlockOrangeWennEntitatImBlockZusammenstosstProcedure {
 		if (entity == null)
 			return;
 		if ((entity.getDisplayName().getString()).equals("Flugball") && !entity.getPersistentData().getBoolean("im_tor")) {
-			entity.getPersistentData().putBoolean("im_tor", (true));
+			entity.getPersistentData().putBoolean("im_tor", true);
 			HaecksenBallModVariables.MapVariables.get(world).punktzahl_orange = HaecksenBallModVariables.MapVariables.get(world).punktzahl_orange + 1;
 			HaecksenBallModVariables.MapVariables.get(world).syncData(world);
 			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(
-						new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""),
-								_level.getServer(), null).withSuppressedOutput(),
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						("/bossbar set orange value " + Math.round(HaecksenBallModVariables.MapVariables.get(world).punktzahl_orange)));
 			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO,
-						_level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"/give @p haecksen_ball:flugball_spawn_egg");
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, new BlockPos(x, y, z),
-							ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.experience_orb.pickup")), SoundSource.BLOCKS, 1, 1);
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.experience_orb.pickup")), SoundSource.BLOCKS, 1, 1);
 				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.experience_orb.pickup")),
-							SoundSource.BLOCKS, 1, 1, false);
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.experience_orb.pickup")), SoundSource.BLOCKS, 1, 1, false);
 				}
 			}
-			if (!entity.level.isClientSide())
+			if (!entity.level().isClientSide())
 				entity.discard();
 		}
 	}

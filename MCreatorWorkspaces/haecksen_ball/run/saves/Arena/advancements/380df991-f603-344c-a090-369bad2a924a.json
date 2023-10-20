@@ -53,12 +53,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2022-12-19 17:40:16 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2022-12-19 17:40:01 +0100"
@@ -68,12 +62,6 @@
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_sand": "2022-12-19 17:40:01 +0100"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2022-12-20 12:30:41 +0100"
     },
     "done": true
   },
@@ -119,15 +107,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2022-12-20 12:24:33 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
-      "has_sand": "2022-12-19 17:40:01 +0100"
+      "has_smelts_to_glass": "2023-10-20 13:52:14 +0200"
     },
     "done": true
   },
@@ -137,5 +119,29 @@
     },
     "done": false
   },
-  "DataVersion": 3120
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-12-19 17:40:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-12-20 12:24:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2022-12-20 12:30:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-10-20 13:52:14 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
 }

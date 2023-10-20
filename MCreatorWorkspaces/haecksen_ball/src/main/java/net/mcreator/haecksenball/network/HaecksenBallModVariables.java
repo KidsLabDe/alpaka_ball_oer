@@ -24,33 +24,29 @@ import java.util.function.Supplier;
 public class HaecksenBallModVariables {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
-		HaecksenBallMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new,
-				SavedDataSyncMessage::handler);
+		HaecksenBallMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new, SavedDataSyncMessage::handler);
 	}
 
 	@Mod.EventBusSubscriber
 	public static class EventBusVariableHandlers {
 		@SubscribeEvent
 		public static void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
-			if (!event.getEntity().level.isClientSide()) {
-				SavedData mapdata = MapVariables.get(event.getEntity().level);
-				SavedData worlddata = WorldVariables.get(event.getEntity().level);
+			if (!event.getEntity().level().isClientSide()) {
+				SavedData mapdata = MapVariables.get(event.getEntity().level());
+				SavedData worlddata = WorldVariables.get(event.getEntity().level());
 				if (mapdata != null)
-					HaecksenBallMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()),
-							new SavedDataSyncMessage(0, mapdata));
+					HaecksenBallMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()), new SavedDataSyncMessage(0, mapdata));
 				if (worlddata != null)
-					HaecksenBallMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()),
-							new SavedDataSyncMessage(1, worlddata));
+					HaecksenBallMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()), new SavedDataSyncMessage(1, worlddata));
 			}
 		}
 
 		@SubscribeEvent
 		public static void onPlayerChangedDimension(PlayerEvent.PlayerChangedDimensionEvent event) {
-			if (!event.getEntity().level.isClientSide()) {
-				SavedData worlddata = WorldVariables.get(event.getEntity().level);
+			if (!event.getEntity().level().isClientSide()) {
+				SavedData worlddata = WorldVariables.get(event.getEntity().level());
 				if (worlddata != null)
-					HaecksenBallMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()),
-							new SavedDataSyncMessage(1, worlddata));
+					HaecksenBallMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayer) event.getEntity()), new SavedDataSyncMessage(1, worlddata));
 			}
 		}
 	}
@@ -122,8 +118,7 @@ public class HaecksenBallModVariables {
 
 		public static MapVariables get(LevelAccessor world) {
 			if (world instanceof ServerLevelAccessor serverLevelAcc) {
-				return serverLevelAcc.getLevel().getServer().getLevel(Level.OVERWORLD).getDataStorage().computeIfAbsent(e -> MapVariables.load(e),
-						MapVariables::new, DATA_NAME);
+				return serverLevelAcc.getLevel().getServer().getLevel(Level.OVERWORLD).getDataStorage().computeIfAbsent(e -> MapVariables.load(e), MapVariables::new, DATA_NAME);
 			} else {
 				return clientSide;
 			}

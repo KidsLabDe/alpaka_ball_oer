@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "haecksen_ball:items/schlaeger_textur"
+    "layer0": "haecksen_ball:item/schlaeger_textur"
   }
 }

@@ -6,7 +6,15 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "flugball"
+      "registry_name": "flugball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/entity/FlugballEntity.java",
+          "src/main/java/net/mcreator/haecksenball/client/renderer/FlugballRenderer.java",
+          "src/main/resources/assets/haecksen_ball/models/item/flugball_spawn_egg.json",
+          "src/main/resources/data/haecksen_ball/forge/biome_modifier/flugball_biome_modifier.json"
+        ]
+      }
     },
     {
       "name": "TorBlockOrange",
@@ -14,7 +22,15 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tor_block_orange"
+      "registry_name": "tor_block_orange",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/haecksen_ball/models/block/tor_block_orange.json",
+          "src/main/resources/assets/haecksen_ball/models/item/tor_block_orange.json",
+          "src/main/java/net/mcreator/haecksenball/block/TorBlockOrangeBlock.java",
+          "src/main/resources/assets/haecksen_ball/blockstates/tor_block_orange.json"
+        ]
+      }
     },
     {
       "name": "TorBlockOrangeWennBlockHinzugefugt",
@@ -24,6 +40,9 @@
       "locked_code": false,
       "registry_name": "tor_block_orange_wenn_block_hinzugefugt",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockOrangeWennBlockHinzugefugtProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -50,7 +69,15 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tor_block_blue"
+      "registry_name": "tor_block_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/haecksen_ball/models/block/tor_block_blue.json",
+          "src/main/resources/assets/haecksen_ball/models/item/tor_block_blue.json",
+          "src/main/java/net/mcreator/haecksenball/block/TorBlockBlueBlock.java",
+          "src/main/resources/assets/haecksen_ball/blockstates/tor_block_blue.json"
+        ]
+      }
     },
     {
       "name": "TorBlockBlueWennBlockHinzugefugt",
@@ -60,6 +87,9 @@
       "locked_code": false,
       "registry_name": "tor_block_blue_wenn_block_hinzugefugt",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockBlueWennBlockHinzugefugtProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -88,6 +118,9 @@
       "locked_code": false,
       "registry_name": "tor_block_blue_wenn_entitat_im_block_zusammenstosst",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockBlueWennEntitatImBlockZusammenstosstProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -120,6 +153,9 @@
       "locked_code": false,
       "registry_name": "tor_block_blue_wenn_block_rechts_geklickt_wird",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockBlueWennBlockRechtsGeklicktWirdProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -152,6 +188,9 @@
       "locked_code": false,
       "registry_name": "tor_block_orange_wenn_entitat_im_block_zusammenstosst",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockOrangeWennEntitatImBlockZusammenstosstProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -184,6 +223,9 @@
       "locked_code": false,
       "registry_name": "tor_block_orange_wenn_block_rechts_geklickt_wird",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockOrangeWennBlockRechtsGeklicktWirdProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -216,6 +258,9 @@
       "locked_code": false,
       "registry_name": "schlaeger_beim_tick_des_gegenstandes_in_der_hand",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/SchlaegerBeimTickDesGegenstandesInDerHandProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "itemstack",
@@ -234,7 +279,13 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "schlaeger"
+      "registry_name": "schlaeger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/item/SchlaegerItem.java",
+          "src/main/resources/assets/haecksen_ball/models/item/schlaeger.json"
+        ]
+      }
     },
     {
       "name": "FlugballWennEntitatVerletztIst",
@@ -244,6 +295,9 @@
       "locked_code": false,
       "registry_name": "flugball_wenn_entitat_verletzt_ist",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/FlugballWennEntitatVerletztIstProcedure.java"
+        ],
         "dependencies": []
       }
     },
@@ -255,6 +309,9 @@
       "locked_code": false,
       "registry_name": "schlaeger_wenn_lebewesen_mit_gegenstand_getroffen_wird",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/SchlaegerWennLebewesenMitGegenstandGetroffenWirdProcedure.java"
+        ],
         "dependencies": []
       }
     }
@@ -300,9 +357,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.2",
+    "currentGenerator": "forge-1.20.1",
     "modElementsPackage": "net.mcreator.haecksenball",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202300336712
 }
