@@ -1,0 +1,365 @@
+{
+  "mod_elements": [
+    {
+      "name": "Flugball",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flugball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/entity/FlugballEntity.java",
+          "src/main/java/net/mcreator/haecksenball/client/renderer/FlugballRenderer.java",
+          "src/main/resources/assets/haecksen_ball/models/item/flugball_spawn_egg.json",
+          "src/main/resources/data/haecksen_ball/forge/biome_modifier/flugball_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "TorBlockOrange",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tor_block_orange",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/haecksen_ball/models/block/tor_block_orange.json",
+          "src/main/resources/assets/haecksen_ball/models/item/tor_block_orange.json",
+          "src/main/java/net/mcreator/haecksenball/block/TorBlockOrangeBlock.java",
+          "src/main/resources/assets/haecksen_ball/blockstates/tor_block_orange.json"
+        ]
+      }
+    },
+    {
+      "name": "TorBlockOrangeWennBlockHinzugefugt",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tor_block_orange_wenn_block_hinzugefugt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockOrangeWennBlockHinzugefugtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TorBlockBlue",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tor_block_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/haecksen_ball/models/block/tor_block_blue.json",
+          "src/main/resources/assets/haecksen_ball/models/item/tor_block_blue.json",
+          "src/main/java/net/mcreator/haecksenball/block/TorBlockBlueBlock.java",
+          "src/main/resources/assets/haecksen_ball/blockstates/tor_block_blue.json"
+        ]
+      }
+    },
+    {
+      "name": "TorBlockBlueWennBlockHinzugefugt",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tor_block_blue_wenn_block_hinzugefugt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockBlueWennBlockHinzugefugtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TorBlockBlueWennEntitatImBlockZusammenstosst",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tor_block_blue_wenn_entitat_im_block_zusammenstosst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockBlueWennEntitatImBlockZusammenstosstProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TorBlockBlueWennBlockRechtsGeklicktWird",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tor_block_blue_wenn_block_rechts_geklickt_wird",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockBlueWennBlockRechtsGeklicktWirdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TorBlockOrangeWennEntitatImBlockZusammenstosst",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tor_block_orange_wenn_entitat_im_block_zusammenstosst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockOrangeWennEntitatImBlockZusammenstosstProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TorBlockOrangeWennBlockRechtsGeklicktWird",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tor_block_orange_wenn_block_rechts_geklickt_wird",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockOrangeWennBlockRechtsGeklicktWirdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SchlaegerBeimTickDesGegenstandesInDerHand",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schlaeger_beim_tick_des_gegenstandes_in_der_hand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/SchlaegerBeimTickDesGegenstandesInDerHandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Schlaeger",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schlaeger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/item/SchlaegerItem.java",
+          "src/main/resources/assets/haecksen_ball/models/item/schlaeger.json"
+        ]
+      }
+    },
+    {
+      "name": "FlugballWennEntitatVerletztIst",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flugball_wenn_entitat_verletzt_ist",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/FlugballWennEntitatVerletztIstProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SchlaegerWennLebewesenMitGegenstandGetroffenWird",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schlaeger_wenn_lebewesen_mit_gegenstand_getroffen_wird",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haecksenball/procedures/SchlaegerWennLebewesenMitGegenstandGetroffenWirdProcedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "punktzahl_blau",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "punktzahl_orange",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.haecksen_ball.tor_block_blue": "Tor Blue Blau",
+      "block.haecksen_ball.tor_block_orange": "Tor Block Orange",
+      "item.haecksen_ball.flugball_spawn_egg": "Flugball Spawn Egg",
+      "entity.haecksen_ball.flugball": "Flugball",
+      "item.haecksen_ball.schlaeger": "Schlaeger"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "haecksen_ball",
+    "modName": "haecksen ball",
+    "version": "1.0.0",
+    "author": "matze, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.haecksenball",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
