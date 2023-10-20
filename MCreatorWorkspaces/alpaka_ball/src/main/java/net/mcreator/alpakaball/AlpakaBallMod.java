@@ -11,7 +11,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.haecksenball;
+package net.mcreator.alpakaball;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -29,10 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.haecksenball.init.HaecksenBallModTabs;
-import net.mcreator.haecksenball.init.HaecksenBallModItems;
-import net.mcreator.haecksenball.init.HaecksenBallModEntities;
-import net.mcreator.haecksenball.init.HaecksenBallModBlocks;
+import net.mcreator.alpakaball.init.AlpakaBallModTabs;
+import net.mcreator.alpakaball.init.AlpakaBallModItems;
+import net.mcreator.alpakaball.init.AlpakaBallModEntities;
+import net.mcreator.alpakaball.init.AlpakaBallModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,20 +44,20 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 @Mod("alpaka_ball")
-public class HaecksenBallMod {
-	public static final Logger LOGGER = LogManager.getLogger(HaecksenBallMod.class);
+public class AlpakaBallMod {
+	public static final Logger LOGGER = LogManager.getLogger(AlpakaBallMod.class);
 	public static final String MODID = "alpaka_ball";
 
-	public HaecksenBallMod() {
+	public AlpakaBallMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		HaecksenBallModBlocks.REGISTRY.register(bus);
+		AlpakaBallModBlocks.REGISTRY.register(bus);
 
-		HaecksenBallModItems.REGISTRY.register(bus);
-		HaecksenBallModEntities.REGISTRY.register(bus);
+		AlpakaBallModItems.REGISTRY.register(bus);
+		AlpakaBallModEntities.REGISTRY.register(bus);
 
-		HaecksenBallModTabs.REGISTRY.register(bus);
+		AlpakaBallModTabs.REGISTRY.register(bus);
 
 	}
 

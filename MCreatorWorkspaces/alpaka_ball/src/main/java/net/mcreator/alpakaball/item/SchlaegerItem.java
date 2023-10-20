@@ -1,5 +1,5 @@
 
-package net.mcreator.haecksenball.item;
+package net.mcreator.alpakaball.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Rarity;
@@ -8,8 +8,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.haecksenball.procedures.SchlaegerWennLebewesenMitGegenstandGetroffenWirdProcedure;
-import net.mcreator.haecksenball.procedures.SchlaegerBeimTickDesGegenstandesInDerHandProcedure;
+import net.mcreator.alpakaball.procedures.SchlaegerWennLebewesenMitGegenstandGetroffenWirdProcedure;
+import net.mcreator.alpakaball.procedures.SchlaegerBeimTickDesGegenstandesInDerHandProcedure;
 
 public class SchlaegerItem extends Item {
 	public SchlaegerItem() {

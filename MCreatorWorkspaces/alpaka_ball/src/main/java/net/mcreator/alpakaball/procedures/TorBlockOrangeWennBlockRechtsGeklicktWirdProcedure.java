@@ -1,4 +1,4 @@
-package net.mcreator.haecksenball.procedures;
+package net.mcreator.alpakaball.procedures;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
@@ -9,7 +9,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
-import net.mcreator.haecksenball.network.HaecksenBallModVariables;
+import net.mcreator.alpakaball.network.AlpakaBallModVariables;
 
 public class TorBlockOrangeWennBlockRechtsGeklicktWirdProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -20,8 +20,8 @@ public class TorBlockOrangeWennBlockRechtsGeklicktWirdProcedure {
 					"/bossbar set orange value 0");
 		if (!world.isClientSide() && world.getServer() != null)
 			world.getServer().getPlayerList()
-					.broadcastSystemMessage(Component.literal((entity.getDisplayName().getString() + "" + (" hat " + (Math.round(HaecksenBallModVariables.MapVariables.get(world).punktzahl_orange) + " von Orange zur\u00FCckgesetzt!")))), false);
-		HaecksenBallModVariables.MapVariables.get(world).punktzahl_orange = 0;
-		HaecksenBallModVariables.MapVariables.get(world).syncData(world);
+					.broadcastSystemMessage(Component.literal((entity.getDisplayName().getString() + "" + (" hat " + (Math.round(AlpakaBallModVariables.MapVariables.get(world).punktzahl_orange) + " von Orange zur\u00FCckgesetzt!")))), false);
+		AlpakaBallModVariables.MapVariables.get(world).punktzahl_orange = 0;
+		AlpakaBallModVariables.MapVariables.get(world).syncData(world);
 	}
 }

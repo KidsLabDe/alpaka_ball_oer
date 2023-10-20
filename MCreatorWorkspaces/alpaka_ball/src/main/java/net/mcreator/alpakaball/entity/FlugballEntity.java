@@ -1,5 +1,5 @@
 
-package net.mcreator.haecksenball.entity;
+package net.mcreator.alpakaball.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
@@ -27,12 +27,12 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.haecksenball.procedures.FlugballWennEntitatVerletztIstProcedure;
-import net.mcreator.haecksenball.init.HaecksenBallModEntities;
+import net.mcreator.alpakaball.procedures.FlugballWennEntitatVerletztIstProcedure;
+import net.mcreator.alpakaball.init.AlpakaBallModEntities;
 
 public class FlugballEntity extends PathfinderMob {
 	public FlugballEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(HaecksenBallModEntities.FLUGBALL.get(), world);
+		this(AlpakaBallModEntities.FLUGBALL.get(), world);
 	}
 
 	public FlugballEntity(EntityType<FlugballEntity> type, Level world) {
@@ -102,7 +102,7 @@ public class FlugballEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(HaecksenBallModEntities.FLUGBALL.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(AlpakaBallModEntities.FLUGBALL.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}
 

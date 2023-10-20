@@ -9,8 +9,8 @@
       "registry_name": "flugball",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/entity/FlugballEntity.java",
-          "src/main/java/net/mcreator/haecksenball/client/renderer/FlugballRenderer.java",
+          "src/main/java/net/mcreator/alpakaball/entity/FlugballEntity.java",
+          "src/main/java/net/mcreator/alpakaball/client/renderer/FlugballRenderer.java",
           "src/main/resources/assets/alpaka_ball/models/item/flugball_spawn_egg.json",
           "src/main/resources/data/alpaka_ball/forge/biome_modifier/flugball_biome_modifier.json"
         ]
@@ -27,7 +27,7 @@
         "files": [
           "src/main/resources/assets/alpaka_ball/models/block/tor_block_orange.json",
           "src/main/resources/assets/alpaka_ball/models/item/tor_block_orange.json",
-          "src/main/java/net/mcreator/haecksenball/block/TorBlockOrangeBlock.java",
+          "src/main/java/net/mcreator/alpakaball/block/TorBlockOrangeBlock.java",
           "src/main/resources/assets/alpaka_ball/blockstates/tor_block_orange.json"
         ]
       }
@@ -41,7 +41,7 @@
       "registry_name": "tor_block_orange_wenn_block_hinzugefugt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockOrangeWennBlockHinzugefugtProcedure.java"
+          "src/main/java/net/mcreator/alpakaball/procedures/TorBlockOrangeWennBlockHinzugefugtProcedure.java"
         ],
         "dependencies": [
           {
@@ -74,7 +74,7 @@
         "files": [
           "src/main/resources/assets/alpaka_ball/models/block/tor_block_blue.json",
           "src/main/resources/assets/alpaka_ball/models/item/tor_block_blue.json",
-          "src/main/java/net/mcreator/haecksenball/block/TorBlockBlueBlock.java",
+          "src/main/java/net/mcreator/alpakaball/block/TorBlockBlueBlock.java",
           "src/main/resources/assets/alpaka_ball/blockstates/tor_block_blue.json"
         ]
       }
@@ -88,7 +88,7 @@
       "registry_name": "tor_block_blue_wenn_block_hinzugefugt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockBlueWennBlockHinzugefugtProcedure.java"
+          "src/main/java/net/mcreator/alpakaball/procedures/TorBlockBlueWennBlockHinzugefugtProcedure.java"
         ],
         "dependencies": [
           {
@@ -119,7 +119,7 @@
       "registry_name": "tor_block_blue_wenn_entitat_im_block_zusammenstosst",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockBlueWennEntitatImBlockZusammenstosstProcedure.java"
+          "src/main/java/net/mcreator/alpakaball/procedures/TorBlockBlueWennEntitatImBlockZusammenstosstProcedure.java"
         ],
         "dependencies": [
           {
@@ -154,7 +154,7 @@
       "registry_name": "tor_block_blue_wenn_block_rechts_geklickt_wird",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockBlueWennBlockRechtsGeklicktWirdProcedure.java"
+          "src/main/java/net/mcreator/alpakaball/procedures/TorBlockBlueWennBlockRechtsGeklicktWirdProcedure.java"
         ],
         "dependencies": [
           {
@@ -189,7 +189,7 @@
       "registry_name": "tor_block_orange_wenn_entitat_im_block_zusammenstosst",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockOrangeWennEntitatImBlockZusammenstosstProcedure.java"
+          "src/main/java/net/mcreator/alpakaball/procedures/TorBlockOrangeWennEntitatImBlockZusammenstosstProcedure.java"
         ],
         "dependencies": [
           {
@@ -224,7 +224,7 @@
       "registry_name": "tor_block_orange_wenn_block_rechts_geklickt_wird",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/procedures/TorBlockOrangeWennBlockRechtsGeklicktWirdProcedure.java"
+          "src/main/java/net/mcreator/alpakaball/procedures/TorBlockOrangeWennBlockRechtsGeklicktWirdProcedure.java"
         ],
         "dependencies": [
           {
@@ -259,7 +259,7 @@
       "registry_name": "schlaeger_beim_tick_des_gegenstandes_in_der_hand",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/procedures/SchlaegerBeimTickDesGegenstandesInDerHandProcedure.java"
+          "src/main/java/net/mcreator/alpakaball/procedures/SchlaegerBeimTickDesGegenstandesInDerHandProcedure.java"
         ],
         "dependencies": [
           {
@@ -282,7 +282,7 @@
       "registry_name": "schlaeger",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/item/SchlaegerItem.java",
+          "src/main/java/net/mcreator/alpakaball/item/SchlaegerItem.java",
           "src/main/resources/assets/alpaka_ball/models/item/schlaeger.json"
         ]
       }
@@ -296,7 +296,7 @@
       "registry_name": "flugball_wenn_entitat_verletzt_ist",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/procedures/FlugballWennEntitatVerletztIstProcedure.java"
+          "src/main/java/net/mcreator/alpakaball/procedures/FlugballWennEntitatVerletztIstProcedure.java"
         ],
         "dependencies": []
       }
@@ -310,7 +310,7 @@
       "registry_name": "schlaeger_wenn_lebewesen_mit_gegenstand_getroffen_wird",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haecksenball/procedures/SchlaegerWennLebewesenMitGegenstandGetroffenWirdProcedure.java"
+          "src/main/java/net/mcreator/alpakaball/procedures/SchlaegerWennLebewesenMitGegenstandGetroffenWirdProcedure.java"
         ],
         "dependencies": []
       }
@@ -346,7 +346,7 @@
   },
   "workspaceSettings": {
     "modid": "alpaka_ball",
-    "modName": "haecksen ball",
+    "modName": "alpaka ball",
     "version": "1.0.0",
     "author": "matze, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -358,7 +358,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "modElementsPackage": "net.mcreator.haecksenball",
+    "modElementsPackage": "net.mcreator.alpakaball",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202300336712

@@ -1,4 +1,4 @@
-package net.mcreator.haecksenball.procedures;
+package net.mcreator.alpakaball.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.enchantment.Enchantments;

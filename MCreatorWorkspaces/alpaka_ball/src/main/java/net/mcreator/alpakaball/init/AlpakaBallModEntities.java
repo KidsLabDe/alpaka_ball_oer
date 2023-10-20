@@ -2,7 +2,7 @@
 /*
  *    MCreator note: This file will be REGENERATED on each build.
  */
-package net.mcreator.haecksenball.init;
+package net.mcreator.alpakaball.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,12 +16,12 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.haecksenball.entity.FlugballEntity;
-import net.mcreator.haecksenball.HaecksenBallMod;
+import net.mcreator.alpakaball.entity.FlugballEntity;
+import net.mcreator.alpakaball.AlpakaBallMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class HaecksenBallModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, HaecksenBallMod.MODID);
+public class AlpakaBallModEntities {
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, AlpakaBallMod.MODID);
 	public static final RegistryObject<EntityType<FlugballEntity>> FLUGBALL = register("flugball",
 			EntityType.Builder.<FlugballEntity>of(FlugballEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FlugballEntity::new)
 

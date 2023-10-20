@@ -1,5 +1,5 @@
 
-package net.mcreator.haecksenball.block;
+package net.mcreator.alpakaball.block;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -21,9 +21,9 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.haecksenball.procedures.TorBlockBlueWennEntitatImBlockZusammenstosstProcedure;
-import net.mcreator.haecksenball.procedures.TorBlockBlueWennBlockRechtsGeklicktWirdProcedure;
-import net.mcreator.haecksenball.procedures.TorBlockBlueWennBlockHinzugefugtProcedure;
+import net.mcreator.alpakaball.procedures.TorBlockBlueWennEntitatImBlockZusammenstosstProcedure;
+import net.mcreator.alpakaball.procedures.TorBlockBlueWennBlockRechtsGeklicktWirdProcedure;
+import net.mcreator.alpakaball.procedures.TorBlockBlueWennBlockHinzugefugtProcedure;
 
 import java.util.List;
 import java.util.Collections;

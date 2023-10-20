@@ -307,7 +307,7 @@
   },
   "workspaceSettings": {
     "modid": "alpaka_ball",
-    "modName": "haecksen ball",
+    "modName": "alpaka ball",
     "version": "1.0.0",
     "author": "matze, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -319,7 +319,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
-    "modElementsPackage": "net.mcreator.haecksenball",
+    "modElementsPackage": "net.mcreator.alpakaball",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200348217
