@@ -66,5 +66,5 @@ Du findest diese Anleitung - zusammen mit allen Texturen und sonstigen Inhalten 
 
 ## Source-Code und weitere Dateien
 
-Alle Quell-Dateien und auch die fertige Mod aus diesem OER findest du auf GitHub: https://github.com/KidsLabDe/haecksen_ball_oer
+Alle Quell-Dateien und auch die fertige Mod aus diesem OER findest du auf GitHub: https://github.com/KidsLabDe/alpaka_ball_oer
 

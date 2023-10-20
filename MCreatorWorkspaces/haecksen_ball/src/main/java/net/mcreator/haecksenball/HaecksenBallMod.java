@@ -43,10 +43,10 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
-@Mod("haecksen_ball")
+@Mod("alpaka_ball")
 public class HaecksenBallMod {
 	public static final Logger LOGGER = LogManager.getLogger(HaecksenBallMod.class);
-	public static final String MODID = "haecksen_ball";
+	public static final String MODID = "alpaka_ball";
 
 	public HaecksenBallMod() {
 		MinecraftForge.EVENT_BUS.register(this);

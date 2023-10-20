@@ -1,5 +1,5 @@
 {
-  "parent": "haecksen_ball:block/tor_block_orange",
+  "parent": "alpaka_ball:block/tor_block_orange",
   "display": {
     "thirdperson": {
       "rotation": [

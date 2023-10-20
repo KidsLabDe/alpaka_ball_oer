@@ -4,7 +4,7 @@
     "type": "forge:any"
   },
   "spawners": {
-    "type": "haecksen_ball:flugball",
+    "type": "alpaka_ball:flugball",
     "weight": 20,
     "minCount": 4,
     "maxCount": 4

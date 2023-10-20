@@ -16,6 +16,6 @@ public class FlugballRenderer extends MobRenderer<FlugballEntity, GhastModel<Flu
 
 	@Override
 	public ResourceLocation getTextureLocation(FlugballEntity entity) {
-		return new ResourceLocation("haecksen_ball:textures/entities/flugball-texture.png");
+		return new ResourceLocation("alpaka_ball:textures/entities/flugball-texture.png");
 	}
 }

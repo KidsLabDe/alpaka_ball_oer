@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "haecksen_ball:block/tor_block_orange"
+      "model": "alpaka_ball:block/tor_block_orange"
     }
   }
 }

@@ -52,7 +52,7 @@ public class HaecksenBallModVariables {
 	}
 
 	public static class WorldVariables extends SavedData {
-		public static final String DATA_NAME = "haecksen_ball_worldvars";
+		public static final String DATA_NAME = "alpaka_ball_worldvars";
 
 		public static WorldVariables load(CompoundTag tag) {
 			WorldVariables data = new WorldVariables();
@@ -86,7 +86,7 @@ public class HaecksenBallModVariables {
 	}
 
 	public static class MapVariables extends SavedData {
-		public static final String DATA_NAME = "haecksen_ball_mapvars";
+		public static final String DATA_NAME = "alpaka_ball_mapvars";
 		public double punktzahl_blau = 0;
 		public double punktzahl_orange = 0;
 

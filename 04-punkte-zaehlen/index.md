@@ -85,7 +85,7 @@ Die Prozedur für den Zusammenstoß mit einer Entity ist länger und sieht so au
 5. Wir führen den Minecraft Befehl für die Bossbar aus - den kennst du ja schon aus Level 3.
 6. Dazu kombinieren wir den text `/bossbar set blue value ` **(!Achtung! Leerzeichen am Ende wichtig, damit es funktioniert)** mit der `punktzahl_blau` und runden diese, weil es sich sonst um eine Kommazahl handelt. (zwar immer ,0 aber Minecraft kennt hier keine Kommazahl)
 7. Wir geben dem/der Spieler*in, der/die am nächsten steht (`@p`) ein neues Spawn-Ei  
-    `/give @p haecksen_ball:flugball_spawn_egg`
+    `/give @p alpaka_ball:flugball_spawn_egg`
 8. Wenn ein Tor fällt, muss man das natürlich auch hören: Mit diesem Befehl können wir einen Ton abspielen lassen, wenn ein Tor geschossen wurde. Hier z.B. der gleiche Ton, wenn man XP aufsammelt: *entity.experience_orb.pickup*
 9. Am Schluss wollen wir den Ball "los werden" - er soll verschwinden und mit einem neuen Ball geht es weiter.  
     - dazu am besten den Befehl `Zerstöre` verwenden

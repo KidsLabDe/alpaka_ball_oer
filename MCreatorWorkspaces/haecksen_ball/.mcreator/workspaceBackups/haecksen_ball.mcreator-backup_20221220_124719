@@ -285,11 +285,11 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.haecksen_ball.tor_block_blue": "Tor Blue Blau",
-      "block.haecksen_ball.tor_block_orange": "Tor Block Orange",
-      "item.haecksen_ball.flugball_spawn_egg": "Flugball Spawn Egg",
-      "entity.haecksen_ball.flugball": "Flugball",
-      "item.haecksen_ball.schlaeger": "Schlaeger"
+      "block.alpaka_ball.tor_block_blue": "Tor Blue Blau",
+      "block.alpaka_ball.tor_block_orange": "Tor Block Orange",
+      "item.alpaka_ball.flugball_spawn_egg": "Flugball Spawn Egg",
+      "entity.alpaka_ball.flugball": "Flugball",
+      "item.alpaka_ball.schlaeger": "Schlaeger"
     }
   },
   "foldersRoot": {
@@ -297,7 +297,7 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "haecksen_ball",
+    "modid": "alpaka_ball",
     "modName": "haecksen ball",
     "version": "1.0.0",
     "author": "matze, MCreator",

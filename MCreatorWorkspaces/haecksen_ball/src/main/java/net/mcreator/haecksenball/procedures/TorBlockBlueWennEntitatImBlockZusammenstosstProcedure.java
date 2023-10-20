@@ -30,7 +30,7 @@ public class TorBlockBlueWennEntitatImBlockZusammenstosstProcedure {
 						("/bossbar set blue value " + Math.round(HaecksenBallModVariables.MapVariables.get(world).punktzahl_blau)));
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-						"/give @p haecksen_ball:flugball_spawn_egg");
+						"/give @p alpaka_ball:flugball_spawn_egg");
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.experience_orb.pickup")), SoundSource.BLOCKS, 1, 1);
