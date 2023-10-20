@@ -1,7 +1,7 @@
 {
-  "block.alpaka_ball.tor_block_blue": "Tor Blue Blau",
-  "block.alpaka_ball.tor_block_orange": "Tor Block Orange",
+  "item.alpaka_ball.schlaeger": "Schlaeger",
   "item.alpaka_ball.flugball_spawn_egg": "Flugball Spawn Egg",
   "entity.alpaka_ball.flugball": "Flugball",
-  "item.alpaka_ball.schlaeger": "Schlaeger"
+  "block.alpaka_ball.tor_block_blue": "Tor Blue Blau",
+  "block.alpaka_ball.tor_block_orange": "Tor Block Orange"
 }
