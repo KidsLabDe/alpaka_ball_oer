@@ -10,7 +10,7 @@ Weight: 5
 # Einführung in MCreator & unser Projekt
 
 
-## Unser Spiel: Haecksen-Ball
+## Unser Spiel: Alpaka-Ball
 
 Aber was machen wir hier eigentlich? Mit Mods lässt sich Minecraft individuell erweitern, denn Minecraft lebt vom Prinzip "Spiel im Spiel" - also, dass man eigene Spiele in Minecraft spielt, die nichts mit dem ursprünglichen Prinzip zu tun haben. Gute Beispiele sind Bedwars oder Builder-Challenge.
 

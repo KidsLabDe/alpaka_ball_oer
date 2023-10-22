@@ -1,10 +1,10 @@
 ---
-Title: "Level 5: Die Haecksenball-Schläger"
+Title: "Level 5: Die Alpaka-Ball-Schläger"
 Draft: false
 Weight: 60
 ---
 
-# Level 5: Die Haecksenball-Schläger
+# Level 5: Die Alpaka-Ball-Schläger
 
 Stell dir vor, du spielst Eishockey, Golf oder Tennis - ohne Schläger. Hört sich komisch an, oder? Also brauchen wir noch den passenden Schläger: Da macht das Spiel noch mehr Spaß! 
 

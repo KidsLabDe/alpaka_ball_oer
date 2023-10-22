@@ -21,7 +21,7 @@ Los gehts!
 ## Beispiel - so sieht unsere Arena aus
 
 
-![Beispiel Haecksenball-Arena](ingame-arena.png)
+![Beispiel Alpaka-Ball-Arena](ingame-arena.png)
 
 {{% notice note "Tipp: Schneller bauen"%}}
 

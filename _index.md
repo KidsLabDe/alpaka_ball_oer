@@ -1,11 +1,11 @@
 ---
-title: "MCreator: Erstelle deine eigene Mod HaecksenBall!"
+title: "MCreator: Erstelle deine eigene Mod Alpaka-Ball!"
 titlepage: true
 toc: true
 toc-title: "Übersicht"
 toc-own-page: true
 author: KidsLab.de gGmbH - MatzE, KingBBQ
-date: "2022-12-22"
+date: "2023-10-22"
 subject: "Markdown"
 keywords: [Markdown, Example]
 lang: "de"
@@ -28,7 +28,7 @@ pandoc-latex-environment:
 
 
 
-# Eigene Minecraft-Mod erstellen: Haecksen-Ball!
+# Eigene Minecraft-Mod erstellen: Alpaka-Ball!
 
 Minecraft ist ist nicht nur ein außergewöhnlich kreatives Computerspiel – es ist auch eines der erfolgreichsten Computerspiele der Welt und bei Groß und Klein gleichermaßen beliebt. Diese Begeisterung kann man nutzen, um Neues zu lernen: Erstelle deine eigene Mod also eine Erweiterung für Minecraft - und damit dein "Spiel im Spiel": Alpakaball!
 
