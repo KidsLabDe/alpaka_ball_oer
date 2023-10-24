@@ -11,7 +11,7 @@ So, wir haben Tore, einen Ball - aber aktuell werden die Tore noch nicht gezähl
 
 {{% notice note "Variablen - eine kurze Einführung" %}}
 
-Was ist genau eine Variable? Variabel hört sich an wie „variabel“, also veränderbar. Am besten kannst du dir eine Variable wie einen dieser Klebezettel vorstellen. Die sind super, um sich Sachen zu merken!
+Was ist genau eine Variable? Variable hört sich an wie „variabel“, also veränderbar. Am besten kannst du dir eine Variable wie einen dieser Klebezettel vorstellen. Die sind super, um sich Sachen zu merken!
 
 **Hintergrund: Variablen-Typen**
 
@@ -46,15 +46,15 @@ Dazu erstellen wir eine Variable für jedes Team:
 
 ## Tore erkennen
 
-Jetzt müssen wir nur noch erkennen, wenn ein Tor geschossen wurde. Genau - da gabs ja was - die "Auslöser". Wir suchen also einen Auslöser, der erkennt, wenn ein Tor geschossen wurde.
+Jetzt müssen wir nur noch erkennen, wenn ein Tor geschossen wurde. Genau - da gab's ja was - die "Auslöser". Wir suchen also einen Auslöser, der erkennt, wenn ein Tor geschossen wurde.
 
 ![Auslöser: So erkennt das Tor, was gerade passiert](torblock-ausloeser.png)  
 
 Wir fügen 2 Auslöser hinzu:
 
-- einen *Wenn Block rechts geklickt wird*  
+- einen *Wenn Block rechts geklickt wird*,  
   um Punkte zurück zu setzen.
-- einen *Wenn Entität im Block zusammenstößt*  
+- einen *Wenn Entität im Block zusammenstößt*,  
   um Punkte hoch zu zählen und Ball zu entfernen
 
 ### Prozedur 1: Punkte zurücksetzen 
@@ -64,11 +64,11 @@ Wir fügen 2 Auslöser hinzu:
 In diesem Fall möchten wir, dass die Punkte des Teams auf "0" gesetzt werden und dass die Bossbar auch zurückgesetzt wird. Dafür verwenden wir folgende Befehle:
 
 1. Setzt die globale Variable zum Punkte Zählen auf 0 zurück
-2. führt `/bossbar set blue value 0` in Minecraft aus um die Bossbar wieder auf 0 zu setzen.
+2. Führt `/bossbar set blue value 0` in Minecraft aus, um die Bossbar wieder auf 0 zu setzen.
 
 ### Prozedur 2: Tore zählen  
 
-Um die Tore zu zählen, haben wir einen Auslöser erstellt der immer startet, wenn er vom Ball berührt wird.
+Um die Tore zu zählen, haben wir einen Auslöser erstellt, der immer startet, wenn er vom Ball berührt wird.
 
 Die Prozedur für den Zusammenstoß mit einer Entity ist länger und sieht so aus:
 
@@ -76,12 +76,12 @@ Die Prozedur für den Zusammenstoß mit einer Entity ist länger und sieht so au
 
 1. Tore sollen nur bei Ball-Kontakt gezählt werden: Als erstes prüft das Programm, ob es sich bei der Entität um einen Ball handelt
 2. Dazu "holen" wir uns den Anzeige-Namen der "Berührenden Entity" mit `Erhalte den Anzeige-Namen von Event/target entity` und prüfen ob der gleich dem String `Flugball` ist. (Muss übereinstimmen, wie der Objektname bei [Bild und Ton von *Ball erstellen*](../02-ball-erstellen/ball-erstellen.md))
-3. Diese beiden Zeilen, die vom Hauptcodeblock abgelösten sind, werden nicht ausgeführt. Sie sind nur ein Hinweis darauf, was wir probiert haben: Bei der (3) wollten wir auf diese beiden Wege testen ob es sich um einen Ball handelt. Das hat leider nicht geklappt.
+3. Diese beiden Zeilen, die vom Hauptcodeblock abgelöst sind, werden nicht ausgeführt. Sie sind nur ein Hinweis darauf, was wir probiert haben: Bei der (3) wollten wir auf diese beiden Wege testen ob es sich um einen Ball handelt. Das hat leider nicht geklappt.
 4. Erhöhe die Punktzahl von Blau: 
     - dazu holt es sich die aktuelle `punktzahl_blau` 
     - und fügt mit *+* 
     - die Zahl *1* hinzu 
-    - und Speichert das Ergebnis mit `Setze Global: punktzahl` zu wieder in der Punktezahl für blau ab.
+    - und speichert das Ergebnis mit `Setze Global: punktzahl` zu wieder in der Punktezahl für blau ab.
 5. Wir führen den Minecraft Befehl für die Bossbar aus - den kennst du ja schon aus Level 3.
 6. Dazu kombinieren wir den text `/bossbar set blue value ` **(!Achtung! Leerzeichen am Ende wichtig, damit es funktioniert)** mit der `punktzahl_blau` und runden diese, weil es sich sonst um eine Kommazahl handelt. (zwar immer ,0 aber Minecraft kennt hier keine Kommazahl)
 7. Wir geben dem/der Spieler*in, der/die am nächsten steht (`@p`) ein neues Spawn-Ei  

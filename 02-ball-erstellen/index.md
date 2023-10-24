@@ -9,11 +9,11 @@ Weight: 20
 # Level 1: Der Ball für unser Spiel 
 
 Als erstes brauchen wir einen passenden Ball, er ist das Zentrum unseres Spiels.
-Es gibt in Minecraft ja viel verschiedene "Sachen" - Blöcke, Pflanzen, Mobs. Für den Ball haben wir uns für ein **Lebewesen** als Ball entschieden. Warum, effahrt ihr gleich mehr... 
+Es gibt in Minecraft ja viel verschiedene "Sachen" - Blöcke, Pflanzen, Mobs. Wir haben uns für ein **Lebewesen** als Ball entschieden. Warum, erfahrt ihr gleich... 
 
 ![Starte die IDE und erstelle neues Objekt](ide-start.png)
 
-Du kannst neue Objekte über das "+" Plus Zeichen hinzufügen. Wähle dann "Lebewesen" aus:
+Du kannst neue Objekte über das "+" Plus-Zeichen hinzufügen. Wähle dann "Lebewesen" aus:
 
 ![Wähle "Lebewesen"](lebewesen-erstellen-0.png)
 
@@ -24,7 +24,7 @@ Natürlich musst du einen Namen vergeben:
 
 ![Name des Lebewesens: "Flugball"](lebewesen-erstellen-1.png)
 
-Jetzt öffnen sich das Fenster, in dem du alle Eigenschaften des neue erstellten Lebewesens festlegen kannst. 
+Jetzt öffnet sich das Fenster, in dem du alle Eigenschaften des neu erstellten Lebewesens festlegen kannst. 
 Bei der Bearbeitung von einem Objekt gibt es verschiedene Kategorien (in der unteren Leiste auswählbar).
 
 Bei *Bild und Ton* ist folgendes wichtig für unseren Ball:
@@ -33,14 +33,14 @@ Bei *Bild und Ton* ist folgendes wichtig für unseren Ball:
 
 
 1. Name wird übernommen aus vorigem Dialog
-2. Die Textur bestimmt das Aussehen Deines Balls - du fügst die Textur mit dem **+ Plus** hinzu. du kannst selbst eine Textur erstellen oder diese als Beispiel benutzen: [Textur herunterladen](https://raw.githubusercontent.com/KidsLabDe/alpaka_ball_oer/main/02-ball-erstellen/flugball-texture.png) ![ball textur](flugball-texture.png)  
+2. Die Textur bestimmt das Aussehen deines Balls - du fügst die Textur mit dem **+ Plus** hinzu. Du kannst selbst eine Textur erstellen oder diese als Beispiel benutzen: [Textur herunterladen](https://raw.githubusercontent.com/KidsLabDe/alpaka_ball_oer/main/02-ball-erstellen/flugball-texture.png) ![ball textur](flugball-texture.png)  
 3. Erst danach kannst du die Textur im Dropdown auswählen
 4. Wir lassen uns auch ein Spawn-Ei generieren
-5. Für das Ei können wir bei den 3 Punkten neben dem Farbfeld die Farben auswählen die das Ei haben soll.
-6. Zu jedem Attribut, das man hier auswählen kann gibt es bei dem fragezeichen einen Hilfetext
+5. Für das Ei können wir bei den 3 Punkten neben dem Farbfeld die Farben auswählen, die das Ei haben soll.
+6. Zu jedem Attribut, das man hier auswählen kann, gibt es bei dem Fragezeichen einen Hilfetext
 7. Speichern nicht vergessen!
 
-Nach dem Speichern dauert es eine Weile bis MCreator die Mod daraus erstellt hat. Wenn  das Play-Dreieck oben rechts grün leuchtet kann man mit dem Play-Dreieck Minecraft direkt mit der neuen Mod starten:
+Nach dem Speichern dauert es eine Weile bis MCreator die Mod daraus erstellt hat. Wenn das Play-Dreieck oben rechts grün leuchtet, kann man damit Minecraft direkt mit der neuen Mod starten:
 
 ![Starte Minecraft mit deiner Mod: der Play-Knopf](ide-start-play-dreieck.png)
 
@@ -50,13 +50,13 @@ Da passiert ganz viel im Hintergrund - unter **Konsole** kannst du dir anschauen
 
 Wenn Minecraft gestartet ist, erstelle eine Welt im [Kreativ-Modus](https://minecraft.fandom.com/de/wiki/Kreativmodus) - damit hast du direkt Zugriff auf alle Gegenstände und kannst den Ball am einfachsten testen.
 
-Das erstellte Spawn-Ei versteckt sich im Kreativ Inventar:
+Das erstellte Spawn-Ei versteckt sich im Kreativ-Inventar:
 
 ![Inventar: hier findest du dein erstelltes Lebewesen, bzw. dessen Ei](ingame-wo-ist-das-spawn-ei.png)
 
 1. Wähle den Tab **"Verschiedenes"**
-2. ganz nach unten scrollen
-3. tadaaa! :)
+2. Ganz nach unten scrollen
+3. Tadaaa! :)
 
 {{% notice success "Geschafft: Der Ball fliegt!" %}}
 Tadaaa! So sieht es bis jetzt aus:
@@ -70,7 +70,7 @@ Tadaaa! So sieht es bis jetzt aus:
 
 
 ## Verhalten anpassen
-Jetzt wollen wir aber dem Ball noch beibringen, dass er sich wie ein Ball verhalten soll. Schließe Minecraft und gehe dazu wieder in MCreater. Mit Doppelklick auf ein Element kann dieses wieder bearbeitet werden:
+Jetzt wollen wir dem Ball aber noch beibringen, dass er sich wie ein Ball verhalten soll. Schließe dazu Minecraft und gehe wieder in MCreator. Mit Doppelklick auf ein Element kann dieses wieder bearbeitet werden:
 
 ![Bearbeiten der Eigenschaften: Verhalten ändern](ide-start-element-bearbeiten.png)
 
@@ -79,7 +79,7 @@ Jetzt wollen wir aber dem Ball noch beibringen, dass er sich wie ein Ball verhal
 Um das Verhalten zu verändern, wechselst du unten auf den Verhaltens-Reiter. Jetzt kanst du die Werte ändern:
 
 - **creature** damit der Ball nicht angreift
-- **bewegungsgeschwindigkeit** = 0, damit er nicht von alleine weg fliegt
+- **Bewegungsgeschwindigkeit** = 0, damit er nicht von alleine weg fliegt
 - unser Ball soll nicht sterben wenn man ihn schlägt
     - **Gesundheitswert** = 1024 (höchst möglicher Wert, (2er-Potenz) 
     - **Rüstungsschutz** = 100 (auch höchst möglicher Wert)
@@ -92,7 +92,7 @@ Das hast du schon geschafft:
 
 - der Ball fällt nicht mehr, sondern fliegt
 - der Ball läuft nicht mehr herum
-- Ball stirbt nicht mehr
-- es macht jetzt schon Spaß den Ball mit Schwert und Bogen zu schubsen (die Verzauperungen "Schlag" oder "Rückstoß" helfen dabei ;D)
+- der Ball stirbt nicht mehr
+- es macht jetzt schon Spaß, den Ball mit Schwert und Bogen zu schubsen (die Verzauberungen "Schlag" oder "Rückstoß" helfen dabei ;D)
 
 {{% /notice %}}
