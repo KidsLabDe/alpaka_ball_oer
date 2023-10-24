@@ -1,11 +1,13 @@
 ---
 title: "MCreator: Erstelle deine eigene Mod Alpaka-Ball!"
 titlepage: true
+titlepage-logo: "/Users/kingbbq/src/alpaka_ball_oer/Titelbild.png"
+logo-width: 100mm
 toc: true
 toc-title: "Übersicht"
 toc-own-page: true
 author: KidsLab.de gGmbH - MatzE, KingBBQ
-date: "2023-10-22"
+date: "Erste Version: November 2022, aktuelle Version: Oktober 2023"
 subject: "Markdown"
 keywords: [Markdown, Example]
 lang: "de"
