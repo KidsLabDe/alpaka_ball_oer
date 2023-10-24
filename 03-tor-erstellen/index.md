@@ -49,6 +49,7 @@ Wie könnte man jetzt die erzielten Tore anzeigen? Wir haben uns an die Boss-Bar
 Dafür gibt es diese Befehle: 
 
 <!-- all those empty lines to help pandoc make the correct line breaks (i hope)-->
+
 1. Neue Bossbar erstellen
 
    `/bossbar add orange  {"text":"Team Orange"}`
@@ -70,12 +71,12 @@ Dafür gibt es diese Befehle:
    `/bossbar set orange players @a`
 
 {{% notice task "Probiere es aus!"%}}
-Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ Welt. Öffne mit `T` die Chat Zeile. Gib die Befehle wie oben nacheinander in dieser Zeile ein und bestätige jeden mit Enter. Klappt es? Dann solltest du jetzt eine Boss-Bar sehen! 
+Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ-Welt. Öffne mit `T` die Chat Zeile. Gib die Befehle wie oben nacheinander in dieser Zeile ein und bestätige jeden mit Enter. Klappt es? Dann solltest du jetzt eine Boss-Bar sehen! 
 {{% /notice %}}
 
 ## Wie werden die Tore gezählt? Auslöser!
 Jetzt muss das Tor ja wissen, dass ein Ball rein geflogen kommt. Wie könnte man das am besten anstellen? 
-**Auslöser** bieten  die Möglichkeit auf gewisse Ereignisse in Minecraft zu reagieren und unseren Code auszuführen, z.B. wenn ein Block gesetzt wird. 
+**Auslöser** bieten die Möglichkeit, auf gewisse Ereignisse in Minecraft zu reagieren und unseren Code auszuführen, z.B. wenn ein Block gesetzt wird. 
 Gehe noch mal in die Eigenschaften des Tor-Blocks und wähle unten "Auslöser" aus.
 Jetzt schreibst du deinen ersten Code für die Mod: Wähle im Bereich **Wenn Block hinzugefügt** aus, dass du eine neue Prozedur erstellen willst - wie gewohnt mit dem **+ Plus** Knopf.
 
@@ -88,23 +89,23 @@ Jetzt sollten die 4 Minecraft-Befehle von oben ausgeführt werden, wenn das Tor 
 
 ![Wie können Minecraft-Befehle ausgeführt werden?](prozedur-minecraft-befehl.png)
 
-- Wähle links in den Kategorien *Welt Management* 
+- Wähle links die Kategorie *Welt Management* 
 - Nimm den Programmier-Block ganz oben: `Führe Befehl ... aus ...`
 - Ziehe ihn in die Programmier-Oberfläche und docke ihn unter dem Event-Auslöser an
 - Füge jeweils in den Anführungszeichen die Befehle von oben ein.
 
-So sieht es aus wenn die Befehle von oben alle ausgeführt werden sollen:
+So sieht es aus, wenn die Befehle von oben alle ausgeführt werden sollen:
 
 ![Minecraft Befehle in MCreator für bossbar](code-torblock-setzen.png)
 
 Speichern nicht vergessen. Drücke dazu rechts oben auf **Mod Element speichern**
 
-Gerne mal testen. Falls du es nochmal testen willst kannst du die Bossbar mit 
+Gerne mal testen. Falls du es nochmal testen willst, kannst du die Bossbar mit 
 `/bossbar remove orange`  
 wieder entfernen vor dem neuen Test.
 
 {{% notice success "Mal Nachschauen:"%}}  
-Jetzt sollte es so aussehen nachdem man einen orangenen Torblock gesetzt hat:
+Jetzt sollte es so aussehen, nachdem man einen orangenen Torblock gesetzt hat:
 
 ![Bossbar für Team Orange](ingame-bossbar-orange.png)  
 {{% /notice %}}
@@ -124,19 +125,18 @@ Erstelle jetzt - wie vorher beim ersten Block - einen neuen Auslöser und eine n
 - *Mod-Element duplizieren*
 - Neuer Name *TorBlockBlueWennBlockHinzugefügt*
 
-Und in beiden Elementen musst Dudie IDs und farbrelevanten Eigenschaften anpassen:
+Und in beiden Elementen musst du die IDs und farbrelevanten Eigenschaften anpassen:
 
 ![Tausche die Textur des Blockes aus](block-textur-austauschen.png)
 
 - Tausche die Blocktextur aus
-- In der Kategorie *Eigenschaften* von dem Block solltest du noch den Name von *Tor Block Orange* auf *Tor Block Blau* ändern.
-- Und natürlich den Auslöser auch anpassendamit die Funktion für die blaue Bossbar aufgerufen wird:  
+- In der Kategorie *Eigenschaften* von dem Block solltest du noch den Namen von *Tor Block Orange* auf *Tor Block Blau* ändern.
+- Und natürlich den Auslöser auch anpassen, damit die Funktion für die blaue Bossbar aufgerufen wird:  
 ![Tausche die Farbe aus](code-farbe-austauschen.png)
 
 - Tausche den Code für die Farbe aus  
-  *orange* hier war die ID der Bossbar und *yellow* war die Farbe  
+  *orange* hier war die ID der Bossbar und *yellow* war die Farbe,  
   kann beides zu *blue* geändert werden
-
 
 {{% notice success "Geschafft!"%}}  
 Wow - du hast schon eine Menge geschafft:
