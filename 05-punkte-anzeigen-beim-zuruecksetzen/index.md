@@ -20,7 +20,7 @@ Beim Testen und Spielen, ist uns etwas aufgefallen: Jede\*r kann relativ einfach
 Das gleiche auch noch in dem Code für Orange, damit es für beide Farben passt.
 
 {{% notice warning "Aufgepasst! Platz lassen"%}}  
-Wenn wir mehrere Textbausteine aneinander hängen, müssen wir drauf achten wo die Leerzeichen stehen, sonst wird der Text schwer lesbar
+Wenn wir mehrere Textbausteine aneinander hängen, müssen wir darauf achten, wo die Leerzeichen stehen, sonst wird der Text schwer lesbar,
 z.B. vor und nach *hat* ist jeweils ein Leerzeichen.  
 {{% /notice %}}
 
