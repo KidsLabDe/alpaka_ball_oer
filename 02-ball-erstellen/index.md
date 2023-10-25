@@ -33,7 +33,7 @@ Nach dem Speichern dauert es eine Weile, bis MCreator die Mod daraus erstellt ha
 
 ![Starte Minecraft mit deiner Mod: der Play-Knopf](ide-start-play-dreieck.png)
 
-{{% notice task "Was passiert da im Hintergrund?" %}}
+{{% notice task Was passiert da im Hintergrund? %}}
 Da passiert im Hintergrund eine Menge - unter **Konsole** kannst du dir anschauen, was MCreator alles tun muss, um die Mod zu kompilieren.
 {{% /notice %}}
 
@@ -47,7 +47,7 @@ Das erstellte Spawn-Ei findest du im Kreativ-Inventar:
 2. Scrolle ganz nach unten.
 3. Voilà! :)
 
-{{% notice success "Geschafft: Der Ball fliegt!" %}}
+{{% notice success Geschafft: Der Ball fliegt! %}}
 Voilà! So sieht es bisher aus:
 
 ![Übersicht - was haben wir schon geschafft](ingame-so-siehts-bis-jetzt-aus-0.png)
@@ -69,16 +69,17 @@ Schließe dazu Minecraft und kehre zu MCreator zurück. Du kannst ein Element du
 Um das Verhalten zu ändern, wechsle unten zum Verhaltens-Reiter. Jetzt kannst du die Werte anpassen:
 
 - **creature**: Damit der Ball nicht angreift.
-- **bewegungsgeschwindigkeit**: 0, damit er nicht von alleine wegfliegt.
-- Unser Ball soll nicht mehr sterben, wenn man ihn schlägt:
+- **Bewegungsgeschwindigkeit**: 0, damit er nicht von alleine wegfliegt.
+Unser Ball soll nicht mehr sterben, wenn man ihn schlägt:
     - **Gesundheitswert**: 1024 (höchstmöglicher Wert, 2er-Potenz)
     - **Rüstungsschutz**: 100 (ebenfalls höchstmöglicher Wert)
 
-{{% notice success "Ball fertig - yeah!" %}}  
+{{% notice success Ball fertig - yeah! %}}  
 
 Das hast du bereits erreicht: 
 
 ![Stand Level 1 - Bälle sind geschafft!](ingame-so-siehts-bis-jetzt-aus-1.png)
+
 - Der Ball fällt nicht mehr, sondern fliegt.
 - Der Ball bewegt sich nicht mehr von alleine.
 - Der Ball stirbt nicht mehr.

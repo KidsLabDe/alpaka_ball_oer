@@ -32,7 +32,7 @@ Die einfachste Möglichkeit, Mods zu installieren, ist die Verwendung eines erwe
 4. Klicke auf "**Edit Mods**".
 5. Klicke auf "**Add Mod**" und wähle die zuvor erstellte JAR-Datei aus.
 
-{{% notice note "Mods & Server"%}}
+{{% notice note Mods & Server%}}
 
 Möchtest du gemeinsam auf einem Server spielen? Die einfachste Möglichkeit ist, das Spiel in Minecraft von einem Rechner aus freizugeben:
 

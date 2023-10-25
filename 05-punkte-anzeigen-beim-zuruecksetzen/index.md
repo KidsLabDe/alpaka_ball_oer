@@ -19,10 +19,10 @@ Beim Testen und Spielen ist uns etwas aufgefallen: Jeder kann relativ einfach de
 
 Das Gleiche musst du auch in dem Code für Orange durchführen, damit es für beide Farben passt.
 
-{{% notice warning "Aufgepasst! Platz lassen"%}}
+{{% notice warning Aufgepasst! Platz lassen %}}
 Wenn wir mehrere Textbausteine aneinander hängen, müssen wir darauf achten, wo die Leerzeichen stehen, sonst wird der Text schwer lesbar. Zum Beispiel vor und nach *hat* ist jeweils ein Leerzeichen.
 {{% /notice %}}
 
-{{% notice task "Testen schadet nie ;)"%}}
+{{% notice task Testen schadet nie ;) %}}
 Starte dein Programm und teste alles noch einmal! Funktioniert alles? Für beide Farben?
 {{% /notice %}}

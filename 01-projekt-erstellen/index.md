@@ -25,13 +25,13 @@ Klicke dann auf "Neue Arbeitsumgebung erstellen". Es öffnet sich eine Webseite,
 
 Der Download und der erste Build können je nach Internetverbindung und Computer etwas Zeit in Anspruch nehmen. Dieser Schritt nimmt jedoch viele Aufgaben ab, die wir sonst manuell erledigen müssten. Also, geduldig warten :)
 
-{{% notice warning "Dauert es zu lange?" %}}  
+{{% notice warning Dauert es zu lange? %}}  
 Manchmal sieht es so aus, als ob der Vorgang ewig dauert, obwohl er bereits abgeschlossen ist. Wenn du eine Erfolgsmeldung in der Konsole siehst und nichts mehr passiert, kannst du das Popup-Fenster schließen, und alles sollte bereits installiert sein.
 {{% /notice %}}
 
 ## Übersicht über die Entwicklungsumgebung (IDE)
 
-{{% notice note "IDE... was ist das?"%}}
+{{% notice note IDE... was ist das? %}}
 [IDE](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung) steht für *Integrierte Entwicklungsumgebung* und ist ein Programm, das alle erforderlichen Tools für das Programmieren in einer einzigen Umgebung zusammenführt. Das ist unsere Arbeitsumgebung für dieses Tutorial.
 {{% /notice %}}
 
@@ -59,6 +59,6 @@ Wenn du in Minecraft längere Bauarbeiten durchführst, können einige Einstellu
 `/weather clear` & `/gamerule doWeatherCycle false`
 
 
-{{% notice note "Minecraft Wiki"%}}  
+{{% notice note Minecraft Wiki %}}  
 Es gibt noch viele weitere nützliche `gamerule`s. Hier findest du eine Liste: [Minecraft Wiki Gamerules](https://minecraft.fandom.com/wiki/Game_rule)  
 {{% /notice %}}

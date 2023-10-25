@@ -6,9 +6,7 @@ Weight: 30
 
 # Level 2: Tor! Oder: Da muss der Ball rein
 
-Unser Tor soll aus Blöcken gebaut werden können.
-
-In diesem Level erstellst du also einen eigenen Block, mit dem dann das Tor im Spiel gebaut werden kann.
+Unser Tor soll aus Blöcken gebaut werden können: In diesem Level erstellst du also einen eigenen Block, mit dem dann das Tor im Spiel gebaut werden kann.
 
 ![Erstelle einen neuen Block](block-erstellen-0.png)
 
@@ -18,7 +16,7 @@ Jetzt kannst du die Eigenschaften des Blocks anpassen - das kennst du schon aus 
 
 ![Die optischen Eigenschaften des Blocks](block-eigenschaften-optisch.png)
 
-1. Wähle hier aus, dass auf allen Seiten die gleiche Textur verwendet werden soll, das spart uns Arbeit.
+1. Wähle hier aus, dass auf allen Seiten die gleiche Textur verwendet werden soll, das spart viel Arbeit.
 2. Die Beispieltextur (Schritt 4) ist halbtransparent, deshalb wähle hier aus, dass der Block transparente Teile enthält.
 3. Setze den Transparenztyp auf `Translucent`.
 
@@ -34,7 +32,7 @@ Gib dem Block jetzt glasähnliche Eigenschaften:
 
 Wir haben verschiedene Möglichkeiten getestet und uns entschieden, den Block so zu konfigurieren, dass man durch ihn hindurchlaufen kann.
 
-{{% notice task "Probier es aus!"%}}
+{{% notice task Probier es aus! %}}
 Beim Programmieren ist es immer gut, zwischendurch immer mal wieder zu testen und auszuprobieren. Jetzt ist ein guter Zeitpunkt: Drücke den grünen Play-Knopf (rechts oben) und teste das Ganze!
 {{% /notice %}}
 
@@ -64,7 +62,7 @@ Dafür gibt es diese Befehle:
 
    `/bossbar set orange players @a`
 
-{{% notice task "Probiere es aus!"%}}
+{{% notice task Probiere es aus!%}}
 Öffne Minecraft (am einfachsten wieder über MCreator, grüner Knopf...) und starte eine Kreativ-Welt. Öffne mit `T` die Chat-Zeile. Gib die Befehle wie oben nacheinander in dieser Zeile ein und bestätige jeden mit Enter. Klappt es? Dann solltest du jetzt eine Boss-Bar sehen!
 {{% /notice %}}
 
@@ -93,7 +91,7 @@ Vergiss nicht zu speichern, indem du rechts oben auf **Mod-Element speichern** k
 
 Gerne mal testen. Falls du es nochmal testen möchtest, kannst du die Bossbar mit `/bossbar remove orange` wieder entfernen vor dem neuen Test.
 
-{{% notice success "Mal nachschauen:"%}}
+{{% notice success Mal nachschauen%}}
 Jetzt sollte es so aussehen, nachdem du einen orangenen Torblock gesetzt hast:
 
 ![Bossbar für Team Orange](ingame-bossbar-orange.png)
@@ -125,7 +123,7 @@ Und in beiden Elementen musst du die IDs und farbrelevanten Eigenschaften anpass
 
 - Tausche den Code für die Farbe aus: *orange* war hier die ID der Bossbar und *yellow* war die Farbe. Beides kann zu *blue* geändert werden.
 
-{{% notice success "Geschafft!"%}}
+{{% notice success Geschafft!%}}
 Wow - du hast schon eine Menge geschafft: Bälle gibt's, Tore - und sogar die Tor-Anzeige!
 ![Tor und Ball sind da: das Spiel kann bald beginnen!](ingame-so-siehts-bis-jetzt-aus-2.png)
 {{% /notice %}}

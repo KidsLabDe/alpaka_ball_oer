@@ -17,7 +17,7 @@ Stell dir vor, du spielst Eishockey, Golf oder Tennis - ohne Schläger. Hört si
 
 Der neue Gegenstand braucht natürlich einen Namen - "Schlaeger" zum Beispiel.
 
-{{% notice task "Umlaute und Programmieren" %}}
+{{% notice task Umlaute und Programmieren %}}
 
 Probier mal den Schläger auch so zu nennen mit Ä statt AE. Wenn du den Gegenstand angelegt hast, fällt dir vielleicht auf, dass er dann in MCreator "Schlager" heißt. Schlager? Komisch!
 
@@ -59,7 +59,7 @@ Um den Rückschlag zu erstellen, "verzaubern" wir den Schläger einfach. Der Aus
 2. Dazu verneinen wir die Antwort auf die Frage *Ist Gegebener Gegenstandsstapel verzaubert*. Das bedeutet, mit dem Befehl `nicht` drehen wir das Ergebnis von `ist ... verzaubert` um und erhalten `wahr`, wenn er nicht verzaubert ist.
 3. Füge dann die Verzauberung `KNOCKBACK` (auf Deutsch "Rückstoß") mit dem `Level *3*` hinzu.
 
-{{% notice task "Ausprobieren!" %}}
+{{% notice task Ausprobieren! %}}
 
 Probiere es gleich aus! Klappt es? Dann müsste sich der Gegenstand sofort verzaubern, wenn du ihn in die Hand nimmst. Das siehst du im Spiel - der Schläger auf Slot 1 ist verzaubert (blau...), der auf Slot 2 nicht.
 
@@ -67,7 +67,7 @@ Probiere es gleich aus! Klappt es? Dann müsste sich der Gegenstand sofort verza
 
 {{% /notice %}}
 
-{{% notice task "Alternative Schläger" %}}
+{{% notice task Alternative Schläger %}}
 Man kann auch mit einem Bogen (eventuell mit Schlag verzaubert) sehr gut spielen, wenn der Ball weiter weg ist.
 
 Probiere es doch mal aus!

@@ -22,7 +22,7 @@ Los gehts!
 
 ![Beispiel Alpaka-Ball-Arena](ingame-arena.png)
 
-{{% notice note "Tipp: Schneller bauen" %}}
+{{% notice note Tipp: Schneller bauen %}}
 
 Keine Lust lange rumzubuddeln?
 

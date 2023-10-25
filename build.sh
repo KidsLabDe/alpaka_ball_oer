@@ -24,13 +24,13 @@ for f in *.md; do
     # echo "::::::file $f\n"
     ## {{%notice note überschrift hier%}} -> ::: note\n###überschrift
     ## note -> note
-    sed -i.bak -E "s/{{%[[:space:]]*notice[[:space:]]+note[[:space:]]+(.*)%}}/::: note  \n\n### \1\n/g" $f
+    sed -i.bak -E "s/{{%[[:space:]]*notice[[:space:]]+note[[:space:]]+(.*)%}}/::: note  \n**\1**\n/g" $f
     ## task -> note
-    sed -i.bak -E "s/{{%[[:space:]]*notice[[:space:]]+task[[:space:]]+(.*)%}}/::: note  \n\n### \1\n/g" $f
+    sed -i.bak -E "s/{{%[[:space:]]*notice[[:space:]]+task[[:space:]]+(.*)%}}/::: note  \n**\1**\n/g" $f
     ## warning -> warning
-    sed -i.bak -E "s/{{%[[:space:]]*notice[[:space:]]+warning[[:space:]]+(.*)%}}/::: warning  \n\n### \1\n/g" $f
+    sed -i.bak -E "s/{{%[[:space:]]*notice[[:space:]]+warning[[:space:]]+(.*)%}}/::: warning  \n**\1**\n/g" $f
     ## success -> tip
-    sed -i.bak -E "s/{{%[[:space:]]*notice[[:space:]]+success[[:space:]]+(.*)%}}/::: tip  \n\n### \1\n/g" $f
+    sed -i.bak -E "s/{{%[[:space:]]*notice[[:space:]]+success[[:space:]]+(.*)%}}/::: tip  \n**\1**\n/g" $f
     ## {{% /notice %}} => :::
     sed -i.bak -E "s/{{%[[:space:]]*\/[[:space:]]*notice[[:space:]]*%}}/:::/g" $f
 

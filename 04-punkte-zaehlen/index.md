@@ -2,7 +2,7 @@
 
 So, wir haben Tore, einen Ball - aber aktuell zählen wir die Tore noch nicht. Das packen wir in diesem Level an!
 
-{{% notice note "Variablen - eine kurze Einführung" %}}
+{{% notice note Variablen - eine kurze Einführung %}}
 
 Was genau ist eine Variable? Eine Variable hört sich an wie „variabel“, also veränderbar. Am besten kannst du dir eine Variable wie einen dieser Klebezettel vorstellen. Die sind super, um sich Sachen zu merken!
 
@@ -83,15 +83,15 @@ Die Prozedur für den Zusammenstoß mit einer Entity ist länger und sieht so au
     - Achte darauf, dass die Minecraft-Befehle `kill @e[...]`, `tp @e[...] ~ -500 ~` und MCreator `Lösche` nicht funktionieren.
 10. **Vergiss nicht zu speichern ;)**
 
-{{% notice note "Blau bekommt einen Punkt?"%}}
+{{% notice note Blau bekommt einen Punkt?%}}
 Vielleicht wunderst du dich, warum wir dem blauen Team einen Punkt geben, wenn ein Ball ins blaue Tor geht - müsste es nicht andersherum sein? Aber sobald mehr als zwei Teams mitspielen, würde es nicht mehr funktionieren. Mit 12 Punkten hat man also verloren.
 {{% /notice %}} 
 
-{{% notice task "Alternative: Punkte abziehen"%}}  
+{{% notice task Alternative: Punkte abziehen %}}  
 Wenn du möchtest, kannst du am Anfang auch 12 Punkte vergeben und mit jedem Tor im blauen Torblock 1 Punkt von Blau abziehen. Experimentiere gerne mit den Zahlen rum ;)  
 {{% /notice %}}  
 
-{{% notice success "Geschafft! Tore zählen - ich habe fertig!" %}}  
+{{% notice success Geschafft! Tore zählen - ich habe fertig! %}}  
 Jetzt kannst du im Spiel testen. Wenn ein Ball in einen blauen Torblock fliegt, sollte ein Ton erklingen, die Punktzahl in der Bossbar erhöht werden, der Ball verschwinden und du erhältst ein neues Spawn-Ei.  
 {{% /notice %}}
 
@@ -112,7 +112,7 @@ Jetzt musst du natürlich alle Stellen, an denen "Blau" steht, durch "Orange" er
 
 Vergiss nicht, auch den Auslöser anzupassen!
 
-{{% notice task "Funktioniert's?"%}}  
+{{% notice task Funktioniert es? %}}  
 Teste alles noch einmal ;)
 
 Wenn etwas nicht funktioniert, gehe die Schritte oben Schritt für Schritt durch, um sicherzustellen, dass nichts vergessen wurde.
