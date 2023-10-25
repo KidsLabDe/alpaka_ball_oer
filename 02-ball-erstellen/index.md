@@ -1,12 +1,6 @@
----
-Title: "Level 1: Der Ball für unser Spiel"
-Draft: false
-Weight: 20
----
-
 # Level 1: Der Ball für unser Spiel
 
-Zuallererst benötigen wir einen passenden Ball. Er wird das Zentrum unseres Spiels sein. In Minecraft gibt es viele verschiedene "Dinge" - Blöcke, Pflanzen, Mobs. Wir haben uns für ein **Lebewesen** als Ball entschieden. Warum? Das erfahrt ihr gleich...
+Zuallererst benötigen wir einen passenden Ball. Er wird das Zentrum unseres Spiels sein. In Minecraft gibt es viele verschiedene "Dinge" - Blöcke, Pflanzen, Mobs. Wir haben uns für ein **Lebewesen** als Ball entschieden. Warum? Das erfährst du gleich...
 
 ![Starte die IDE und erstelle ein neues Objekt](ide-start.png)
 

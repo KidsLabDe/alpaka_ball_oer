@@ -1,16 +1,10 @@
----
-Title: "Level 3: Tore / Punkte zählen"
-Draft: false
-Weight: 40
----
-
 # Level 3: Tore / Punkte zählen
 
-So, wir haben Tore, einen Ball - aber aktuell werden die Tore noch nicht gezählt. Das packen wir in diesem Level an!
+So, wir haben Tore, einen Ball - aber aktuell zählen wir die Tore noch nicht. Das packen wir in diesem Level an!
 
 {{% notice note "Variablen - eine kurze Einführung" %}}
 
-Was genau ist eine Variable? Variable hört sich an wie „variabel“, also veränderbar. Am besten kannst du dir eine Variable wie einen dieser Klebezettel vorstellen. Die sind super, um sich Sachen zu merken!
+Was genau ist eine Variable? Eine Variable hört sich an wie „variabel“, also veränderbar. Am besten kannst du dir eine Variable wie einen dieser Klebezettel vorstellen. Die sind super, um sich Sachen zu merken!
 
 **Hintergrund: Variablen-Typen**
 
@@ -61,8 +55,8 @@ Wir fügen 2 Auslöser hinzu:
 
 In diesem Fall möchten wir, dass die Punkte des Teams auf "0" gesetzt werden und dass die Bossbar auch zurückgesetzt wird. Dafür verwenden wir folgende Befehle:
 
-1. Setzt die globale Variable zum Punkte Zählen auf 0 zurück.
-2. Führt `/bossbar set blue value 0` in Minecraft aus, um die Bossbar wieder auf 0 zu setzen.
+1. Setze die globale Variable zum Punkte Zählen auf 0 zurück.
+2. Führe `/bossbar set blue value 0` in Minecraft aus, um die Bossbar wieder auf 0 zu setzen.
 
 ### Prozedur 2: Tore zählen  
 
@@ -94,33 +88,33 @@ Vielleicht wunderst du dich, warum wir dem blauen Team einen Punkt geben, wenn e
 {{% /notice %}} 
 
 {{% notice task "Alternative: Punkte abziehen"%}}  
-Wenn ihr möchtet, könnt ihr am Anfang auch 12 Punkte vergeben und mit jedem Tor im blauen Torblock 1 Punkt von Blau abziehen. Experimentiert gerne mit den Zahlen rum ;)  
+Wenn du möchtest, kannst du am Anfang auch 12 Punkte vergeben und mit jedem Tor im blauen Torblock 1 Punkt von Blau abziehen. Experimentiere gerne mit den Zahlen rum ;)  
 {{% /notice %}}  
 
 {{% notice success "Geschafft! Tore zählen - ich habe fertig!" %}}  
-Jetzt könnt ihr im Spiel testen. Wenn ein Ball in einen blauen Torblock fliegt, sollte ein Ton erklingen, die Punktzahl in der Bossbar erhöht werden, der Ball verschwinden und ihr erhaltet ein neues Spawn-Ei.  
+Jetzt kannst du im Spiel testen. Wenn ein Ball in einen blauen Torblock fliegt, sollte ein Ton erklingen, die Punktzahl in der Bossbar erhöht werden, der Ball verschwinden und du erhältst ein neues Spawn-Ei.  
 {{% /notice %}}
 
 ### Jetzt nochmal für Orange
 Die Variable `punktezahl_orange` für Orange haben wir bereits erstellt. Jetzt fehlen nur noch die passenden Prozeduren, die wir vom Team Blau kopieren können.
 
-- Geht zum **Arbeitsplatz**.
-- Rechtsklickt auf die Prozedur und wählt **Mod-Element duplizieren**.
-- Benennt die neuen Prozeduren um, z.B. ...Orange... statt ...Blau...
+- Gehe zum **Arbeitsplatz**.
+- Rechtsklicke auf die Prozedur und wähle **Mod-Element duplizieren**.
+- Benenne die neuen Prozeduren um, z.B. ...Orange... statt ...Blau...
 
 ![Faulheit siegt, Arbeit sparen: Dupliziert den bestehenden Code](ide-code-kopieren.png)
 
-Jetzt müsst ihr natürlich alle Stellen, an denen "Blau" steht, durch "Orange" ersetzen, sowohl in den beiden Codedateien als auch im Auslöser:
+Jetzt musst du natürlich alle Stellen, an denen "Blau" steht, durch "Orange" ersetzen, sowohl in den beiden Codedateien als auch im Auslöser:
 
 ![Neuer Code - Zusammenstoß für Orange...](code-zusammenstoss-entitaet-orange.png)
 
 ![... und der Rechtsklick-Code für Orange.](code-rechtsklick-orange.png)
 
-Vergesst nicht, auch den Auslöser anzupassen!
+Vergiss nicht, auch den Auslöser anzupassen!
 
 {{% notice task "Funktioniert's?"%}}  
-Testet alles noch einmal ;)
+Teste alles noch einmal ;)
 
-Wenn etwas nicht funktioniert, geht die Schritte oben Schritt für Schritt durch, um sicherzustellen, dass nichts vergessen wurde.
+Wenn etwas nicht funktioniert, gehe die Schritte oben Schritt für Schritt durch, um sicherzustellen, dass nichts vergessen wurde.
 
 {{% /notice %}}

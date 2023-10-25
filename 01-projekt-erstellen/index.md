@@ -49,7 +49,8 @@ Hier siehst du die Startseite der IDE und alle wichtigen Elemente:
    - Die orangefarbene Datei mit dem Pfeil exportiert die Mod für die Verwendung mit anderen Mod-Launchern.
 5. Hier kannst du Variablen erstellen.
 
-{{% notice mentor "Nützliche Einstellungen im Spiel"%}}
+
+## Nützliche Einstellungen im Spiel
 Wenn du in Minecraft längere Bauarbeiten durchführst, können einige Einstellungen hilfreich sein. Dazu gibt es Befehle in Minecraft. Um einen Befehl auszuführen, öffne das Spiel mit `T`, um den Chat zu öffnen, und gib `/` gefolgt von dem gewünschten Befehl ein.
 
 - Zeit auf Tag setzen und auf Tag belassen:  
@@ -57,7 +58,6 @@ Wenn du in Minecraft längere Bauarbeiten durchführst, können einige Einstellu
 - Wetter auf klaren Himmel setzen und Wetter so belassen:  
 `/weather clear` & `/gamerule doWeatherCycle false`
 
-{{% /notice %}}
 
 {{% notice note "Minecraft Wiki"%}}  
 Es gibt noch viele weitere nützliche `gamerule`s. Hier findest du eine Liste: [Minecraft Wiki Gamerules](https://minecraft.fandom.com/wiki/Game_rule)  
