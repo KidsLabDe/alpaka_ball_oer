@@ -7,7 +7,7 @@ toc: true
 toc-title: "Übersicht"
 toc-own-page: true
 author: KidsLab.de gGmbH - MatzE, KingBBQ
-date: "Erste Version: November 2022, aktuelle Version: Oktober 2023"
+date: "Oktober 2023"
 subject: "Markdown"
 keywords: [Markdown, Example]
 lang: "de"

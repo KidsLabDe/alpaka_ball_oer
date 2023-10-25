@@ -1,66 +1,64 @@
 ---
 Title: "Vorbereitung: Neues Projekt in MCreator anlegen"
 Draft: false
-Description: "In diesem Kapitel erstellst du das erste Projekt in MCreator und wir schauen uns einzelnen Elemente des Programms an."
+Description: "In diesem Abschnitt erstellst du dein erstes Projekt in MCreator und wir werden die einzelnen Elemente des Programms kennenlernen."
 Weight: 10
 ---
 
+# Vorbereitung: Ein neues Projekt in MCreator erstellen
 
-# Vorbereitung: Neues Projekt in MCreator anlegen
+Um loszulegen, öffne zuerst MCreator. Unabhängig von deinem Betriebssystem (Windows, macOS oder Linux) ist MCreator eine normale Anwendung, die wie jede andere gestartet werden kann.
 
-Öffne im ersten Schritt MCreator. Unter allen Betriebssystemen (Windows, macOS und Linux) ist MCreator eine normale Anwendung und kann wie jede andere gestartet werden.
+Als erstes erstellst du nun ein neues Projekt:
 
-Als erstes erstellst du jetzt ein neues Projekt:
+![Neues Projekt erstellen - Schritt 1](projekt-anlegen-0.png)
 
+![Neues Projekt erstellen - Schritt 2](projekt-anlegen-1.png)
 
-![Neues Projekt anlegen - 1](projekt-anlegen-0.png)
+Nun füllst du folgende Felder aus:
 
-![Neues Projekt anlegen - 2](projekt-anlegen-1.png)
+- **Mod-Anzeigename** - Wie möchtest du deine Mod nennen?
+- **Mod-ID** - Interner Name (ohne Leerzeichen oder Sonderzeichen)
+- **Minecraft-Version** - Mods müssen zur Minecraft-Version passen. Für dieses Tutorial wähle bitte "Minecraft Forge for 1.19.2".
 
-Folgende Felder füllst du nun aus:
-- **Mod-Anzeigename** - Wie soll deine Mod heißen? 
-- **Mod-ID** - Interner Name (muss ohne Leerzeichen etc. sein)
-- **Minecraft-Version** - Mods müssen passend zur Minecraft Version sein - hier wählst du bitte für dieses Tutorial "Minecraft Forge for 1.19.2"
+Klicke dann auf "Neue Arbeitsumgebung erstellen". Es öffnet sich eine Webseite, die um eine Spende bittet.
 
-Klicke dann auf "Neue Arbeitsumgebung erstellen" - es öffnet sich eine Internetseite, die um eine Spende bittet.
+Der Download und der erste Build können je nach Internetverbindung und Computer etwas Zeit in Anspruch nehmen. Dieser Schritt nimmt jedoch viele Aufgaben ab, die wir sonst manuell erledigen müssten. Also, geduldig warten :)
 
-Der Download und der erste Build dauern je nach Internet und Computer ein bisschen. Dadurch wird uns aber viel Arbeit abgenommen, die wir sonst von Hand machen müssten, also warten wir gerne :)
-
-{{% notice warning "Dauert ewig?" %}}  
-Manchmal wartet man ewig und es war eigentlich schon fertig. Wenn man in der Konsole eine Erfolgsnachricht sieht und nichts mehr passiert, kann es sein, dass man das Popup-Fenster schließen kann und trotzdem alles fertig installiert ist.  
+{{% notice warning "Dauert es zu lange?" %}}  
+Manchmal sieht es so aus, als ob der Vorgang ewig dauert, obwohl er bereits abgeschlossen ist. Wenn du eine Erfolgsmeldung in der Konsole siehst und nichts mehr passiert, kannst du das Popup-Fenster schließen, und alles sollte bereits installiert sein.
 {{% /notice %}}
 
-## Übersicht über die IDE
+## Übersicht über die Entwicklungsumgebung (IDE)
 
-{{% notice note "ID.... was?"%}}
-[IDE](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung) steht für Integrated Development Editor oder Integrierte Entwicklungsumgebung. Das ist ein Programm, das alle nötigen Tools zum Programmieren zusammenfasst - unsere Arbeitsumgebung für dieses Tutorial. 
-
+{{% notice note "IDE... was ist das?"%}}
+[IDE](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung) steht für *Integrierte Entwicklungsumgebung* und ist ein Programm, das alle erforderlichen Tools für das Programmieren in einer einzigen Umgebung zusammenführt. Das ist unsere Arbeitsumgebung für dieses Tutorial.
 {{% /notice %}}
 
 Hier siehst du die Startseite der IDE und alle wichtigen Elemente:
 
-![IDE Übersicht: das sind die wichtigsten Elemente](ide-uebersicht.png)
+![Übersicht der IDE: Die wichtigsten Elemente](ide-uebersicht.png)
 
-1. Mit dem + kann man neue Elemente erstellen, z.B. Blöcke, Tiere, Gegenstände ...
-2. In dieser Leiste sieht man, welche Elemente gerade zur Bearbeitung geöffnet sind.
-3. In dem großen (noch leeren) Bereich sieht man dann eine Übersicht über alle erstellten Elemente.
-4. Hier sind mehrere kleine Knöpfe wichtig:  
-    sind manche Symbole ausgegraut, können diese aktuell nicht geklickt werden.
-    - das grüne Dreieck: startet Minecraft mit der neu erstellten Mod
-    - das rote Viereck: stoppt was gerade läuft, also z.B. wenn man Minecraft noch gestartet hat
-    - die orangene Datei mit dem Pfeil: exportiert die Mod zur Verwendung mit anderen Mod-Launchern.  
-5. Hier kann man Variablen erstellen
+1. Mit dem + Symbol kannst du neue Elemente erstellen, z.B. Blöcke, Tiere, oder Gegenstände.
+2. In dieser Leiste siehst du, welche Elemente gerade zur Bearbeitung geöffnet sind.
+3. Im großen, noch leeren Bereich bekommst du eine Übersicht über alle erstellten Elemente.
+4. Hier sind einige Schaltflächen wichtig:
+   - Wenn Symbole ausgegraut sind, können sie derzeit nicht verwendet werden.
+   - Das grüne Dreieck startet Minecraft mit der neu erstellten Mod.
+   - Das rote Viereck stoppt aktuelle Vorgänge, z.B. wenn Minecraft bereits gestartet ist.
+   - Die orangefarbene Datei mit dem Pfeil exportiert die Mod für die Verwendung mit anderen Mod-Launchern.
+5. Hier kannst du Variablen erstellen.
 
 {{% notice mentor "Nützliche Einstellungen im Spiel"%}}
-Wenn man in Minecraft länger an etwas baut, dann hilft es, ein paar Einstellungen vorzunehmen. Dazu gibt es Befehle in Minecraft. Um einen Befehl auszuführen, öffne im Spiel mit `T` den Chat und tippe `/` ein, gefolgt vom gewünschten Befehl.
+Wenn du in Minecraft längere Bauarbeiten durchführst, können einige Einstellungen hilfreich sein. Dazu gibt es Befehle in Minecraft. Um einen Befehl auszuführen, öffne das Spiel mit `T`, um den Chat zu öffnen, und gib `/` gefolgt von dem gewünschten Befehl ein.
 
-- Zeit auf Tag setzen und auf Tag lassen  
+- Zeit auf Tag setzen und auf Tag belassen:  
 `/time set day` & `/gamerule doDaylightCycle false`
-- Wetter auf schön setzen und Wetter so lassen
+- Wetter auf klaren Himmel setzen und Wetter so belassen:  
 `/weather clear` & `/gamerule doWeatherCycle false`
 
 {{% /notice %}}
 
-{{% notice note Minecraft Wiki%}}  
-Es gibt noch sehr viele weitere praktische `gamerule`s: [Minecraft Wiki Gamerules](https://minecraft.fandom.com/wiki/Game_rule)  
+{{% notice note "Minecraft Wiki"%}}  
+Es gibt noch viele weitere nützliche `gamerule`s. Hier findest du eine Liste: [Minecraft Wiki Gamerules](https://minecraft.fandom.com/wiki/Game_rule)  
 {{% /notice %}}
