@@ -64,7 +64,7 @@ In diesem Video lernst du die Basics - in 30 Minuten ist MCreator installiert un
 
 ## Online-Version mit Links zu weiteren zugehörigen Dokumenten
 
-Du findest diese Anleitung - zusammen mit allen Texturen und sonstigen Inhalten auch online: http://kidslab.de/handbuch/mcreator/index.html
+Du findest diese Anleitung - zusammen mit allen Texturen und sonstigen Inhalten auch online: https://handbuch.kidslab.de/mcreator-alapaka-ball-minecraft-mod/ 
 
 ## Source-Code und weitere Dateien
 
