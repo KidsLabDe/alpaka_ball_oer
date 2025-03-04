@@ -40,7 +40,7 @@ done
 # convert with pandoc
 pandoc *.md -o ../output.docx
 pandoc *.md -o "../output.pdf" --from markdown --template "../eisvogel.latex" --filter pandoc-latex-environment --listings
-
+pandoc *.md -o "../output.epub"
 
 # mission accomplished, leave .tmp/
 cd ..
