@@ -13,7 +13,7 @@ for f in */*.md; do
 done
 
 # copy all the pngs
-cp jugendhackt-schrift.png .tmp/
+cp assets/jugendhackt-schrift.png .tmp/
 cp */*.png .tmp/
 
 # step into the temporal depths 

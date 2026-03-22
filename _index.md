@@ -1,7 +1,7 @@
 ---
 title: "MCreator: Erstelle deine eigene Mod Alpaka-Ball!"
 titlepage: true
-titlepage-logo: "/Users/kingbbq/src/alpaka_ball_oer/Titelbild.png"
+titlepage-logo: "/Users/kingbbq/src/alpaka_ball_oer/assets/Titelbild.png"
 logo-width: 100mm
 toc: true
 toc-title: "Übersicht"
@@ -26,7 +26,7 @@ pandoc-latex-environment:
 ...
 ---
 
-![Jugend hackt schriftzug](jugendhackt-schrift.png)
+![Jugend hackt schriftzug](assets/jugendhackt-schrift.png)
 
 
 
